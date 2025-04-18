@@ -19,139 +19,139 @@ class CfgVehicles
 
     class CookZ_Box_Base: Edible_Base
     {
-		debug_ItemCategory=6;
-		itemSize[]={2,2};
-		weight=265;
-		varQuantityInit=0;
-		varQuantityMin=0;
-		varQuantityMax=0;
+        debug_ItemCategory=6;
+        itemSize[]={2,2};
+        weight=265;
+        varQuantityInit=0;
+        varQuantityMin=0;
+        varQuantityMax=0;
         varTemperatureFreezeTime=1980;
         varTemperatureThawTime=1980;
         varTemperatureMax=120;
-		isMeleeWeapon=1;
-		model="CookZ\data\dishes\boxed\food_box.p3d";
+        isMeleeWeapon=1;
+        model="CookZ\data\dishes\boxed\food_box.p3d";
         hiddenSelections[]=
-		{
-			"box"
-		};
-		soundImpactType="metal";
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=100;
-					healthLevels[]=
-					{
-						{1,             {"CookZ\data\dishes\boxed\box.rvmat"}},
-						{0.69999999,    {"CookZ\data\dishes\boxed\box.rvmat"}},
-						{0.5,           {"CookZ\data\dishes\boxed\box_damage.rvmat"}},
-						{0.30000001,    {"CookZ\data\dishes\boxed\box_damage.rvmat"}},
-						{0,             {"CookZ\data\dishes\boxed\box_destruct.rvmat"}}
-					};
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class openTunaCan
-				{
-					soundSet="ammoboxUnpack_SoundSet";
-					id=204;
-				};
-				class Eating_TakeFood
-				{
-					soundSet="Eating_TakeFood_Soundset";
-					id=889;
-				};
-				class Eating_BoxOpen
-				{
-					soundSet="Eating_BoxOpen_Soundset";
-					id=893;
-				};
-				class Eating_BoxShake
-				{
-					soundSet="Eating_BoxShake_Soundset";
-					id=894;
-				};
-				class Eating_BoxEnd
-				{
-					soundSet="Eating_BoxEnd_Soundset";
-					id=895;
-				};
-			};
-		};
+        {
+            "box"
+        };
+        soundImpactType="metal";
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=100;
+                    healthLevels[]=
+                    {
+                        {1,             {"CookZ\data\dishes\boxed\box.rvmat"}},
+                        {0.69999999,    {"CookZ\data\dishes\boxed\box.rvmat"}},
+                        {0.5,           {"CookZ\data\dishes\boxed\box_damage.rvmat"}},
+                        {0.30000001,    {"CookZ\data\dishes\boxed\box_damage.rvmat"}},
+                        {0,             {"CookZ\data\dishes\boxed\box_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+        class AnimEvents
+        {
+            class SoundWeapon
+            {
+                class openTunaCan
+                {
+                    soundSet="ammoboxUnpack_SoundSet";
+                    id=204;
+                };
+                class Eating_TakeFood
+                {
+                    soundSet="Eating_TakeFood_Soundset";
+                    id=889;
+                };
+                class Eating_BoxOpen
+                {
+                    soundSet="Eating_BoxOpen_Soundset";
+                    id=893;
+                };
+                class Eating_BoxShake
+                {
+                    soundSet="Eating_BoxShake_Soundset";
+                    id=894;
+                };
+                class Eating_BoxEnd
+                {
+                    soundSet="Eating_BoxEnd_Soundset";
+                    id=895;
+                };
+            };
+        };
     };
 
     class CookZ_BoxOpened_Base: Edible_Base
     {
-		debug_ItemCategory=6;
-		itemSize[]={2,2};
-		weight=265;
-		varQuantityMin=0;
+        debug_ItemCategory=6;
+        itemSize[]={2,2};
+        weight=265;
+        varQuantityMin=0;
         varTemperatureFreezeTime=1980;
         varTemperatureThawTime=1980;
         varTemperatureMax=120;
-		isMeleeWeapon=1;
-		model="CookZ\data\dishes\boxed\food_box_opened.p3d";
+        isMeleeWeapon=1;
+        model="CookZ\data\dishes\boxed\food_box_opened.p3d";
         hiddenSelections[]=
-		{
-			"box_opened",
+        {
+            "box_opened",
             "food"
-		};
-		soundImpactType="metal";
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=100;
-					healthLevels[]=
-					{
-						{1,             {"CookZ\data\dishes\boxed\box.rvmat"}},
-						{0.69999999,    {"CookZ\data\dishes\boxed\box.rvmat"}},
-						{0.5,           {"CookZ\data\dishes\boxed\box_damage.rvmat"}},
-						{0.30000001,    {"CookZ\data\dishes\boxed\box_damage.rvmat"}},
-						{0,             {"CookZ\data\dishes\boxed\box_destruct.rvmat"}}
-					};
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class openTunaCan
-				{
-					soundSet="ammoboxUnpack_SoundSet";
-					id=204;
-				};
-				class Eating_TakeFood
-				{
-					soundSet="Eating_TakeFood_Soundset";
-					id=889;
-				};
-				class Eating_BoxOpen
-				{
-					soundSet="Eating_BoxOpen_Soundset";
-					id=893;
-				};
-				class Eating_BoxShake
-				{
-					soundSet="Eating_BoxShake_Soundset";
-					id=894;
-				};
-				class Eating_BoxEnd
-				{
-					soundSet="Eating_BoxEnd_Soundset";
-					id=895;
-				};
-			};
-		};
+        };
+        soundImpactType="metal";
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=100;
+                    healthLevels[]=
+                    {
+                        {1,             {"CookZ\data\dishes\boxed\box.rvmat"}},
+                        {0.69999999,    {"CookZ\data\dishes\boxed\box.rvmat"}},
+                        {0.5,           {"CookZ\data\dishes\boxed\box_damage.rvmat"}},
+                        {0.30000001,    {"CookZ\data\dishes\boxed\box_damage.rvmat"}},
+                        {0,             {"CookZ\data\dishes\boxed\box_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+        class AnimEvents
+        {
+            class SoundWeapon
+            {
+                class openTunaCan
+                {
+                    soundSet="ammoboxUnpack_SoundSet";
+                    id=204;
+                };
+                class Eating_TakeFood
+                {
+                    soundSet="Eating_TakeFood_Soundset";
+                    id=889;
+                };
+                class Eating_BoxOpen
+                {
+                    soundSet="Eating_BoxOpen_Soundset";
+                    id=893;
+                };
+                class Eating_BoxShake
+                {
+                    soundSet="Eating_BoxShake_Soundset";
+                    id=894;
+                };
+                class Eating_BoxEnd
+                {
+                    soundSet="Eating_BoxEnd_Soundset";
+                    id=895;
+                };
+            };
+        };
     };
 
     // items

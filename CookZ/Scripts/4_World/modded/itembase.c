@@ -3,16 +3,16 @@
 modded class ItemBase
 {
     // holds registered callbacks for quantity changes 
-	protected ref ScriptInvoker m_OnItemQuantityChanged;
+    protected ref ScriptInvoker m_OnItemQuantityChanged;
 
     ScriptInvoker GetOnItemQuantityChanged()
-	{
-		if(!m_OnItemQuantityChanged)
+    {
+        if(!m_OnItemQuantityChanged)
         {
-			m_OnItemQuantityChanged = new ScriptInvoker;
+            m_OnItemQuantityChanged = new ScriptInvoker;
         }
-		return m_OnItemQuantityChanged;
-	}
+        return m_OnItemQuantityChanged;
+    }
 
     override void OnVariablesSynchronized()
     {
@@ -21,7 +21,7 @@ modded class ItemBase
 
         if(delta != 0 && m_OnItemQuantityChanged)
         {
-			m_OnItemQuantityChanged.Invoke(delta, this);
+            m_OnItemQuantityChanged.Invoke(delta, this);
         }
     }
 }

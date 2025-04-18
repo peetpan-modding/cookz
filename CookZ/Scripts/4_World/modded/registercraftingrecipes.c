@@ -10,8 +10,8 @@ modded class PluginRecipesManager
     }
 }
 
-class CookZ_CraftEmptyCan extends RecipeBase	
-{	
+class CookZ_CraftEmptyCan extends RecipeBase
+{
     override void Init()
     {
         m_Name = "#Craft #STR_CookZ_EmptyCan_DN";
@@ -69,10 +69,10 @@ class CookZ_CraftEmptyCan extends RecipeBase
     override bool CanDo( ItemBase ingredients[], PlayerBase player )
     {
         CookZ_Config config = GetDayZGame().GetCookZ_Config();
-		if (config)
-		{
-			return config.CanCraftEmptyCans;
-		}
+        if (config)
+        {
+            return config.CanCraftEmptyCans;
+        }
         return true;
     }
 
@@ -83,8 +83,8 @@ class CookZ_CraftEmptyCan extends RecipeBase
     }
 };
 
-class CookZ_CraftEmptyBoxFromPaper extends RecipeBase	
-{	
+class CookZ_CraftEmptyBoxFromPaper extends RecipeBase
+{
     override void Init()
     {
         m_Name = "#Craft #STR_CookZ_EmptyBox_DN";
@@ -142,10 +142,10 @@ class CookZ_CraftEmptyBoxFromPaper extends RecipeBase
     override bool CanDo( ItemBase ingredients[], PlayerBase player )
     {
         CookZ_Config config = GetDayZGame().GetCookZ_Config();
-		if (config)
-		{
-			return config.CanCraftEmptyBoxes;
-		}
+        if (config)
+        {
+            return config.CanCraftEmptyBoxes;
+        }
         return true;
     }
 
@@ -156,8 +156,8 @@ class CookZ_CraftEmptyBoxFromPaper extends RecipeBase
     }
 };
 
-class CookZ_CraftEmptyBoxFromBark extends RecipeBase	
-{	
+class CookZ_CraftEmptyBoxFromBark extends RecipeBase
+{
     override void Init()
     {
         m_Name = "#Craft #STR_CookZ_EmptyBox_DN";
@@ -232,10 +232,10 @@ class CookZ_CraftEmptyBoxFromBark extends RecipeBase
     override bool CanDo( ItemBase ingredients[], PlayerBase player )
     {
         CookZ_Config config = GetDayZGame().GetCookZ_Config();
-		if (config)
-		{
-			return config.CanCraftEmptyBoxes;
-		}
+        if (config)
+        {
+            return config.CanCraftEmptyBoxes;
+        }
         return true;
     }
 
@@ -246,8 +246,8 @@ class CookZ_CraftEmptyBoxFromBark extends RecipeBase
     }
 };
 
-class CookZ_CraftCookbook extends RecipeBase	
-{	
+class CookZ_CraftCookbook extends RecipeBase
+{
     override void Init()
     {
         m_Name = "#Craft #STR_CookZ_Cookbook";
@@ -307,10 +307,10 @@ class CookZ_CraftCookbook extends RecipeBase
     override bool CanDo( ItemBase ingredients[], PlayerBase player )
     {
         CookZ_Config config = GetDayZGame().GetCookZ_Config();
-		if (config)
-		{
-			return config.CanCraftCookBook;
-		}
+        if (config)
+        {
+            return config.CanCraftCookBook;
+        }
         return true;
     }
 

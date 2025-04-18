@@ -4,7 +4,7 @@ modded class OpenCan extends RecipeBase
 {
     // override complete Do, as called static methods cannot be modded with calling super
     override void Do(ItemBase ingredients[], PlayerBase player,array<ItemBase> results, float specialty_weight)
-	{
+    {
         CookZ_ClosedDish closedDish = CookZ_ClosedDish.Cast(ingredients[0]);
         if (!closedDish)
         {
@@ -43,5 +43,5 @@ modded class OpenCan extends RecipeBase
         }
         lambda.SetTransferParams(true, true, true, true, transferQuantity);
         MiscGameplayFunctions.TurnItemIntoItemEx(playerPB, lambda);
-	}
+    }
 }

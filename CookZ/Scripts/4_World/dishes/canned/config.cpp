@@ -113,7 +113,7 @@ class CfgVehicles
         };
     };
 
-	class CookZ_UkhaCan: SpaghettiCan
+    class CookZ_UkhaCan: SpaghettiCan
     {
         scope=2;
         displayName="$STR_CookZ_UkhaCan_DN";

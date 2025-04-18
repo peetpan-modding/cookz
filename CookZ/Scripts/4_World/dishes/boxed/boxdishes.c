@@ -1,10 +1,10 @@
 class CookZ_Box_Base: CookZ_ClosedDish
 {
     override void SetActions()
-	{
-		super.SetActions();
-		AddAction(ActionOpen);
-	}
+    {
+        super.SetActions();
+        AddAction(ActionOpen);
+    }
 }
 
 class CookZ_FriedPotatoesBox : CookZ_Box_Base {}

@@ -1,7 +1,7 @@
 modded class MissionBase
 {
     override UIScriptedMenu CreateScriptedMenu(int id)
-	{
+    {
         UIScriptedMenu menu = super.CreateScriptedMenu(id);
         if (menu)
         {

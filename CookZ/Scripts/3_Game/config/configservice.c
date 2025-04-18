@@ -1,6 +1,6 @@
 class CookZ_Config
 {
-	bool CanCraftCookBook;
+    bool CanCraftCookBook;
     bool CanCraftEmptyCans;
     bool CanCraftEmptyBoxes;
     int MinIngredientQuantityPercent;
@@ -19,7 +19,7 @@ class CookZ_ConfigService
     static void LoadConfig(string configName, out CookZ_Config config)
     {
         string configPath = COOKZ_CONFIG_ROOT + configName;
-		
+        
         if (!FileExist(configPath))
         {
             CreateDefaultConfig(config);
@@ -51,10 +51,10 @@ class CookZ_ConfigService
     protected static void CreateDefaultConfig(out CookZ_Config config)
     {
         config = new CookZ_Config();
-		
-		config.CanCraftCookBook = true;
-		config.CanCraftEmptyCans = true;
-		config.CanCraftEmptyBoxes = true;
+
+        config.CanCraftCookBook = true;
+        config.CanCraftEmptyCans = true;
+        config.CanCraftEmptyBoxes = true;
         config.MinIngredientQuantityPercent = 50;
         config.TemperaturOfCreatedDish = 80.0;
         config.ChanceToRemoveBrainAgent = 1.0;

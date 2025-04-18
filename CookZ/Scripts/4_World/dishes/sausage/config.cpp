@@ -19,70 +19,70 @@ class CfgVehicles
 
     class CookZ_Sausage_Base: Edible_Base
     {
-		debug_ItemCategory=6;
-		rotationFlags=32;
-		itemSize[]={2,2};
-		weight=265;
-		varQuantityMin=0;
+        debug_ItemCategory=6;
+        rotationFlags=32;
+        itemSize[]={2,2};
+        weight=265;
+        varQuantityMin=0;
         varTemperatureFreezeTime=1980;
         varTemperatureThawTime=1980;
         varTemperatureMax=120;
-		isMeleeWeapon=1;
-		model="CookZ\data\dishes\sausage\sausage.p3d";
+        isMeleeWeapon=1;
+        model="CookZ\data\dishes\sausage\sausage.p3d";
         hiddenSelections[]=
-		{
-			"s_area"
-		};
-		soundImpactType="organic";
+        {
+            "s_area"
+        };
+        soundImpactType="organic";
         class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=100;
-					healthLevels[]=
-					{
-						{1,             {"CookZ\data\dishes\sausage\sausage.rvmat"}},
-						{0.69999999,    {"CookZ\data\dishes\sausage\sausage.rvmat"}},
-						{0.5,           {"CookZ\data\dishes\sausage\sausage_damage.rvmat"}},
-						{0.30000001,    {"CookZ\data\dishes\sausage\sausage_damage.rvmat"}},
-						{0,             {"CookZ\data\dishes\sausage\sausage_destruct.rvmat"}}
-					};
-				};
-			};
-		};
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=100;
+                    healthLevels[]=
+                    {
+                        {1,             {"CookZ\data\dishes\sausage\sausage.rvmat"}},
+                        {0.69999999,    {"CookZ\data\dishes\sausage\sausage.rvmat"}},
+                        {0.5,           {"CookZ\data\dishes\sausage\sausage_damage.rvmat"}},
+                        {0.30000001,    {"CookZ\data\dishes\sausage\sausage_damage.rvmat"}},
+                        {0,             {"CookZ\data\dishes\sausage\sausage_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
         class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class openTunaCan
-				{
-					soundSet="ammoboxUnpack_SoundSet";
-					id=204;
-				};
-				class Eating_TakeFood
-				{
-					soundSet="Eating_TakeFood_Soundset";
-					id=889;
-				};
-				class Eating_BoxOpen
-				{
-					soundSet="Eating_BoxOpen_Soundset";
-					id=893;
-				};
-				class Eating_BoxShake
-				{
-					soundSet="Eating_BoxShake_Soundset";
-					id=894;
-				};
-				class Eating_BoxEnd
-				{
-					soundSet="Eating_BoxEnd_Soundset";
-					id=895;
-				};
-			};
-		};
+        {
+            class SoundWeapon
+            {
+                class openTunaCan
+                {
+                    soundSet="ammoboxUnpack_SoundSet";
+                    id=204;
+                };
+                class Eating_TakeFood
+                {
+                    soundSet="Eating_TakeFood_Soundset";
+                    id=889;
+                };
+                class Eating_BoxOpen
+                {
+                    soundSet="Eating_BoxOpen_Soundset";
+                    id=893;
+                };
+                class Eating_BoxShake
+                {
+                    soundSet="Eating_BoxShake_Soundset";
+                    id=894;
+                };
+                class Eating_BoxEnd
+                {
+                    soundSet="Eating_BoxEnd_Soundset";
+                    id=895;
+                };
+            };
+        };
     };
 
     // items
@@ -96,8 +96,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_cow_co.paa"
         };
-		varQuantityInit=500;
-		varQuantityMax=500;
+        varQuantityInit=500;
+        varQuantityMax=500;
         class Nutrition
         {
             energy=275;
@@ -117,8 +117,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_chicken_co.paa"
         };
-		varQuantityInit=438;
-		varQuantityMax=438;
+        varQuantityInit=438;
+        varQuantityMax=438;
         class Nutrition
         {
             energy=228.571;
@@ -138,8 +138,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_pig_co.paa"
         };
-		varQuantityInit=500;
-		varQuantityMax=500;
+        varQuantityInit=500;
+        varQuantityMax=500;
         class Nutrition
         {
             energy=275;
@@ -159,8 +159,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_goat_co.paa"
         };
-		varQuantityInit=400;
-		varQuantityMax=400;
+        varQuantityInit=400;
+        varQuantityMax=400;
         class Nutrition
         {
             energy=250;
@@ -180,8 +180,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_bear_co.paa"
         };
-		varQuantityInit=500;
-		varQuantityMax=500;
+        varQuantityInit=500;
+        varQuantityMax=500;
         class Nutrition
         {
             energy=325;
@@ -201,8 +201,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_sheep_co.paa"
         };
-		varQuantityInit=400;
-		varQuantityMax=400;
+        varQuantityInit=400;
+        varQuantityMax=400;
         class Nutrition
         {
             energy=250;
@@ -222,8 +222,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_boar_co.paa"
         };
-		varQuantityInit=500;
-		varQuantityMax=500;
+        varQuantityInit=500;
+        varQuantityMax=500;
         class Nutrition
         {
             energy=287.5;
@@ -243,8 +243,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_deer_co.paa"
         };
-		varQuantityInit=500;
-		varQuantityMax=500;
+        varQuantityInit=500;
+        varQuantityMax=500;
         class Nutrition
         {
             energy=300;
@@ -264,8 +264,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_rabbit_co.paa"
         };
-		varQuantityInit=500;
-		varQuantityMax=500;
+        varQuantityInit=500;
+        varQuantityMax=500;
         class Nutrition
         {
             energy=200;
@@ -285,8 +285,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_wolf_co.paa"
         };
-		varQuantityInit=400;
-		varQuantityMax=400;
+        varQuantityInit=400;
+        varQuantityMax=400;
         class Nutrition
         {
             energy=231.25;
@@ -306,8 +306,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_human_co.paa"
         };
-		varQuantityInit=400;
-		varQuantityMax=400;
+        varQuantityInit=400;
+        varQuantityMax=400;
         class Nutrition
         {
             energy=231.25;
@@ -327,8 +327,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_fox_co.paa"
         };
-		varQuantityInit=445;
-		varQuantityMax=445;
+        varQuantityInit=445;
+        varQuantityMax=445;
         class Nutrition
         {
             energy=228.09;
@@ -348,8 +348,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_reindeer_co.paa"
         };
-		varQuantityInit=500;
-		varQuantityMax=500;
+        varQuantityInit=500;
+        varQuantityMax=500;
         class Nutrition
         {
             energy=238.462;
@@ -369,8 +369,8 @@ class CfgVehicles
         {
             "CookZ\data\dishes\sausage\sausage_blood_co.paa"
         };
-		varQuantityInit=500;
-		varQuantityMax=500;
+        varQuantityInit=500;
+        varQuantityMax=500;
         class Nutrition
         {
             energy=325;

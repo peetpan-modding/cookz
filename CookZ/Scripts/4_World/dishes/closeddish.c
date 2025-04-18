@@ -19,21 +19,21 @@ class CookZ_ClosedDish: Edible_Base
     {
         // see Edible_Base.ReplaceEdibleWithNew
         PlayerBase player = PlayerBase.Cast(GetHierarchyRootPlayer());
-		if (player)
-		{
+        if (player)
+        {
             string typeName = string.Format("%1_Opened", this.Type().ToString());
-			ReplaceEdibleWithNewLambda lambda = new ReplaceEdibleWithNewLambda(this, typeName, player);
+            ReplaceEdibleWithNewLambda lambda = new ReplaceEdibleWithNewLambda(this, typeName, player);
             int transferQuantity = m_cookZ_quantity;
             if (transferQuantity <= 0)
             {
                 transferQuantity = -1; // -1 for do not transfer
             }
             lambda.SetTransferParams (true, true, true, false, m_cookZ_quantity);
-			player.ServerReplaceItemInHandsWithNew(lambda);
-		}
-		else
+            player.ServerReplaceItemInHandsWithNew(lambda);
+        }
+        else
         {
-			Error("ReplaceEdibleWithNew - cannot use edible without player");
+            Error("ReplaceEdibleWithNew - cannot use edible without player");
         }
     }
 

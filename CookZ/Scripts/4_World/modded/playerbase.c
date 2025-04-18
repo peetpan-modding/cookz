@@ -1,24 +1,24 @@
 modded class PlayerBase
 {
-	protected bool isReadingCookbook;
+    protected bool isReadingCookbook;
 
-	override void Init()
-	{
-		super.Init();
-		isReadingCookbook = false;
-	}
+    override void Init()
+    {
+        super.Init();
+        isReadingCookbook = false;
+    }
 
-	void ToggleCookbookReading()
-	{
-		isReadingCookbook = !isReadingCookbook;
-	}
+    void ToggleCookbookReading()
+    {
+        isReadingCookbook = !isReadingCookbook;
+    }
 
-	bool IsReadingCookbook()
-	{
-		return isReadingCookbook;
-	}
+    bool IsReadingCookbook()
+    {
+        return isReadingCookbook;
+    }
 
-	override void OnRPC(PlayerIdentity sender, int rpc_type, ParamsReadContext ctx)
+    override void OnRPC(PlayerIdentity sender, int rpc_type, ParamsReadContext ctx)
     {
         super.OnRPC(sender, rpc_type, ctx);
 
@@ -28,9 +28,9 @@ modded class PlayerBase
             {
                 Param1<CookZ_Config> configParams;
                 if (!ctx.Read(configParams))
-				{
-					return;
-				}
+                {
+                    return;
+                }
 
                 GetDayZGame().SetCookZ_Config(configParams.param1);
                 break;

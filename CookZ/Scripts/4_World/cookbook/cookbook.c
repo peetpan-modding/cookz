@@ -378,14 +378,14 @@ class CookZ_Cookbook
 
         int minIngredientQuantityPercent = 50;
         CookZ_Config config = GetDayZGame().GetCookZ_Config();
-		if (config)
-		{
+        if (config)
+        {
             int configMinIngredientQuantityPercent = config.MinIngredientQuantityPercent;
             if (0 < configMinIngredientQuantityPercent && configMinIngredientQuantityPercent <= 100)
             {
-			    minIngredientQuantityPercent = config.MinIngredientQuantityPercent;
+                minIngredientQuantityPercent = config.MinIngredientQuantityPercent;
             }
-		}
+        }
         // -0.5 to circumvent bad UX because dayz displays 54.6% as 55% which then fails if the threshold is set to 55% 
         float minIngredientQuantityDecimal = (minIngredientQuantityPercent - 0.5) / 100.0;
 

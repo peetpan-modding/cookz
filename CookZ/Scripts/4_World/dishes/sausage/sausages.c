@@ -1,22 +1,22 @@
 class CookZ_Sausage_Base: Edible_Base
 {
-	override bool CanDecay()
-	{
-		return GetDayZGame().GetCookZ_Config().EnableSausageDecay;
-	}
+    override bool CanDecay()
+    {
+        return GetDayZGame().GetCookZ_Config().EnableSausageDecay;
+    }
 
-	override bool CanProcessDecay()
+    override bool CanProcessDecay()
     {
         return !GetIsFrozen() && !(GetAgents() & eAgents.FOOD_POISON);
     }
-	
-	override void SetActions()
-	{
-		super.SetActions();
-		
-		AddAction(ActionForceFeed);
-		AddAction(ActionEatMeat);
-	}
+    
+    override void SetActions()
+    {
+        super.SetActions();
+
+        AddAction(ActionForceFeed);
+        AddAction(ActionEatMeat);
+    }
 }
 
 class CookZ_Beef_Sausage: CookZ_Sausage_Base {}

@@ -20,13 +20,13 @@ class Stage1
 };
 class Stage3
 {
-	texture="dz\characters\data\generic_destruct_mc.paa";
-	uvSource="tex";
-	class uvTransform
-	{
-		aside[]={1,0,0};
-		up[]={0,1,0};
-		dir[]={0,0,0};
-		pos[]={0,0,0};
-	};
+    texture="dz\characters\data\generic_destruct_mc.paa";
+    uvSource="tex";
+    class uvTransform
+    {
+        aside[]={1,0,0};
+        up[]={0,1,0};
+        dir[]={0,0,0};
+        pos[]={0,0,0};
+    };
 };
