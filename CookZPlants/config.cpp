@@ -48,16 +48,23 @@ class CfgVehicles
     class SeedBase;
     class PlantBase;
 
-    // wheat and co ----------------------------------------
-
-    class CookZPlants_WheatSeedsPack: Inventory_Base
+    class CookZ_Cookbook_Item: Inventory_Base
     {
-        scope=2;
-        displayName="$STR_CookZPlants_WheatSeedsPack_DN";
-        descriptionShort="$STR_CookZPlants_WheatSeedsPack_DS";
+        chapters[] += {
+            "CookZPlants\data\cookbook\01_plant_dishes.html"
+        };
+        chapterIcons[] += {
+            "CookZPlants/data/cookbook/icon_wheat.edds"
+        };
+    };
+
+    // bases
+
+    class CookZPlants_SeedsPack_Base: Inventory_Base
+    {
+        scope=0;
         model="\dz\gear\cultivation\tomato_seeds_pack.p3d";
         hiddenSelections[]={"zbytek"};
-        hiddenSelectionsTextures[]={"CookZPlants\data\plants\wheat\cookz_wheat_seeds_package_co.paa"};
         rotationFlags=17;
         quantityBar=1;
         itemSize[]={1,1};
@@ -88,11 +95,6 @@ class CfgVehicles
                 };
             };
         };
-        class Horticulture
-        {
-            ContainsSeedsType="CookZPlants_WheatSeeds";
-            ContainsSeedsQuantity=10;
-        };
         class UserActions
         {
             class EmptyPack
@@ -117,18 +119,38 @@ class CfgVehicles
                 };
             };
         };
+    }
+
+    class CookZPlants_Seeds_Base: SeedBase
+    {
+        scope=0;
+        canBeSplit=1;
+        varQuantityInit=20;
+        varQuantityMin=0;
+        varQuantityMax=20;
+    }
+
+    // wheat
+
+    class CookZPlants_WheatSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_WheatSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_WheatSeedsPack_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\wheat\cookz_wheat_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_WheatSeeds";
+            ContainsSeedsQuantity=10;
+        };
     };
 
-    class CookZPlants_WheatSeeds: SeedBase
+    class CookZPlants_WheatSeeds: CookZPlants_Seeds_Base
     {
         scope=2;
         displayName="$STR_CookZPlants_WheatSeeds_DN";
         descriptionShort="$STR_CookZPlants_WheatSeeds_DS";
         model="\dz\gear\cultivation\tomato_seeds.p3d";
-        canBeSplit=1;
-        varQuantityInit=20;
-        varQuantityMin=0;
-        varQuantityMax=20;
         class Horticulture
         {
             PlantType="CookZPlants_PlantWheat";
@@ -305,15 +327,6 @@ class CfgVehicles
         };
     };
 
-    class CookZ_Cookbook_Item: Inventory_Base
-    {
-        chapters[] += {
-            "CookZPlants\data\cookbook\01_plant_dishes.html"
-        };
-        chapterIcons[] += {
-            "CookZPlants/data/cookbook/icon_wheat.edds"
-        };
-    };
 };
 
 class CfgHorticulture
