@@ -101,14 +101,54 @@ class CfgVehicles
         varTemperatureMax=120;
         isMeleeWeapon=1;
         model="CookZPlants\data\dishes\pizza\cookz_pizza_box_opened.p3d";
+        simpleHiddenSelections[]=
+        {
+            "dough01",
+            "dough02",
+            "dough03",
+            "dough04",
+            "dough05",
+            "dough06",
+            "dough07",
+            "dough08",
+            "topping01",
+            "topping02",
+            "topping03",
+            "topping04",
+            "topping05",
+            "topping06",
+            "topping07",
+            "topping08"
+        };
         hiddenSelections[]=
         {
-            "dough",
+            "dough01",
+            "dough02",
+            "dough03",
+            "dough04",
+            "dough05",
+            "dough06",
+            "dough07",
+            "dough08",
             "box",
-            "topping"
+            "topping01",
+            "topping02",
+            "topping03",
+            "topping04",
+            "topping05",
+            "topping06",
+            "topping07",
+            "topping08"
         };
         hiddenSelectionsTextures[]=
         {
+            "CookZPlants\data\dishes\pizza\pizza_dough_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_dough_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_dough_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_dough_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_dough_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_dough_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_dough_co.paa",
             "CookZPlants\data\dishes\pizza\pizza_dough_co.paa",
             "CookZPlants\data\dishes\pizza\pizza_box_co.paa",
         };
@@ -199,6 +239,13 @@ class CfgVehicles
         descriptionShort="$STR_CookZPlants_MargheritaPizza_Opened_DS";
         hiddenSelectionsTextures[]+=
         {
+            "CookZPlants\data\dishes\pizza\pizza_margherita_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_margherita_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_margherita_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_margherita_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_margherita_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_margherita_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_margherita_topping_co.paa",
             "CookZPlants\data\dishes\pizza\pizza_margherita_topping_co.paa"
         };
         varQuantityInit=920;
@@ -226,6 +273,13 @@ class CfgVehicles
         descriptionShort="$STR_CookZPlants_PepperoniPizza_Opened_DS";
         hiddenSelectionsTextures[]+=
         {
+            "CookZPlants\data\dishes\pizza\pizza_pepperoni_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_pepperoni_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_pepperoni_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_pepperoni_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_pepperoni_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_pepperoni_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_pepperoni_topping_co.paa",
             "CookZPlants\data\dishes\pizza\pizza_pepperoni_topping_co.paa"
         };
         varQuantityInit=1220;
@@ -253,6 +307,13 @@ class CfgVehicles
         descriptionShort="$STR_CookZPlants_SeafoodPizza_Opened_DS";
         hiddenSelectionsTextures[]+=
         {
+            "CookZPlants\data\dishes\pizza\pizza_seafood_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_seafood_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_seafood_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_seafood_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_seafood_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_seafood_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_seafood_topping_co.paa",
             "CookZPlants\data\dishes\pizza\pizza_seafood_topping_co.paa"
         };
         varQuantityInit=1720;
@@ -280,6 +341,13 @@ class CfgVehicles
         descriptionShort="$STR_CookZPlants_VegetablePizza_Opened_DS";
         hiddenSelectionsTextures[]+=
         {
+            "CookZPlants\data\dishes\pizza\pizza_vegetable_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_vegetable_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_vegetable_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_vegetable_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_vegetable_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_vegetable_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_vegetable_topping_co.paa",
             "CookZPlants\data\dishes\pizza\pizza_vegetable_topping_co.paa"
         };
         varQuantityInit=1070;
@@ -307,6 +375,13 @@ class CfgVehicles
         descriptionShort="$STR_CookZPlants_MushroomPizza_Opened_DS";
         hiddenSelectionsTextures[]+=
         {
+            "CookZPlants\data\dishes\pizza\pizza_mushroom_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_mushroom_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_mushroom_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_mushroom_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_mushroom_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_mushroom_topping_co.paa",
+            "CookZPlants\data\dishes\pizza\pizza_mushroom_topping_co.paa",
             "CookZPlants\data\dishes\pizza\pizza_mushroom_topping_co.paa"
         };
         varQuantityInit=1170;
