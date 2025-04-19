@@ -79,6 +79,7 @@ class CookZ_Cookbook
     static const string COOKING_INGREDIENT_HUMAN_SAUSAGE             = "CookZ_Human_Sausage";
     static const string COOKING_INGREDIENT_FOX_SAUSAGE               = "CookZ_Fox_Sausage";
     static const string COOKING_INGREDIENT_REINDEER_SAUSAGE          = "CookZ_Reindeer_Sausage";
+    static const string COOKING_INGREDIENT_BLOOD_SAUSAGE             = "CookZ_Blood_Sausage";
     
     static const string COOKING_INGREDIENT_CRACKERS                  = "Crackers";
     static const string COOKING_INGREDIENT_SALTY_STICKS              = "SaltySticks";
@@ -173,7 +174,8 @@ class CookZ_Cookbook
             COOKING_INGREDIENT_WOLF_SAUSAGE,
             COOKING_INGREDIENT_HUMAN_SAUSAGE,
             COOKING_INGREDIENT_FOX_SAUSAGE,
-            COOKING_INGREDIENT_REINDEER_SAUSAGE
+            COOKING_INGREDIENT_REINDEER_SAUSAGE,
+            COOKING_INGREDIENT_BLOOD_SAUSAGE
         });
         tempMap.Insert(COOKING_INGREDIENT_ANY_DISINFECT, {
             COOKING_INGREDIENT_RAG,
