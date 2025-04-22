@@ -5,6 +5,10 @@ CookZPlants_WheatEars
 CookZPlants_MortarAndPestle
 CookZPlants_FlourBag
 CookZPlants_Dough
+CookZPlants_ChiliSeedsPack
+CookZPlants_ChiliSeeds
+CookZPlants_PlantChili
+CookZPlants_Chili
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
 CookZPlants_MargheritaPizza

@@ -130,6 +130,27 @@ class CfgVehicles
         varQuantityMax=20;
     }
 
+    class CookZPlants_Plant_Base: PlantBase
+    {
+        scope=0;
+        hiddenSelections[]=
+        {
+            "stick",
+            "seed_package",
+            "plantStage_01",
+            "plantStage_02",
+            "plantStage_03",
+            "plantStage_04",
+            "plantStage_04_crops",
+            "plantStage_05",
+            "plantStage_05_crops"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\cookz_stick_co.paa"
+        };
+    }
+
     // wheat
 
     class CookZPlants_WheatSeedsPack: CookZPlants_SeedsPack_Base
@@ -157,12 +178,23 @@ class CfgVehicles
         };
     };
 
-    class CookZPlants_PlantWheat: PlantBase
+    class CookZPlants_PlantWheat: CookZPlants_Plant_Base
     {
         scope=2;
         displayName="$STR_CookZPlants_PlantWheat_DN";
         descriptionShort="$STR_CookZPlants_PlantWheat_DS";
         model="CookZPlants\data\plants\wheat\cookz_wheat_plant.p3d";
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\wheat\cookz_wheat_seeds_package_co.paa",
+            "CookZPlants\data\plants\wheat\cookz_wheat_plant_co.paa",
+            "CookZPlants\data\plants\wheat\cookz_wheat_plant_co.paa",
+            "CookZPlants\data\plants\wheat\cookz_wheat_plant_co.paa",
+            "CookZPlants\data\plants\wheat\cookz_wheat_plant_ripe_co.paa",
+            "CookZPlants\data\plants\wheat\cookz_wheat_plant_ripe_co.paa",
+            "CookZPlants\data\plants\wheat\cookz_wheat_plant_moldy_co.paa",
+            "CookZPlants\data\plants\wheat\cookz_wheat_plant_moldy_co.paa"
+        };
         class Horticulture
         {
             GrowthStagesCount=6;
@@ -327,6 +359,65 @@ class CfgVehicles
         };
     };
 
+    // chili
+
+    class CookZPlants_ChiliSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="CHILI SEEDS PACK";
+        descriptionShort="CHILI SEEDS PACK LONG";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\chili\cookz_chili_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_ChiliSeeds";
+            ContainsSeedsQuantity=10;
+        };
+    };
+
+    class CookZPlants_ChiliSeeds: CookZPlants_Seeds_Base
+    {
+        scope=2;
+        displayName="CHILI SEED";
+        descriptionShort="CHILI SEED LONG";
+        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantChili";
+        };
+    };
+
+    class CookZPlants_PlantChili: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="CHILI PLANT";
+        descriptionShort="CHILI PLANT LONG";
+        model="CookZPlants\data\plants\chili\cookz_chili_plant.p3d";
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\chili\cookz_chili_seeds_package_co.paa",
+            "CookZPlants\data\plants\chili\cookz_chili_plant_co.paa",
+            "CookZPlants\data\plants\chili\cookz_chili_plant_co.paa",
+            "CookZPlants\data\plants\chili\cookz_chili_plant_co.paa",
+            "CookZPlants\data\plants\chili\cookz_chili_plant_ripe_co.paa",
+            "CookZPlants\data\plants\chili\cookz_chili_plant_ripe_co.paa",
+            "CookZPlants\data\plants\chili\cookz_chili_plant_moldy_co.paa",
+            "CookZPlants\data\plants\chili\cookz_chili_plant_moldy_co.paa"
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=4;
+            CropsType="CookZPlants_Chili";
+        };
+    };
+
+    class GreenBellPepper;
+    class CookZPlants_Chili: GreenBellPepper
+    {
+        scope=2;
+		displayName="CHILI";
+		descriptionShort="CHILI LONG";
+    }
 };
 
 class CfgHorticulture
@@ -339,6 +430,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\wheat\cookz_wheat_plant_ripe_co.paa";
             healthyMat="CookZPlants\data\plants\wheat\cookz_wheat_plant.rvmat";
+        };
+
+        class CookZPlants_PlantChili
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\chili\cookz_chili_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\chili\cookz_chili_plant.rvmat";
         };
     };
 };
