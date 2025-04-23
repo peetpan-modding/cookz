@@ -111,6 +111,125 @@
         "pt": "Espigas douradas de trigo maduro, recém-colhidas. Prontas para virar farinha — ou para guardar e plantar depois, se estiver no clima certo.",
         "zh-cn": "金黄色成熟的小麦穗，刚刚收割。可以磨成面粉——或者存起来下次再种（如果你觉得自己够负责）。"
     },
+
+
+
+    "CookZPlants_ChiliSeedsPack_DN": {
+        "en": "Packed Chili Seeds",
+        "de": "Chilisamenpäckchen",
+        "cs": "Sáček chilli semínek",
+        "ru": "Пакет семян чили",
+        "pl": "Saszetka z nasionami chili",
+        "it": "Bustina di semi di peperoncino",
+        "es": "Sobre de semillas de chile",
+        "fr": "Sachet de graines de piment",
+        "zh": "小包辣椒种子",
+        "ja": "小袋入りのチリの種",
+        "pt": "Pacote de sementes de pimenta",
+        "zh-cn": "小包辣椒种子"
+    },
+    "CookZPlants_ChiliSeedsPack_DS": {
+        "en": "A package of chili seeds.",
+        "de": "Ein Päckchen mit Chilisamen.",
+        "cs": "Malý sáček s chilli semeny.",
+        "ru": "Небольшой пакет с семенами чили.",
+        "pl": "Mała paczka z nasionami chili.",
+        "it": "Una bustina di semi di peperoncino.",
+        "es": "Un sobre con semillas de chile.",
+        "fr": "Un sachet contenant des graines de piment.",
+        "zh": "一小包辣椒种子。",
+        "ja": "チリの種が入った小袋です。",
+        "pt": "Um pacotinho de sementes de pimenta.",
+        "zh-cn": "一小包辣椒种子。"
+    },
+    "CookZPlants_ChiliSeeds_DN": {
+        "en": "Chili Seeds",
+        "de": "Chilisamen",
+        "cs": "Chilli semínka",
+        "ru": "Семена чили",
+        "pl": "Nasiona chili",
+        "it": "Semi di peperoncino",
+        "es": "Semillas de chile",
+        "fr": "Graines de piment",
+        "zh": "辣椒种子",
+        "ja": "チリの種",
+        "pt": "Sementes de pimenta",
+        "zh-cn": "辣椒种子"
+    },
+    "CookZPlants_ChiliSeeds_DS": {
+        "en": "These seeds, if planted in the ground and given some loving care, will grow into chili plants.",
+        "de": "Diese Samen wachsen zu Chilischoten heran, wenn sie mit Liebe gepflegt werden.",
+        "cs": "Tato semínka vyrostou v chilli, pokud je zasadíte a dobře se o ně postaráte.",
+        "ru": "Эти семена вырастут в кусты чили, если посадить их в землю и ухаживать за ними с любовью.",
+        "pl": "Te nasiona, odpowiednio posadzone i pielęgnowane, wyrosną w rośliny chili.",
+        "it": "Questi semi, se piantati e curati con amore, cresceranno in piante di peperoncino.",
+        "es": "Estas semillas, si se plantan y se cuidan con cariño, crecerán en plantas de chile.",
+        "fr": "Ces graines, plantées et bien entretenues, donneront des plants de piment.",
+        "zh": "如果播种并细心照料，这些种子会长成辣椒。",
+        "ja": "これらの種は、丁寧に植えて世話をすれば、チリに育ちます。",
+        "pt": "Essas sementes, se plantadas e cuidadas com carinho, crescerão em plantas de pimenta.",
+        "zh-cn": "如果播种并细心照料，这些种子会长成辣椒。"
+    },
+    "CookZPlants_PlantChili_DN": {
+        "en": "Chili Plant",
+        "de": "Chilipflanze",
+        "cs": "Rostlina chilli",
+        "ru": "Растение чили",
+        "pl": "Roślina chili",
+        "it": "Pianta di peperoncino",
+        "es": "Planta de chile",
+        "fr": "Plant de piment",
+        "zh": "辣椒植株",
+        "ja": "チリの植物",
+        "pt": "Planta de pimenta",
+        "zh-cn": "辣椒植株"
+    },
+    "CookZPlants_PlantChili_DS": {
+        "en": "A vibrant chili plant bearing fiery red peppers. Harvest when ripe to spice up your meals—or start a hot sauce empire.",
+        "de": "Eine lebendige Chilipflanze mit feurig roten Schoten. Ernte sie reif, um deine Gerichte zu würzen – oder ein scharfes Soßenimperium zu gründen.",
+        "cs": "Živá rostlina chilli s ohnivě červenými papričkami. Sklízej ji, až dozraje, a přidej trochu pálivosti do svých jídel – nebo začni vlastní impérium pálivých omáček.",
+        "ru": "Яркое растение чили с огненно-красными перцами. Убери урожай, когда созреет, чтобы добавить остроты блюдам — или начать империю острых соусов.",
+        "pl": "Żywa roślina chili z ognistoczerwonymi papryczkami. Zbierz ją, gdy dojrzeje – by dodać ostrości potrawom albo zacząć imperium sosów chili.",
+        "it": "Una vivace pianta di peperoncino con frutti rosso fuoco. Raccoglila quando è matura per dare una spinta piccante ai tuoi piatti – o iniziare un impero di salse piccanti.",
+        "es": "Una vibrante planta de chile con pimientos rojos y picantes. Cosechala cuando esté madura para dar sabor a tus comidas—o iniciar un imperio de salsa picante.",
+        "fr": "Une plante de piment éclatante portant des fruits rouge feu. Récoltez-les mûrs pour relever vos plats – ou lancer un empire de sauce piquante.",
+        "zh": "一株鲜艳的辣椒植株，挂着火红的辣椒。成熟时收割，为你的料理增添辣味——或者开启你的辣酱帝国。",
+        "ja": "鮮やかなチリの植物で、真っ赤な唐辛子を実らせる。熟したら収穫して料理に刺激を加えよう――もしくはホットソース帝国を築こう。",
+        "pt": "Uma vibrante planta de pimenta com frutos vermelhos ardentes. Colha quando estiver madura para apimentar suas refeições — ou começar um império de molhos picantes.",
+        "zh-cn": "一株鲜艳的辣椒植株，挂着火红的辣椒。成熟时收割，为你的料理增添辣味——或者开启你的辣酱帝国。"
+    },
+    "CookZPlants_Chili_DN": {
+        "en": "Chili Pepper",
+        "de": "Chilischote",
+        "cs": "Chilli paprička",
+        "ru": "Стручок чили",
+        "pl": "Papryczka chili",
+        "it": "Peperoncino",
+        "es": "Pimiento de chile",
+        "fr": "Piment",
+        "zh": "辣椒果实",
+        "ja": "チリペッパー",
+        "pt": "Pimenta",
+        "zh-cn": "辣椒果实"
+    },
+    "CookZPlants_Chili_DS": {
+        "en": "A freshly picked chili pepper, bursting with heat. Perfect for cooking, drying, or saving seeds for your next fiery crop.",
+        "de": "Eine frisch gepflückte Chilischote, voller Schärfe. Ideal zum Kochen, Trocknen oder zum Aufbewahren der Samen für deine nächste scharfe Ernte.",
+        "cs": "Čerstvě sklizená chilli paprička, plná pálivosti. Skvělá na vaření, sušení nebo uchování semínek pro další ohnivou sklizeň.",
+        "ru": "Свежесобранный стручок чили, полный огня. Отлично подойдёт для готовки, сушки или хранения семян для следующего урожая.",
+        "pl": "Świeżo zerwana papryczka chili, pełna ostrości. Idealna do gotowania, suszenia lub zachowania nasion na kolejne pikantne plony.",
+        "it": "Un peperoncino appena raccolto, carico di piccantezza. Perfetto per cucinare, essiccare o conservare i semi per la prossima coltivazione infuocata.",
+        "es": "Un pimiento de chile recién cosechado, lleno de picante. Perfecto para cocinar, secar o guardar semillas para tu próxima cosecha ardiente.",
+        "fr": "Un piment fraîchement récolté, chargé de piquant. Parfait pour la cuisine, le séchage ou la conservation des graines pour une future récolte épicée.",
+        "zh": "一根刚采摘的辣椒，辛辣十足。适合烹饪、晾干或保存种子，为下次的辣味丰收做准备。",
+        "ja": "収穫したてのチリペッパー。料理や乾燥、次の栽培に向けた種の保存にもぴったりです。",
+        "pt": "Uma pimenta recém-colhida, cheia de ardência. Perfeita para cozinhar, secar ou guardar sementes para a próxima colheita picante.",
+        "zh-cn": "一根刚采摘的辣椒，辛辣十足。适合烹饪、晾干或保存种子，为下次的辣味丰收做准备。"
+    },
+
+
+
+
     "CookZPlants_MortarAndPestle_DN": {
         "en": "Mortar and Pestle",
         "de": "Mörser und Stößel",

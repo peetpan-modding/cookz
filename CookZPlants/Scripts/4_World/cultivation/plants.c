@@ -1,4 +1,5 @@
 class CookZPlants_WheatSeedsPack extends SeedPackBase {}
+class CookZPlants_ChiliSeedsPack extends SeedPackBase {}
 
 class CookZPlants_WheatSeeds : SeedBase {};
 class CookZPlants_ChiliSeeds : SeedBase {};

@@ -366,8 +366,8 @@ class CfgVehicles
     class CookZPlants_ChiliSeedsPack: CookZPlants_SeedsPack_Base
     {
         scope=2;
-        displayName="CHILI SEEDS PACK";
-        descriptionShort="CHILI SEEDS PACK LONG";
+        displayName="$STR_CookZPlants_ChiliSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_ChiliSeedsPack_DS";
         hiddenSelectionsTextures[]={"CookZPlants\data\plants\chili\cookz_chili_seeds_package_co.paa"};
         class Horticulture
         {
@@ -379,8 +379,8 @@ class CfgVehicles
     class CookZPlants_ChiliSeeds: CookZPlants_Seeds_Base
     {
         scope=2;
-        displayName="CHILI SEED";
-        descriptionShort="CHILI SEED LONG";
+        displayName="$STR_CookZPlants_ChiliSeeds_DN";
+        descriptionShort="$STR_CookZPlants_ChiliSeeds_DS";
         model="\dz\gear\cultivation\tomato_seeds.p3d";
         class Horticulture
         {
@@ -391,8 +391,8 @@ class CfgVehicles
     class CookZPlants_PlantChili: CookZPlants_Plant_Base
     {
         scope=2;
-        displayName="CHILI PLANT";
-        descriptionShort="CHILI PLANT LONG";
+        displayName="$STR_CookZPlants_PlantChili_DN";
+        descriptionShort="$STR_CookZPlants_PlantChili_DS";
         model="CookZPlants\data\plants\chili\cookz_chili_plant.p3d";
         hiddenSelectionsTextures[]+=
         {
@@ -417,8 +417,8 @@ class CfgVehicles
     class CookZPlants_Chili: GreenBellPepper
     {
         scope=2;
-        displayName="CHILI";
-        descriptionShort="CHILI LONG";
+        displayName="$STR_CookZPlants_Chili_DN";
+        descriptionShort="$STR_CookZPlants_Chili_DS";
         containsSeedsType="Cultivation_CookZPlants_ChiliSeeds"; // unused?
         containsSeedsQuantity="10"; // unused?
         model="CookZPlants\data\plants\chili\cookz_chili.p3d";
