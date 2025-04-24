@@ -25,7 +25,6 @@ class CookZ_Cookbook
     static const string COOKING_INGREDIENT_GREEN_BELL_PEPPER         = "GreenBellPepper";
     static const string COOKING_INGREDIENT_ZUCCHINI                  = "Zucchini";
     static const string COOKING_INGREDIENT_TOMATO                    = "Tomato";
-    static const string COOKING_INGREDIENT_PUMPKIN                   = "Pumpkin";
     static const string COOKING_INGREDIENT_SLICED_PUMPKIN            = "SlicedPumpkin";
 
     static const string COOKING_INGREDIENT_PLUM                      = "Plum";
@@ -133,7 +132,6 @@ class CookZ_Cookbook
             COOKING_INGREDIENT_GREEN_BELL_PEPPER,
             COOKING_INGREDIENT_ZUCCHINI,
             COOKING_INGREDIENT_TOMATO,
-            COOKING_INGREDIENT_PUMPKIN,
             COOKING_INGREDIENT_SLICED_PUMPKIN
         });
         tempMap.Insert(COOKING_INGREDIENT_ANY_FISH, {
