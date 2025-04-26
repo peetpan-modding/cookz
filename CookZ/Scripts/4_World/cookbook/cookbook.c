@@ -206,7 +206,7 @@ class CookZ_Cookbook
 
     void LoadRecipesFromConfig()
     {
-        string recipesPath = "CfgVehicles CookZ_Recipes";
+        string recipesPath = "CookZ_Recipes";
 
         int recipeCount = GetGame().ConfigGetChildrenCount(recipesPath);
         for (int i = 0; i < recipeCount; i++)

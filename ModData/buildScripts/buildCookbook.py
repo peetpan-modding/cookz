@@ -110,8 +110,8 @@ def parse_recipe_file(file_content):
     file_content = re.sub(r'//[^\n]*', '', file_content)
     logging.debug("Removed comments from the content.")
 
-    # Improved regex pattern to match the structure
-    pattern = r'        class ([\w]+)\s*{([^}]+)}\s*;'
+    # regex pattern to match the structure
+    pattern = r'    class ([\w]+)\s*{([^}]+)}\s*;'
 
     matches = re.findall(pattern, file_content, re.DOTALL)
     logging.debug(f"Found {len(matches)} recipe classes.")
@@ -249,7 +249,7 @@ def main():
 
 
     except Exception as e:
-        logging.error(f"An error occurred: {e}")
+        logging.error(f"An error occurred", exc_info=True)
 
 
 if __name__ == "__main__":
