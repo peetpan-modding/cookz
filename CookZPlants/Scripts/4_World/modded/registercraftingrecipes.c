@@ -8,6 +8,7 @@ modded class PluginRecipesManager
         RegisterRecipe(new CookZ_CraftFlour);
         RegisterRecipe(new CookZ_CraftDough);
         RegisterRecipe(new CutOutCookZPlants_Chili);
+        RegisterRecipe(new CutOutCookZPlants_Corn);
     }
 }
 
@@ -324,8 +325,8 @@ class CookZ_CraftDough extends RecipeBase
     }
 };
 
-class CutOutCookZPlants_Chili extends CutOutSeeds
-{    
+class CutOutCookZPlants_Base extends CutOutSeeds
+{
     override void Init()
     {
         m_Name = "#STR_cutoutseeds0";
@@ -345,8 +346,6 @@ class CutOutCookZPlants_Chili extends CutOutSeeds
         //----------------------------------------------------------------------------------------------------------------------
         
         //INGREDIENTS
-        //ingredient 1
-        InsertIngredient(0, "CookZPlants_Chili");  // you can insert multiple ingredients this way
 
         m_IngredientAddHealth[0]    = 0;    // 0 = do nothing
         m_IngredientSetHealth[0]    = -1;   // -1 = do nothing
@@ -385,8 +384,6 @@ class CutOutCookZPlants_Chili extends CutOutSeeds
 
         //----------------------------------------------------------------------------------------------------------------------
         //RESULTS
-        //result1
-        AddResult("CookZPlants_ChiliSeeds");    //add results here
 
         m_ResultSetFullQuantity[0]      = false;    // true = set full quantity, false = do nothing
         m_ResultSetQuantity[0]          = 12;       // -1 = do nothing
@@ -395,5 +392,25 @@ class CutOutCookZPlants_Chili extends CutOutSeeds
         m_ResultInheritsColor[0]        = -1;       // (value) == -1 means do nothing; a (value) >= 0 means this result classname will be a composite of the name provided in AddResult method and config value "color" of ingredient (value)
         m_ResultToInventory[0]          = -1;       // (value) == -2 spawn result on the ground;(value) == -1 place anywhere in the players inventory, (value) >= 0 means switch position with ingredient number(value)
         m_ResultReplacesIngredient[0]   = -1;       // (value) == -1 means do nothing; a value >= 0 means this result will transfer item propertiesvariables, attachments etc.. from an ingredient value
+    }
+}
+
+class CutOutCookZPlants_Chili extends CutOutCookZPlants_Base
+{    
+    override void Init()
+    {
+        super.Init();
+        InsertIngredient(0, "CookZPlants_Chili");
+        AddResult("CookZPlants_ChiliSeeds");
+    }
+};
+
+class CutOutCookZPlants_Corn extends CutOutCookZPlants_Base
+{    
+    override void Init()
+    {
+        super.Init();
+        InsertIngredient(0, "CookZPlants_Corn");
+        AddResult("CookZPlants_CornSeeds");
     }
 };

@@ -5,5 +5,6 @@ modded class CookZ_Cookbook
         super.RegisterAnyIngredients();
 
         RegisterAnyIngredient(COOKING_INGREDIENT_ANY_VEG, "CookZPlants_Chili");
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_VEG, "CookZPlants_Corn");
     }
 }

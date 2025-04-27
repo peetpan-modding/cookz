@@ -9,6 +9,10 @@ CookZPlants_ChiliSeedsPack
 CookZPlants_ChiliSeeds
 CookZPlants_PlantChili
 CookZPlants_Chili
+CookZPlants_CornSeedsPack
+CookZPlants_CornSeeds
+CookZPlants_PlantCorn
+CookZPlants_Corn
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
 CookZPlants_MargheritaPizza

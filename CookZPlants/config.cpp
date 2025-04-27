@@ -49,6 +49,7 @@ class CfgVehicles
     class Inventory_Base;
     class SeedBase;
     class PlantBase;
+    class GreenBellPepper;
 
     class CookZ_Cookbook_Item: Inventory_Base
     {
@@ -413,7 +414,6 @@ class CfgVehicles
         };
     };
 
-    class GreenBellPepper;
     class CookZPlants_Chili: GreenBellPepper
     {
         scope=2;
@@ -489,6 +489,134 @@ class CfgVehicles
             class FoodStageTransitions: FruitStageTransitions {};
         };
     };
+
+    // corn
+
+    class CookZPlants_CornSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CornSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_CornSeedsPack_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\corn\cookz_corn_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_CornSeeds";
+            ContainsSeedsQuantity=10;
+        };
+    };
+
+    class CookZPlants_CornSeeds: CookZPlants_Seeds_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CornSeeds_DN";
+        descriptionShort="$STR_CookZPlants_CornSeeds_DS";
+        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantCorn";
+        };
+    };
+
+    class CookZPlants_PlantCorn: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PlantCorn_DN";
+        descriptionShort="$STR_CookZPlants_PlantCorn_DS";
+        model="CookZPlants\data\plants\corn\cookz_corn_plant.p3d";
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\corn\cookz_corn_seeds_package_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_moldy_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_moldy_co.paa"
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=3;
+            CropsType="CookZPlants_Corn";
+        };
+    };
+
+    class CookZPlants_Corn: GreenBellPepper
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_Corn_DN";
+        descriptionShort="$STR_CookZPlants_Corn_DS";
+        containsSeedsType="Cultivation_CookZPlants_CornSeeds"; // unused?
+        containsSeedsQuantity="10"; // unused?
+        model="CookZPlants\data\plants\corn\cookz_corn.p3d";
+        hiddenSelections[]=
+        {
+            "cs_raw"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
+            "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa"
+        };
+        hiddenSelectionsMaterials[]=
+        {
+            "CookZPlants\data\plants\corn\cookz_corn_raw.rvmat",
+            "CookZPlants\data\plants\corn\cookz_corn_baked.rvmat",
+            "CookZPlants\data\plants\corn\cookz_corn_boiled.rvmat",
+            "CookZPlants\data\plants\corn\cookz_corn_dried.rvmat",
+            "CookZPlants\data\plants\corn\cookz_corn_burned.rvmat",
+            "CookZPlants\data\plants\corn\cookz_corn_rotten.rvmat"
+        };
+        class Food
+        {
+            class FoodStages
+            {
+                class Raw
+                {
+                    // selection / texture / material
+                    visual_properties[]={0,0,0};
+                    nutrition_properties[]={1,100,33,1,0};
+                    cooking_properties[]={0,0};
+                };
+                class Baked
+                {
+                    visual_properties[]={0,1,1};
+                    nutrition_properties[]={1,250,20,1,0};
+                    cooking_properties[]={70,35};
+                };
+                class Boiled
+                {
+                    visual_properties[]={0,2,2};
+                    nutrition_properties[]={1,200,53,1,0};
+                    cooking_properties[]={105,45};
+                };
+                class Dried
+                {
+                    visual_properties[]={0,3,3};
+                    nutrition_properties[]={1,200,7,1,0};
+                    cooking_properties[]={70,30,80};
+                };
+                class Burned
+                {
+                    visual_properties[]={0,4,4};
+                    nutrition_properties[]={5,100,0,1,0,16,1,3};
+                    cooking_properties[]={100,20};
+                };
+                class Rotten
+                {
+                    visual_properties[]={0,5,5};
+                    nutrition_properties[]={10,50,13,1,0,16,1,9};
+                    cooking_properties[]={0,0};
+                };
+            };
+            class FoodStageTransitions: FruitStageTransitions {};
+        };
+    };
 };
 
 class CfgHorticulture
@@ -509,6 +637,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\chili\cookz_chili_plant_co.paa";
             healthyMat="CookZPlants\data\plants\chili\cookz_chili_plant.rvmat";
+        };
+
+        class CookZPlants_PlantCorn
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\corn\cookz_corn_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\corn\cookz_corn_plant.rvmat";
         };
     };
 };

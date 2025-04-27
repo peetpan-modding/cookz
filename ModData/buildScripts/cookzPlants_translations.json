@@ -230,6 +230,126 @@
 
 
 
+
+    "CookZPlants_CornSeedsPack_DN": {
+        "en": "Packed Corn Seeds",
+        "de": "Maisamenpäckchen",
+        "cs": "Sáček kukuřičných semínek",
+        "ru": "Пакет семян кукурузы",
+        "pl": "Saszetka z nasionami kukurydzy",
+        "it": "Bustina di semi di mais",
+        "es": "Sobre de semillas de maíz",
+        "fr": "Sachet de graines de maïs",
+        "zh": "小包玉米种子",
+        "ja": "小袋入りのトウモロコシの種",
+        "pt": "Pacote de sementes de milho",
+        "zh-cn": "小包玉米种子"
+    },
+    "CookZPlants_CornSeedsPack_DS": {
+        "en": "A package of corn seeds.",
+        "de": "Ein Päckchen mit Maisamen.",
+        "cs": "Malý sáček s kukuřičnými semeny.",
+        "ru": "Небольшой пакет с семенами кукурузы.",
+        "pl": "Mała paczka z nasionami kukurydzy.",
+        "it": "Una bustina di semi di mais.",
+        "es": "Un sobre con semillas de maíz.",
+        "fr": "Un sachet contenant des graines de maïs.",
+        "zh": "一小包玉米种子。",
+        "ja": "トウモロコシの種が入った小袋です。",
+        "pt": "Um pacotinho de sementes de milho.",
+        "zh-cn": "一小包玉米种子。"
+    },
+    "CookZPlants_CornSeeds_DN": {
+        "en": "Corn Seeds",
+        "de": "Maissamen",
+        "cs": "Kukuřičná semínka",
+        "ru": "Семена кукурузы",
+        "pl": "Nasiona kukurydzy",
+        "it": "Semi di mais",
+        "es": "Semillas de maíz",
+        "fr": "Graines de maïs",
+        "zh": "玉米种子",
+        "ja": "トウモロコシの種",
+        "pt": "Sementes de milho",
+        "zh-cn": "玉米种子"
+    },
+    "CookZPlants_CornSeeds_DS": {
+        "en": "These seeds, if planted in the ground and given some loving care, will grow into corn plants.",
+        "de": "Diese Samen wachsen zu Maispflanzen heran, wenn sie mit Liebe gepflegt werden.",
+        "cs": "Tato semínka vyrostou v kukuřici, pokud je zasadíte a dobře se o ně postaráte.",
+        "ru": "Эти семена вырастут в кукурузные растения, если посадить их в землю и ухаживать за ними с любовью.",
+        "pl": "Te nasiona, odpowiednio posadzone i pielęgnowane, wyrosną w rośliny kukurydzy.",
+        "it": "Questi semi, se piantati e curati con amore, cresceranno in piante di mais.",
+        "es": "Estas semillas, si se plantan y se cuidan con cariño, crecerán en plantas de maíz.",
+        "fr": "Ces graines, plantées et bien entretenues, donneront des plants de maïs.",
+        "zh": "如果播种并细心照料，这些种子会长成玉米。",
+        "ja": "これらの種は、丁寧に植えて世話をすれば、トウモロコシに育ちます。",
+        "pt": "Essas sementes, se plantadas e cuidadas com carinho, crescerão em plantas de milho.",
+        "zh-cn": "如果播种并细心照料，这些种子会长成玉米。"
+    },
+    "CookZPlants_PlantCorn_DN": {
+        "en": "Corn Plant",
+        "de": "Maispflanze",
+        "cs": "Rostlina kukuřice",
+        "ru": "Кукурузное растение",
+        "pl": "Roślina kukurydzy",
+        "it": "Pianta di mais",
+        "es": "Planta de maíz",
+        "fr": "Plant de maïs",
+        "zh": "玉米植株",
+        "ja": "トウモロコシの植物",
+        "pt": "Planta de milho",
+        "zh-cn": "玉米植株"
+    },
+    "CookZPlants_PlantCorn_DS": {
+        "en": "A tall, leafy corn plant bearing golden ears of corn. Harvest when ripe to enjoy sweet kernels—or start your own farming empire.",
+        "de": "Eine hohe, blättrige Maispflanze mit goldenen Maiskolben. Ernte sie reif, um süße Körner zu genießen – oder beginne dein eigenes Landwirtschaftsimperium.",
+        "cs": "Vysoká kukuřičná rostlina s klasem plným zlatých zrn. Sklízej ji, až dozraje, a užij si sladká semínka – nebo začni vlastní farmářské impérium.",
+        "ru": "Высокое кукурузное растение с золотыми початками. Убери урожай, когда созреет, чтобы насладиться сладкими зернами — или начни свою сельскохозяйственную империю.",
+        "pl": "Wysoka, liściasta roślina kukurydzy z złocistymi kolbami. Zbierz je, gdy dojrzeją, by cieszyć się słodkimi ziarnami — lub rozpocznij własne rolnicze imperium.",
+        "it": "Una alta pianta di mais con pannocchie dorate. Raccoglila quando è matura per gustare chicchi dolci – o inizia il tuo impero agricolo.",
+        "es": "Una alta planta de maíz con doradas mazorcas. Cosecha cuando esté madura para disfrutar de granos dulces—o comienza tu propio imperio agrícola.",
+        "fr": "Une haute plante de maïs portant des épis dorés. Récoltez-la à maturité pour savourer de doux grains – ou lancez votre propre empire agricole.",
+        "zh": "一株高大茂盛的玉米植株，挂着金黄色的玉米棒。成熟时收割，享受甜美的玉米粒——或者开启你的农业帝国。",
+        "ja": "黄金色のとうもろこしの穂を実らせた高く茂ったトウモロコシの植物。熟したら収穫して甘い粒を味わおう――もしくは農業帝国を築こう。",
+        "pt": "Uma alta e frondosa planta de milho com espigas douradas. Colha quando estiver madura para saborear grãos doces — ou comece seu próprio império agrícola.",
+        "zh-cn": "一株高大茂盛的玉米植株，挂着金黄色的玉米棒。成熟时收割，享受甜美的玉米粒——或者开启你的农业帝国。"
+    },
+    "CookZPlants_Corn_DN": {
+        "en": "Corn Ear",
+        "de": "Maiskolben",
+        "cs": "Kukuřičný klas",
+        "ru": "Початок кукурузы",
+        "pl": "Kolba kukurydzy",
+        "it": "Pannocchia di mais",
+        "es": "Mazorca de maíz",
+        "fr": "Épi de maïs",
+        "zh": "玉米棒",
+        "ja": "とうもろこしの穂",
+        "pt": "Espiga de milho",
+        "zh-cn": "玉米棒"
+    },
+    "CookZPlants_Corn_DS": {
+        "en": "A freshly picked ear of corn, full of sweet kernels. Perfect for cooking, drying, or saving seeds for your next golden harvest.",
+        "de": "Ein frisch gepflückter Maiskolben, voller süßer Körner. Ideal zum Kochen, Trocknen oder zum Aufbewahren der Samen für deine nächste goldene Ernte.",
+        "cs": "Čerstvě sklizený kukuřičný klas plný sladkých zrn. Skvělý na vaření, sušení nebo uchování semínek pro další zlatou sklizeň.",
+        "ru": "Свежесобранный початок кукурузы, полный сладких зёрен. Отлично подходит для готовки, сушки или хранения семян для следующего золотого урожая.",
+        "pl": "Świeżo zerwana kolba kukurydzy, pełna słodkich ziaren. Idealna do gotowania, suszenia lub przechowania nasion na kolejne złote plony.",
+        "it": "Una pannocchia di mais appena raccolta, piena di chicchi dolci. Perfetta per cucinare, essiccare o conservare i semi per il prossimo raccolto dorato.",
+        "es": "Una mazorca de maíz recién cosechada, llena de granos dulces. Perfecta para cocinar, secar o guardar semillas para tu próxima cosecha dorada.",
+        "fr": "Un épi de maïs fraîchement récolté, plein de grains sucrés. Parfait pour la cuisine, le séchage ou la conservation des graines pour une future récolte dorée.",
+        "zh": "一根刚采摘的玉米棒，饱满甜美。适合烹饪、晾干或保存种子，为下次金色的丰收做准备。",
+        "ja": "収穫したてのとうもろこしの穂。料理や乾燥、次の栽培に向けた種の保存にもぴったりです。",
+        "pt": "Uma espiga de milho recém-colhida, cheia de grãos doces. Perfeita para cozinhar, secar ou guardar sementes para a próxima colheita dourada.",
+        "zh-cn": "一根刚采摘的玉米棒，饱满甜美。适合烹饪、晾干或保存种子，为下次金色的丰收做准备。"
+    },
+
+
+
+
+
+
+
     "CookZPlants_MortarAndPestle_DN": {
         "en": "Mortar and Pestle",
         "de": "Mörser und Stößel",
