@@ -133,6 +133,25 @@ class CfgVehicles
         varQuantityMax=20;
     };
 
+    class CookZPlants_Seed_Base: SeedBase
+    {
+        scope=0;
+        varQuantityInit=1;
+        varQuantityMin=0;
+        varQuantityMax=1;
+        varTemperatureFreezeTime=2640;
+        varTemperatureThawTime=2640;
+        varTemperatureFreezePoint=-2;
+        varTemperatureThawPoint=-2;
+        varTemperatureMax=105;
+        varTemperatureMin=-100;
+        rotationFlags=12;
+        weight=0;
+        itemSize[]={2,1};
+        stackedUnit="g";
+        absorbency=0.2;
+    };
+
     class CookZPlants_Plant_Base: PlantBase
     {
         scope=0;
@@ -422,10 +441,7 @@ class CfgVehicles
         containsSeedsType="Cultivation_CookZPlants_ChiliSeeds"; // unused?
         containsSeedsQuantity="10"; // unused?
         model="CookZPlants\data\plants\chili\cookz_chili.p3d";
-        hiddenSelections[]=
-        {
-            "cs_raw"
-        };
+        hiddenSelections[]= { "cs_raw" };
         hiddenSelectionsTextures[]=
         {
             "CookZPlants\data\plants\chili\cookz_chili_raw_co.paa",
@@ -550,10 +566,7 @@ class CfgVehicles
         containsSeedsType="Cultivation_CookZPlants_CornSeeds"; // unused?
         containsSeedsQuantity="10"; // unused?
         model="CookZPlants\data\plants\corn\cookz_corn.p3d";
-        hiddenSelections[]=
-        {
-            "cs_raw"
-        };
+        hiddenSelections[]= { "cs_raw" };
         hiddenSelectionsTextures[]=
         {
             "CookZPlants\data\plants\corn\cookz_corn_plant_co.paa",
@@ -571,6 +584,152 @@ class CfgVehicles
             "CookZPlants\data\plants\corn\cookz_corn_dried.rvmat",
             "CookZPlants\data\plants\corn\cookz_corn_burned.rvmat",
             "CookZPlants\data\plants\corn\cookz_corn_rotten.rvmat"
+        };
+        class Food
+        {
+            class FoodStages
+            {
+                class Raw
+                {
+                    // selection / texture / material
+                    visual_properties[]={0,0,0};
+                    nutrition_properties[]={1,100,33,1,0};
+                    cooking_properties[]={0,0};
+                };
+                class Baked
+                {
+                    visual_properties[]={0,1,1};
+                    nutrition_properties[]={1,250,20,1,0};
+                    cooking_properties[]={70,35};
+                };
+                class Boiled
+                {
+                    visual_properties[]={0,2,2};
+                    nutrition_properties[]={1,200,53,1,0};
+                    cooking_properties[]={105,45};
+                };
+                class Dried
+                {
+                    visual_properties[]={0,3,3};
+                    nutrition_properties[]={1,200,7,1,0};
+                    cooking_properties[]={70,30,80};
+                };
+                class Burned
+                {
+                    visual_properties[]={0,4,4};
+                    nutrition_properties[]={5,100,0,1,0,16,1,3};
+                    cooking_properties[]={100,20};
+                };
+                class Rotten
+                {
+                    visual_properties[]={0,5,5};
+                    nutrition_properties[]={10,50,13,1,0,16,1,9};
+                    cooking_properties[]={0,0};
+                };
+            };
+            class FoodStageTransitions: FruitStageTransitions {};
+        };
+    };
+
+    // onion
+
+    class CookZPlants_OnionSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_OnionSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_OnionSeedsPack_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\onion\cookz_onion_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_OnionSeeds";
+            ContainsSeedsQuantity=10;
+        };
+    };
+
+    class CookZPlants_OnionSeeds: CookZPlants_Seeds_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_OnionSeeds_DN";
+        descriptionShort="$STR_CookZPlants_OnionSeeds_DS";
+        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantOnion";
+        };
+    };
+
+    class CookZPlants_OnionSeed: CookZPlants_Seed_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_OnionSeed_DN";
+        descriptionShort="$STR_CookZPlants_OnionSeed_DS";
+        model="CookZPlants\data\plants\onion\cookz_onion_seed.p3d";
+        itemSize[]={1,1};
+        hiddenSelections[]= { "skin" };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\onion\cookz_onion_seed_co.paa",
+        };
+        hiddenSelectionsMaterials[]=
+        {
+            "CookZPlants\data\plants\onion\cookz_onion_seed.rvmat",
+        };
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantOnion";
+        };
+    };
+
+    class CookZPlants_PlantOnion: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PlantOnion_DN";
+        descriptionShort="$STR_CookZPlants_PlantOnion_DS";
+        model="CookZPlants\data\plants\onion\cookz_onion_plant.p3d";
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\onion\cookz_onion_seeds_package_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_plant_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_plant_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_plant_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_plant_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_plant_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_plant_moldy_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_plant_moldy_co.paa"
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=3;
+            CropsType="CookZPlants_OnionSeed";
+        };
+    };
+
+    class CookZPlants_Onion: GreenBellPepper
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_Onion_DN";
+        descriptionShort="$STR_CookZPlants_Onion_DS";
+        model="CookZPlants\data\plants\onion\cookz_onion.p3d";
+        itemSize[]={1,1};
+        hiddenSelections[]= { "cs_raw" };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\onion\cookz_onion_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_co.paa",
+            "CookZPlants\data\plants\onion\cookz_onion_co.paa"
+        };
+        hiddenSelectionsMaterials[]=
+        {
+            "CookZPlants\data\plants\onion\cookz_onion_raw.rvmat",
+            "CookZPlants\data\plants\onion\cookz_onion_baked.rvmat",
+            "CookZPlants\data\plants\onion\cookz_onion_boiled.rvmat",
+            "CookZPlants\data\plants\onion\cookz_onion_dried.rvmat",
+            "CookZPlants\data\plants\onion\cookz_onion_burned.rvmat",
+            "CookZPlants\data\plants\onion\cookz_onion_rotten.rvmat"
         };
         class Food
         {
@@ -645,6 +804,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\corn\cookz_corn_plant_co.paa";
             healthyMat="CookZPlants\data\plants\corn\cookz_corn_plant.rvmat";
+        };
+
+        class CookZPlants_PlantOnion
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\onion\cookz_onion_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\onion\cookz_onion_plant.rvmat";
         };
     };
 };
