@@ -718,6 +718,20 @@
         "pt": "Sova a massa",
         "zh-cn": "揉面团"
     },
+    "CookZPlants_Peel": {
+        "en": "Peel",
+        "de": "Schäle",
+        "cs": "Oloupej",
+        "ru": "Очисти",
+        "pl": "Obierz",
+        "it": "Sbuccia",
+        "es": "Pela",
+        "fr": "Épluche",
+        "zh": "削皮",
+        "ja": "皮をむけ",
+        "pt": "Descasca",
+        "zh-cn": "削皮"
+    },
 
 
 
