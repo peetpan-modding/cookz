@@ -173,6 +173,20 @@ class CfgVehicles
         };
     };
 
+    class CookZPlants_FlourBag_Base: Edible_Base
+    {
+        scope=0;
+        debug_ItemCategory=6;
+        weight=60;
+        itemSize[]={1,2};
+        varQuantityInit=500;
+        varQuantityMin=0;
+        varQuantityMax=500;
+        absorbency=0.89999998;
+        rotationFlags=63;
+        hiddenSelections[]= { "flour_bag" };
+    };
+    
     // wheat
 
     class CookZPlants_WheatSeedsPack: CookZPlants_SeedsPack_Base
@@ -298,20 +312,20 @@ class CfgVehicles
         };
     };
 
-    class CookZPlants_FlourBag: Edible_Base
+    class CookZPlants_FlourBag: CookZPlants_FlourBag_Base
     {
         scope=2;
         displayName="$STR_CookZPlants_FlourBag_DN";
         descriptionShort="$STR_CookZPlants_FlourBag_DS";
         model="CookZPlants\data\ingredients\cookz_flour_bag.p3d";
-        debug_ItemCategory=6;
-        weight=60;
-        itemSize[]={1,2};
-        varQuantityInit=500;
-        varQuantityMin=0;
-        varQuantityMax=500;
-        absorbency=0.89999998;
-        rotationFlags=63;
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\ingredients\cookz_flour_bag_co.paa"
+        };
+        hiddenSelectionsMaterials[]=
+        {
+            "CookZPlants\data\ingredients\cookz_flour_bag.rvmat"
+        };
         class DamageSystem
         {
             class GlobalHealth
@@ -631,6 +645,44 @@ class CfgVehicles
         };
     };
 
+    class CookZPlants_CornFlourBag: CookZPlants_FlourBag_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CornFlourBag_DN";
+        descriptionShort="$STR_CookZPlants_CornFlourBag_DS";
+        model="CookZPlants\data\ingredients\cookz_flour_bag.p3d";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\ingredients\cookz_cornflour_bag_co.paa"
+        };
+        hiddenSelectionsMaterials[]=
+        {
+            "CookZPlants\data\ingredients\cookz_cornflour_bag.rvmat"
+        };
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=40;
+                    healthLevels[]=
+                    {
+                        {1, {
+                            // first one needs to be rvmat linked in .p3d
+                            "CookZPlants\data\ingredients\cookz_flour_bag.rvmat",
+                            "CookZPlants\data\ingredients\cookz_cornflour_bag.rvmat"
+                        }},
+                        {0.69999999, {"CookZPlants\data\ingredients\cookz_cornflour_bag.rvmat"}},
+                        {0.5, {"CookZPlants\data\ingredients\cookz_cornflour_bag_damage.rvmat"}},
+                        {0.30000001, {"CookZPlants\data\ingredients\cookz_cornflour_bag_damage.rvmat"}},
+                        {0, {"CookZPlants\data\ingredients\cookz_cornflour_bag_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+    };
+    
     // onion
 
     class CookZPlants_OnionSeedsPack: CookZPlants_SeedsPack_Base

@@ -1,4 +1,4 @@
-class CookZPlants_FlourBag: Edible_Base
+class CookZPlants_FlourBag_Base: Edible_Base
 {
     override void InitItemVariables()
     {
@@ -6,3 +6,6 @@ class CookZPlants_FlourBag: Edible_Base
         can_this_be_combined = true;
     }
 };
+
+class CookZPlants_FlourBag: CookZPlants_FlourBag_Base {};
+class CookZPlants_CornFlourBag: CookZPlants_FlourBag_Base {};
