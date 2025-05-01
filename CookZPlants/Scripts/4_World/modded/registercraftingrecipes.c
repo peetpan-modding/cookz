@@ -4,6 +4,7 @@ modded class PluginRecipesManager
     {
         super.RegisterRecipies();
         RegisterRecipe(new CookZ_CutOutWheatSeeds);
+        RegisterRecipe(new CookZ_CutOutSoyBeanSeeds);
         RegisterRecipe(new CookZ_CraftMortarAndPestle);
         RegisterRecipe(new CookZ_CraftFlour);
         RegisterRecipe(new CookZ_CraftCornFlour);
@@ -14,8 +15,8 @@ modded class PluginRecipesManager
     }
 }
 
-class CookZ_CutOutWheatSeeds extends RecipeBase
-{    
+class CookZ_CutOutSplitableSeeds_Base extends RecipeBase
+{
     override void Init()
     {
         m_Name = "#STR_cutoutseeds0";
@@ -39,9 +40,6 @@ class CookZ_CutOutWheatSeeds extends RecipeBase
         //----------------------------------------------------------------------------------------------------------------------
         
         //INGREDIENTS
-        //ingredient 1
-        InsertIngredient(0,"CookZPlants_WheatEars");//you can insert multiple ingredients this way
-
         m_IngredientAddHealth[0] = 0;// 0 = do nothing
         m_IngredientSetHealth[0] = -1; // -1 = do nothing
         m_IngredientAddQuantity[0] = -1;// 0 = do nothing
@@ -81,8 +79,6 @@ class CookZ_CutOutWheatSeeds extends RecipeBase
         //----------------------------------------------------------------------------------------------------------------------
         
         //result1
-        AddResult("CookZPlants_WheatSeeds");//add results here
-
         m_ResultSetFullQuantity[0] = false;//true = set full quantity, false = do nothing
         m_ResultSetQuantity[0] = 8;//-1 = do nothing
         m_ResultSetHealth[0] = -1;//-1 = do nothing
@@ -102,6 +98,26 @@ class CookZ_CutOutWheatSeeds extends RecipeBase
     override void Do(ItemBase ingredients[], PlayerBase player,array<ItemBase> results, float specialty_weight)//gets called upon recipe's completion
     {
         super.Do( ingredients, player, results, specialty_weight);
+    }
+}
+
+class CookZ_CutOutWheatSeeds extends CookZ_CutOutSplitableSeeds_Base
+{    
+    override void Init()
+    {
+        super.Init();
+        InsertIngredient(0,"CookZPlants_WheatEars");
+        AddResult("CookZPlants_WheatSeeds");
+    }
+};
+
+class CookZ_CutOutSoyBeanSeeds extends CookZ_CutOutSplitableSeeds_Base
+{    
+    override void Init()
+    {
+        super.Init();
+        InsertIngredient(0,"CookZPlants_SoyBeanPod");
+        AddResult("CookZPlants_SoyBeanSeeds");
     }
 };
 
@@ -504,7 +520,7 @@ class PeelCookZPlants_Onion extends RecipeBase
 	}
 };
 
-class CutOutCookZPlants_Base extends CutOutSeeds
+class CutOutCookZPlantSeeds_Base extends CutOutSeeds
 {
     override void Init()
     {
@@ -574,7 +590,7 @@ class CutOutCookZPlants_Base extends CutOutSeeds
     }
 }
 
-class CutOutCookZPlants_Chili extends CutOutCookZPlants_Base
+class CutOutCookZPlants_Chili extends CutOutCookZPlantSeeds_Base
 {    
     override void Init()
     {
@@ -584,7 +600,7 @@ class CutOutCookZPlants_Chili extends CutOutCookZPlants_Base
     }
 };
 
-class CutOutCookZPlants_Corn extends CutOutCookZPlants_Base
+class CutOutCookZPlants_Corn extends CutOutCookZPlantSeeds_Base
 {    
     override void Init()
     {

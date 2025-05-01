@@ -19,6 +19,10 @@ CookZPlants_OnionSeeds
 CookZPlants_OnionSeed
 CookZPlants_PlantOnion
 CookZPlants_Onion
+CookZPlants_SoyBeanSeedsPack
+CookZPlants_SoyBeanSeeds
+CookZPlants_PlantSoyBean
+CookZPlants_SoyBeanPod
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
 CookZPlants_MargheritaPizza

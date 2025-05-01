@@ -343,6 +343,36 @@
         "pt": "Uma espiga de milho recém-colhida, cheia de grãos doces. Perfeita para cozinhar, secar ou guardar sementes para a próxima colheita dourada.",
         "zh-cn": "一根刚采摘的玉米棒，饱满甜美。适合烹饪、晾干或保存种子，为下次金色的丰收做准备。"
     },
+    "CookZPlants_SoyBeanPod_DN": {
+        "en": "Soybean Pod",
+        "de": "Sojabohnenhülse",
+        "cs": "Lusk sóji",
+        "ru": "Стручок сои",
+        "pl": "Strąk soi",
+        "it": "Baccello di soia",
+        "es": "Vaina de soja",
+        "fr": "Gousse de soja",
+        "zh": "大豆荚",
+        "ja": "ダイズのサヤ",
+        "pt": "Vagem de soja",
+        "zh-cn": "大豆荚"
+    },
+    "CookZPlants_SoyBeanPod_DS": {
+        "en": "A ripe soybean pod bursting with firm yellow beans. Use them to craft tofu or crack them open to collect seeds and grow a new generation.",
+        "de": "Eine reife Sojabohnenhülse voller fester, gelber Bohnen. Nutze sie zur Tofuzubereitung oder öffne sie, um Samen für die nächste Generation zu gewinnen.",
+        "cs": "Zralý lusk sóji plný pevných žlutých bobů. Použij je k výrobě tofu nebo rozlouskni a získej semena pro další generaci rostlin.",
+        "ru": "Зрелый стручок сои, наполненный крепкими жёлтыми бобами. Используйте их для приготовления тофу или вскройте, чтобы собрать семена для нового урожая.",
+        "pl": "Dojrzały strąk soi z jędrnymi, żółtymi ziarnami. Użyj ich do przygotowania tofu lub otwórz, aby pozyskać nasiona na nowy zasiew.",
+        "it": "Un baccello di soia maturo, colmo di fagioli gialli e sodi. Usali per preparare il tofu o aprili per ottenere i semi di una nuova coltivazione.",
+        "es": "Una vaina de soja madura llena de firmes granos amarillos. Úsala para crear tofu o ábrela y recoge semillas para una nueva generación.",
+        "fr": "Une gousse de soja mûre, remplie de fèves jaunes bien formées. Parfaite pour faire du tofu ou extraire les graines pour une future culture.",
+        "zh": "成熟的大豆荚，饱含结实的黄色豆子。可用于制作豆腐，或剥开收集种子，让生命继续萌发。",
+        "ja": "熟したダイズのサヤにはしっかりとした黄色い豆が詰まっている。豆腐作りに使うか、開いて次の栽培用の種を手に入れよう。",
+        "pt": "Uma vagem madura de soja cheia de grãos amarelos e firmes. Use para fazer tofu ou abra para colher sementes e iniciar uma nova plantação.",
+        "zh-cn": "成熟的大豆荚，饱含结实的黄色豆子。可用于制作豆腐，或剥开收集种子，让生命继续萌发。"
+    },
+
+
 
 
 
@@ -488,6 +518,90 @@
     },
 
 
+    "CookZPlants_SoyBeanSeedsPack_DN": {
+        "en": "Packed Soybean Seeds",
+        "de": "Sojabohnensamenpäckchen",
+        "cs": "Sáček sojových semínek",
+        "ru": "Пакет семян сои",
+        "pl": "Saszetka z nasionami soi",
+        "it": "Bustina di semi di soia",
+        "es": "Sobre de semillas de soja",
+        "fr": "Sachet de graines de soja",
+        "zh": "小包大豆种子",
+        "ja": "小袋入りのダイズの種",
+        "pt": "Pacote de sementes de soja",
+        "zh-cn": "小包大豆种子"
+    },
+    "CookZPlants_SoyBeanSeedsPack_DS": {
+        "en": "A package of soybean seeds.",
+        "de": "Ein Päckchen mit Sojabohnensamen.",
+        "cs": "Malý sáček se sojovými semeny.",
+        "ru": "Небольшой пакет с семенами сои.",
+        "pl": "Mała paczka z nasionami soi.",
+        "it": "Una bustina di semi di soia.",
+        "es": "Un sobre con semillas de soja.",
+        "fr": "Un sachet contenant des graines de soja.",
+        "zh": "一小包大豆种子。",
+        "ja": "ダイズの種が入った小袋です。",
+        "pt": "Um pacotinho de sementes de soja.",
+        "zh-cn": "一小包大豆种子。"
+    },
+    "CookZPlants_SoyBeanSeeds_DN": {
+        "en": "Soybean Seeds",
+        "de": "Sojabohnensamen",
+        "cs": "Semínka sóji",
+        "ru": "Семена сои",
+        "pl": "Nasiona soi",
+        "it": "Semi di soia",
+        "es": "Semillas de soja",
+        "fr": "Graines de soja",
+        "zh": "大豆种子",
+        "ja": "ダイズの種",
+        "pt": "Sementes de soja",
+        "zh-cn": "大豆种子"
+    },
+    "CookZPlants_SoyBeanSeeds_DS": {
+        "en": "These seeds, if planted in the ground and given some loving care, will grow into soybean plants.",
+        "de": "Diese Samen wachsen zu Sojapflanzen heran, wenn sie mit Liebe gepflegt werden.",
+        "cs": "Tato semínka vyrostou v sójové rostliny, pokud je zasadíte a dobře se o ně postaráte.",
+        "ru": "Эти семена вырастут в соевые растения, если посадить их в землю и ухаживать за ними с любовью.",
+        "pl": "Te nasiona, odpowiednio posadzone i pielęgnowane, wyrosną w rośliny soi.",
+        "it": "Questi semi, se piantati e curati con amore, cresceranno in piante di soia.",
+        "es": "Estas semillas, si se plantan y se cuidan con cariño, crecerán en plantas de soja.",
+        "fr": "Ces graines, plantées et bien entretenues, donneront des plants de soja.",
+        "zh": "如果播种并细心照料，这些种子会长成大豆。",
+        "ja": "これらの種は、丁寧に植えて世話をすれば、ダイズに育ちます。",
+        "pt": "Essas sementes, se plantadas e cuidadas com carinho, crescerão em plantas de soja.",
+        "zh-cn": "如果播种并细心照料，这些种子会长成大豆。"
+    },
+    "CookZPlants_PlantSoyBean_DN": {
+        "en": "Soybean Plant",
+        "de": "Sojapflanze",
+        "cs": "Rostlina sóji",
+        "ru": "Соевое растение",
+        "pl": "Roślina soi",
+        "it": "Pianta di soia",
+        "es": "Planta de soja",
+        "fr": "Plant de soja",
+        "zh": "大豆植株",
+        "ja": "ダイズの植物",
+        "pt": "Planta de soja",
+        "zh-cn": "大豆植株"
+    },
+    "CookZPlants_PlantSoyBean_DS": {
+        "en": "A healthy soybean plant with clusters of pods growing along the stems. Harvest when mature to get fresh soybeans.",
+        "de": "Eine gesunde Sojapflanze mit Hülsen, die entlang der Stängel wachsen. Ernte sie, wenn sie reif ist, um frische Sojabohnen zu bekommen.",
+        "cs": "Zdravá rostlina sóji s lusky rostoucími podél stonků. Sklízej ji, když dozraje, a získej čerstvé sójové boby.",
+        "ru": "Здоровое соевое растение с гроздьями стручков вдоль стеблей. Соберите его, когда созреет, чтобы получить свежие соевые бобы.",
+        "pl": "Zdrowa roślina soi z gronami strąków rosnącymi wzdłuż łodyg. Zbierz ją, gdy dojrzeje, aby zdobyć świeżą soję.",
+        "it": "Una pianta di soia sana con baccelli che crescono lungo i fusti. Raccoglila quando è matura per ottenere soia fresca.",
+        "es": "Una planta de soja saludable con vainas creciendo a lo largo de los tallos. Cosecha cuando esté madura para conseguir soja fresca.",
+        "fr": "Une plante de soja saine avec des gousses poussant le long des tiges. Récoltez-la quand elle est mûre pour obtenir des graines de soja fraîches.",
+        "zh": "一株健康的大豆植株，荚果沿着茎部生长。成熟时收割，可获得新鲜大豆。",
+        "ja": "茎に沿ってサヤが育つ健康なダイズの植物。成熟したら収穫して新鮮なダイズを手に入れよう。",
+        "pt": "Uma planta de soja saudável com vagens crescendo ao longo dos caules. Colha quando estiver madura para obter soja fresca.",
+        "zh-cn": "一株健康的大豆植株，荚果沿着茎部生长。成熟时收割，可获得新鲜大豆。"
+    },
 
 
 

@@ -187,6 +187,19 @@ class CfgVehicles
         hiddenSelections[]= { "flour_bag" };
     };
     
+    class CookZPlants_StackableIngredientBase: Inventory_Base
+    {
+        scope=0;
+        soundImpactType="organic";
+        canBeSplit=1;
+        varQuantityInit=1;
+        varQuantityMin=0;
+        varQuantityMax=10;
+        varQuantityDestroyOnMin=1;
+        rotationFlags=17;
+        weight=36.279999;
+    }
+
     // wheat
 
     class CookZPlants_WheatSeedsPack: CookZPlants_SeedsPack_Base
@@ -239,21 +252,13 @@ class CfgVehicles
         };
     };
 
-    class CookZPlants_WheatEars: Inventory_Base
+    class CookZPlants_WheatEars: CookZPlants_StackableIngredientBase
     {
         scope=2;
         displayName="$STR_CookZPlants_WheatEars_DN";
         descriptionShort="$STR_CookZPlants_WheatEars_DS";
         itemSize[]={2,1};
-        rotationFlags=17;
         model="CookZPlants\data\plants\wheat\cookz_wheat_ears.p3d";
-        weight=36.279999;
-        soundImpactType="organic";
-        canBeSplit=1;
-        varQuantityInit=1;
-        varQuantityMin=0;
-        varQuantityMax=10;
-        varQuantityDestroyOnMin=1;
         class DamageSystem
         {
             class GlobalHealth
@@ -828,6 +833,90 @@ class CfgVehicles
             class FoodStageTransitions: FruitStageTransitions {};
         };
     };
+
+    // soy bean
+
+    class CookZPlants_SoyBeanSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SoyBeanSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_SoyBeanSeedsPack_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\soybean\cookz_soybean_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_SoyBeanSeeds";
+            ContainsSeedsQuantity=10;
+        };
+    };
+
+    class CookZPlants_SoyBeanSeeds: CookZPlants_Seeds_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SoyBeanSeeds_DN";
+        descriptionShort="$STR_CookZPlants_SoyBeanSeeds_DS";
+        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantSoyBean";
+        };
+    };
+
+    class CookZPlants_PlantSoyBean: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PlantSoyBean_DN";
+        descriptionShort="$STR_CookZPlants_PlantSoyBean_DS";
+        model="CookZPlants\data\plants\soybean\cookz_soybean_plant.p3d";
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\soybean\cookz_soybean_seeds_package_co.paa",
+            "CookZPlants\data\plants\soybean\cookz_soybean_plant_co.paa",
+            "CookZPlants\data\plants\soybean\cookz_soybean_plant_co.paa",
+            "CookZPlants\data\plants\soybean\cookz_soybean_plant_co.paa",
+            "CookZPlants\data\plants\soybean\cookz_soybean_plant_ripe_co.paa",
+            "CookZPlants\data\plants\soybean\cookz_soybean_plant_ripe_co.paa",
+            "CookZPlants\data\plants\soybean\cookz_soybean_plant_moldy_co.paa",
+            "CookZPlants\data\plants\soybean\cookz_soybean_plant_moldy_co.paa"
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=4;
+            CropsType="CookZPlants_SoyBeanPod";
+        };
+    };
+
+    class CookZPlants_SoyBeanPod: CookZPlants_StackableIngredientBase
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SoyBeanPod_DN";
+        descriptionShort="$STR_CookZPlants_SoyBeanPod_DS";
+        itemSize[]={1,2};
+        model="CookZPlants\data\plants\soybean\cookz_soybean_pod.p3d";
+        hiddenSelections[]= { "pod" };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\soybean\cookz_soybean_pod_co.paa",
+        };
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=40;
+                    healthLevels[]=
+                    {
+                        {1, {"CookZPlants\data\plants\soybean\cookz_soybean_pod.rvmat"}},
+                        {0.69999999, {"CookZPlants\data\plants\soybean\cookz_soybean_pod.rvmat"}},
+                        {0.5, {"CookZPlants\data\plants\soybean\cookz_soybean_pod_damage.rvmat"}},
+                        {0.30000001, {"CookZPlants\data\plants\soybean\cookz_soybean_pod_damage.rvmat"}},
+                        {0, {"CookZPlants\data\plants\soybean\cookz_soybean_pod_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+    };
 };
 
 class CfgHorticulture
@@ -864,6 +953,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\onion\cookz_onion_plant_co.paa";
             healthyMat="CookZPlants\data\plants\onion\cookz_onion_plant.rvmat";
+        };
+
+        class CookZPlants_PlantSoyBean
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\soybean\cookz_soybean_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\soybean\cookz_soybean_plant.rvmat";
         };
     };
 };

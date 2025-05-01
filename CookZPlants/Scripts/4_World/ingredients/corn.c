@@ -1,0 +1,1 @@
+class CookZPlants_Corn: GreenBellPepper {}
