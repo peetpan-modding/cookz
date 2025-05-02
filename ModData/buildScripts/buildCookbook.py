@@ -1,5 +1,6 @@
 import re
 import logging
+import sys
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -252,6 +253,7 @@ def main():
 
     except Exception as e:
         logging.error(f"An error occurred", exc_info=True)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
