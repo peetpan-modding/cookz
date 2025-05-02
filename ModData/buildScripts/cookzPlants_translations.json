@@ -602,6 +602,34 @@
         "pt": "Uma planta de soja saudável com vagens crescendo ao longo dos caules. Colha quando estiver madura para obter soja fresca.",
         "zh-cn": "一株健康的大豆植株，荚果沿着茎部生长。成熟时收割，可获得新鲜大豆。"
     },
+    "CookZPlants_Tofu_DN": {
+        "en": "Block of Tofu",
+        "de": "Tofublock",
+        "cs": "Kostka tofu",
+        "ru": "Блок тофу",
+        "pl": "Blok tofu",
+        "it": "Blocco di tofu",
+        "es": "Bloque de tofu",
+        "fr": "Bloc de tofu",
+        "zh": "一大块豆腐",
+        "ja": "豆腐の塊",
+        "pt": "Bloco de tofu",
+        "zh-cn": "一大块豆腐"
+    },
+    "CookZPlants_Tofu_DS": {
+        "en": "A huge block of tofu. It’ll fill you up, but tastes like nothing. Still, it might be the perfect base for something truly delicious.",
+        "de": "Ein riesiger Tofublock. Sättigt gut, schmeckt aber nach nichts. Vielleicht ist er dennoch die perfekte Grundlage für etwas wirklich Leckeres.",
+        "cs": "Obrovská kostka tofu. Zasytí, ale chuť žádná. Možná však poslouží jako základ něčeho opravdu chutného.",
+        "ru": "Огромный блок тофу. Хорошо насытит, но вкуса почти нет. Зато может стать отличной основой для чего-то действительно вкусного.",
+        "pl": "Ogromny blok tofu. Napełnia brzuch, ale nie ma smaku. Może jednak posłużyć jako podstawa czegoś naprawdę pysznego.",
+        "it": "Un enorme blocco di tofu. Ti sazia, ma non ha sapore. Tuttavia, potrebbe essere la base perfetta per un piatto davvero delizioso.",
+        "es": "Un gran bloque de tofu. Te llenará, aunque no tenga sabor. Aun así, podría ser la base perfecta para algo realmente delicioso.",
+        "fr": "Un énorme bloc de tofu. Il cale bien, mais n’a aucun goût. Pourtant, il pourrait servir de base à un plat vraiment savoureux.",
+        "zh": "一大块豆腐。能填饱肚子，但几乎没有味道。不过，也许它能成为美味佳肴的绝佳基础。",
+        "ja": "大きな豆腐の塊。腹は満たされるが、味はほとんどない。ただし、美味しい料理のベースにはなるかもしれない。",
+        "pt": "Um enorme bloco de tofu. Enche o estômago, mas quase não tem gosto. Ainda assim, pode ser a base perfeita para algo realmente delicioso.",
+        "zh-cn": "一大块豆腐。能填饱肚子，但几乎没有味道。不过，它也许能成为美味佳肴的绝佳基础。"
+    },
 
 
 

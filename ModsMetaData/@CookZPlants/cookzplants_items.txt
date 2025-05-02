@@ -23,6 +23,7 @@ CookZPlants_SoyBeanSeedsPack
 CookZPlants_SoyBeanSeeds
 CookZPlants_PlantSoyBean
 CookZPlants_SoyBeanPod
+CookZPlants_Tofu
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
 CookZPlants_MargheritaPizza

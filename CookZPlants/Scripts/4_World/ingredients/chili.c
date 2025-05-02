@@ -1,1 +1,0 @@
-class CookZPlants_Chili: GreenBellPepper {}
