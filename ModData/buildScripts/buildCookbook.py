@@ -55,6 +55,7 @@ ingredient_translation_map = {
     "Rag": "#STR_CfgVehicles_Rag0",
     "CookZPlants_Chili": "#STR_CookZPlants_Chili_DN",
     "CookZPlants_Onion": "#STR_CookZPlants_Onion_DN",
+    "CookZPlants_Tofu": "#STR_CookZPlants_Tofu_DN",
 }
 
 translation_map = {

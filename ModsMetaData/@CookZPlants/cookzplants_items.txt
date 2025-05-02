@@ -38,3 +38,4 @@ CookZPlants_VegetablePizza
 CookZPlants_VegetablePizza_Opened
 CookZPlants_MushroomPizza
 CookZPlants_MushroomPizza_Opened
+CookZPlants_Tofu_Sausage

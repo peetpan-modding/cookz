@@ -1,0 +1,1 @@
+class CookZPlants_Tofu_Sausage: CookZ_Sausage_Base {}

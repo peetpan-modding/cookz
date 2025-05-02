@@ -42,6 +42,19 @@ class CookZ_Recipes
         };
     };
 
+    // --- Sausages ---
+
+    class CookZPlants_Tofu_Sausage
+    {
+        allowPot = true;
+        allowCauldron = true;
+        numDishes = 2;
+        ingredients[] = {
+            "Guts,1",
+            "CookZPlants_Tofu,1"
+        };
+    };
+
     // --- Tofu ---
 
     class CookZPlants_Tofu

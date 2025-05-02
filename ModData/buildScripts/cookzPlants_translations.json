@@ -99,13 +99,13 @@
     },
     "CookZPlants_WheatEars_DS": {
         "en": "Golden ears of ripe wheat, fresh from the harvest. Ready to be milled into flour—or saved for future planting if you're feeling responsible.",
-        "de": "Goldene, reife Weizenähren – frisch geerntet. Ideal zum Mahlen zu Mehl… oder zum Aufheben für die nächste Aussaat, wenn du vorhast, vorbildlich zu sein.",
+        "de": "Goldene, reife Weizenähren – frisch geerntet. Ideal zum Mahlen zu Mehl... oder zum Aufheben für die nächste Aussaat, wenn du vorhast, vorbildlich zu sein.",
         "cs": "Zlaté klasy zralé pšenice, čerstvě sklizené. Připravené na mletí mouky – nebo na další výsadbu, pokud se cítíš zodpovědně.",
-        "ru": "Золотистые зрелые колосья, только что с поля. Можно смолоть в муку… или приберечь на посев, если ты сегодня на волне ответственности.",
+        "ru": "Золотистые зрелые колосья, только что с поля. Можно смолоть в муку... или приберечь на посев, если ты сегодня на волне ответственности.",
         "pl": "Złote, dojrzałe kłosy pszenicy, prosto z pola. Idealne do zmielenia na mąkę – albo do przechowania na następny siew, jeśli masz taki nastrój.",
-        "it": "Spighe dorate di grano maturo, appena raccolte. Perfette da macinare in farina… o da conservare per la prossima semina, se ti senti diligente.",
-        "es": "Espigas doradas de trigo maduro, recién cosechadas. Listas para moler en harina… o guardar para la próxima siembra, si te sientes responsable.",
-        "fr": "Des épis de blé dorés et mûrs, tout juste récoltés. Parfaits pour faire de la farine… ou à garder pour la prochaine plantation, si vous êtes d’humeur sérieuse.",
+        "it": "Spighe dorate di grano maturo, appena raccolte. Perfette da macinare in farina... o da conservare per la prossima semina, se ti senti diligente.",
+        "es": "Espigas doradas de trigo maduro, recién cosechadas. Listas para moler en harina... o guardar para la próxima siembra, si te sientes responsable.",
+        "fr": "Des épis de blé dorés et mûrs, tout juste récoltés. Parfaits pour faire de la farine... ou à garder pour la prochaine plantation, si vous êtes d’humeur sérieuse.",
         "zh": "金黄色成熟的小麦穗，刚刚收割。可以磨成面粉——或者存起来，下次种植时再用（如果你够负责的话）。",
         "ja": "収穫したての黄金色の小麦の穂。粉に挽くもよし、次の栽培に備えて取っておくもよし（責任感があれば）。",
         "pt": "Espigas douradas de trigo maduro, recém-colhidas. Prontas para virar farinha — ou para guardar e plantar depois, se estiver no clima certo.",
@@ -738,7 +738,7 @@
         "cs": "Lepivé, těžké a trochu jako živé. Zatím nic moc, ale s trochou tepla, štěstí a nízkými nároky se z toho možná stane jídlo.",
         "ru": "Липкое, тяжёлое и подозрительно живое. Пока не впечатляет — но с жаром, удачей и заниженными ожиданиями может превратиться в еду.",
         "pl": "Lepkie, ciężkie i dziwnie żywe. Teraz nie wygląda najlepiej, ale z odrobiną ciepła, szczęścia i niskich oczekiwań — może się uda.",
-        "it": "Appiccicoso, pesante e stranamente vivo. Al momento non è granché, ma con un po’ di calore, fortuna e aspettative basse… potrebbe diventare cibo.",
+        "it": "Appiccicoso, pesante e stranamente vivo. Al momento non è granché, ma con un po’ di calore, fortuna e aspettative basse... potrebbe diventare cibo.",
         "es": "Pegajosa, pesada y algo viva. Por ahora no promete mucho, pero con calor, suerte y expectativas bajas, puede que se convierta en comida.",
         "fr": "Collante, lourde, et un peu vivante. Pour l’instant, ce n’est pas fameux – mais avec de la chaleur, un peu de chance et des attentes modestes, ça pourrait devenir mangeable.",
         "zh": "又黏又重，还有点像活的。现在没啥看头，但加点火、点点运气，再放低点期待，也许真能吃。",
@@ -791,10 +791,10 @@
         "ru": "Тёплые, мягкие и подозрительно сытные. Что внутри пирогов — остаётся тайной. И, честно говоря, так даже лучше.",
         "pl": "Ciepłe, miękkie i podejrzanie sycące. Co jest w środku? Lepiej nie pytać – szczególnie tutaj.",
         "it": "Caldi, pastosi e stranamente sazianti. I pierogi non diranno cosa c’è dentro – ma in questo mondo, meglio così.",
-        "es": "Calientes, blandos y extrañamente saciantes. Los pierogi no explican qué llevan dentro, y en este lugar… mejor así.",
+        "es": "Calientes, blandos y extrañamente saciantes. Los pierogi no explican qué llevan dentro, y en este lugar... mejor así.",
         "fr": "Chaud, moelleux et étrangement nourrissant. Les pierogi ne disent pas ce qu'ils contiennent – et c’est peut-être mieux comme ça.",
         "zh": "温热、软糯、意外地顶饱。至于里面是什么？在这种地方，还是别问为好。",
-        "ja": "あたたかくて、もちもちしてて、妙に満腹感がある。中身？…この世界では聞かないほうがいい。",
+        "ja": "あたたかくて、もちもちしてて、妙に満腹感がある。中身？...この世界では聞かないほうがいい。",
         "pt": "Quente, macio e estranhamente satisfatório. Pierogi não revelam o recheio – e por aqui, é melhor assim.",
         "zh-cn": "温热、软糯、意外地顶饱。至于里面是什么？在这种地方，还是别问为好。"
     },
@@ -833,6 +833,36 @@
     },
     "CookZPlants_FagioliAllaBudCan_Opened_DS": {
         "en": "@CookZPlants_FagioliAllaBudCan_DS @&CookZPlants_EatUp"
+    },
+
+
+    "CookZPlants_Tofu_Sausage_DN": {
+        "en": "Tofu Sausage",
+        "de": "Tofuwurst",
+        "cs": "Tofu klobása",
+        "ru": "Тофу колбаса",
+        "pl": "Kiełbasa z tofu",
+        "it": "Salsiccia di tofu",
+        "es": "Salchicha de tofu",
+        "fr": "Saucisse de tofu",
+        "zh": "豆腐香肠",
+        "ja": "豆腐ソーセージ",
+        "pt": "Linguiça de tofu",
+        "zh-cn": "豆腐香肠"
+    },
+    "CookZPlants_Tofu_Sausage_DS": {
+        "en": "A tofu sausage. Wait, is this made from real guts filled with tofu? Is this supposed to be funny?",
+        "de": "Eine Tofuwurst. Moment mal – ist das echter Darm, der mit Tofu gefüllt ist? Soll das ein Scherz sein?",
+        "cs": "Tofu klobása. Počkej - to je vážně střívko plněné tofem? To má být vtip?",
+        "ru": "Колбаса из тофу. Подождите, это что, настоящий кишечник, набитый тофу? Это типа шутка?",
+        "pl": "Kiełbasa z tofu. Chwileczkę - to prawdziwe jelito wypełnione tofu? To jakiś żart?",
+        "it": "Una salsiccia di tofu. Aspetta un attimo... è un vero budello pieno di tofu? È una battuta?",
+        "es": "Una salchicha de tofu. Espera... ¿esto está hecho con tripa real rellena de tofu? ¿Esto va en serio?",
+        "fr": "Une saucisse de tofu. Attendez... c’est un vrai boyau rempli de tofu ? C’est censé être une blague ?",
+        "zh": "豆腐香肠。等等，这是用真的肠衣灌的豆腐？这是在开玩笑吗？",
+        "ja": "豆腐ソーセージ。えっ、これって本物の腸に豆腐を詰めたの？冗談なの？",
+        "pt": "Uma linguiça de tofu. Espera aí... isso é um intestino de verdade recheado com tofu? Isso é uma piada?",
+        "zh-cn": "豆腐香肠。等等，这是用真的肠衣灌的豆腐？这是在开玩笑吗？"
     },
 
 
