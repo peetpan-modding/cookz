@@ -25,6 +25,19 @@ class CookZ_Recipes
         };
     };
 
+    // --- Tofu ---
+
+    class CookZPlants_Tofu
+    {
+        allowPot = true;
+        allowCauldron = true;
+        needsWater = true;
+        ingredients[] = {
+            "Rag,1",
+            "CookZPlants_SoyBeanPod,10"
+        };
+    };
+
     // --- Pizza ---
 
     class CookZPlants_MargheritaPizza
