@@ -198,7 +198,7 @@ class CfgVehicles
         varQuantityDestroyOnMin=1;
         rotationFlags=17;
         weight=36.279999;
-    }
+    };
 
     // wheat
 
