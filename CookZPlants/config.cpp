@@ -200,6 +200,49 @@ class CfgVehicles
         weight=36.279999;
     };
 
+    class CookZPlants_Dough_Base: Inventory_Base
+    {
+        scope=0;
+        itemSize[]={1,1};
+        model="CookZPlants\data\ingredients\cookz_dough.p3d";
+        hiddenSelections[]=
+        {
+            "dough"
+        };
+        weight=160;
+        cookz_staticQuantity=160;
+        soundImpactType="organic";
+        varTemperatureInit=0;
+        varTemperatureMin=0;
+        varTemperatureMax=120;
+        class Nutrition
+        {
+            energy=300;
+            water=200;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=40;
+                    healthLevels[]=
+                    {
+                        {1, {"CookZPlants\data\ingredients\cookz_dough.rvmat"}},
+                        {0.69999999, {"CookZPlants\data\ingredients\cookz_dough.rvmat"}},
+                        {0.5, {"CookZPlants\data\ingredients\cookz_flour_bag_damage.rvmat"}},
+                        {0.30000001, {"CookZPlants\data\ingredients\cookz_flour_bag_damage.rvmat"}},
+                        {0, {"CookZPlants\data\ingredients\cookz_flour_bag_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+    };
+    
     // wheat
 
     class CookZPlants_WheatSeedsPack: CookZPlants_SeedsPack_Base
@@ -351,52 +394,14 @@ class CfgVehicles
         };
     };
 
-    class CookZPlants_Dough: Inventory_Base
+    class CookZPlants_Dough: CookZPlants_Dough_Base
     {
         scope=2;
         displayName="$STR_CookZPlants_Dough_DN";
         descriptionShort="$STR_CookZPlants_Dough_DS";
-        itemSize[]={1,1};
-        model="CookZPlants\data\ingredients\cookz_dough.p3d";
-        hiddenSelections[]=
-        {
-            "dough"
-        };
         hiddenSelectionsTextures[]=
         {
             "CookZPlants\data\ingredients\cookz_dough_co.paa"
-        };
-        weight=160;
-        cookz_staticQuantity=160;
-        soundImpactType="organic";
-        varTemperatureInit=0;
-        varTemperatureMin=0;
-        varTemperatureMax=120;
-        class Nutrition
-        {
-            energy=300;
-            water=200;
-            fullnessIndex=3;
-            nutritionalIndex=1;
-            toxicity=0;
-        };
-        class DamageSystem
-        {
-            class GlobalHealth
-            {
-                class Health
-                {
-                    hitpoints=40;
-                    healthLevels[]=
-                    {
-                        {1, {"CookZPlants\data\ingredients\cookz_dough.rvmat"}},
-                        {0.69999999, {"CookZPlants\data\ingredients\cookz_dough.rvmat"}},
-                        {0.5, {"CookZPlants\data\ingredients\cookz_flour_bag_damage.rvmat"}},
-                        {0.30000001, {"CookZPlants\data\ingredients\cookz_flour_bag_damage.rvmat"}},
-                        {0, {"CookZPlants\data\ingredients\cookz_flour_bag_destruct.rvmat"}}
-                    };
-                };
-            };
         };
     };
 
@@ -687,7 +692,18 @@ class CfgVehicles
             };
         };
     };
-    
+
+    class CookZPlants_CornDough: CookZPlants_Dough_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CornDough_DN";
+        descriptionShort="$STR_CookZPlants_CornDough_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\ingredients\cookz_corn_dough_co.paa"
+        };
+    };
+
     // onion
 
     class CookZPlants_OnionSeedsPack: CookZPlants_SeedsPack_Base

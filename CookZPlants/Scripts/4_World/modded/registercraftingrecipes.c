@@ -9,6 +9,7 @@ modded class PluginRecipesManager
         RegisterRecipe(new CookZ_CraftFlour);
         RegisterRecipe(new CookZ_CraftCornFlour);
         RegisterRecipe(new CookZ_CraftDough);
+        RegisterRecipe(new CookZ_CraftCornDough);
         RegisterRecipe(new PeelCookZPlants_Onion);
         RegisterRecipe(new CutOutCookZPlants_Chili);
         RegisterRecipe(new CutOutCookZPlants_Corn);
@@ -335,8 +336,8 @@ class CookZ_CraftCornFlour extends RecipeBase
     }
 };
 
-class CookZ_CraftDough extends RecipeBase
-{    
+class CookZ_CraftDough_Base extends RecipeBase
+{
     override void Init()
     {
         m_Name = "#STR_CookZPlants_KneadDough";
@@ -370,8 +371,6 @@ class CookZ_CraftDough extends RecipeBase
         m_IngredientUseSoftSkills[0] = false;// set 'true' to allow modification of the values by softskills on this ingredient
         
         //ingredient 2
-        InsertIngredient(1,"CookZPlants_FlourBag");//you can insert multiple ingredients this way
-    
         m_IngredientAddHealth[1] = 0;// 0 = do nothing
         m_IngredientSetHealth[1] = -1; // -1 = do nothing
         m_IngredientAddQuantity[1] = -100;// 0 = do nothing
@@ -380,8 +379,6 @@ class CookZ_CraftDough extends RecipeBase
         //----------------------------------------------------------------------------------------------------------------------
         
         //result1
-        AddResult("CookZPlants_Dough");//add results here
-
         m_ResultSetFullQuantity[0] = false;//true = set full quantity, false = do nothing
         m_ResultSetQuantity[0] = 1;//-1 = do nothing
         m_ResultSetHealth[0] = -1;//-1 = do nothing
@@ -408,6 +405,26 @@ class CookZ_CraftDough extends RecipeBase
     override void Do(ItemBase ingredients[], PlayerBase player, array<ItemBase> results, float specialty_weight)
     {
         super.Do(ingredients, player, results, specialty_weight);
+    }
+};
+
+class CookZ_CraftDough extends CookZ_CraftDough_Base
+{    
+    override void Init()
+    {
+        super.Init();
+        InsertIngredient(1,"CookZPlants_FlourBag");
+        AddResult("CookZPlants_Dough");
+    }
+};
+
+class CookZ_CraftCornDough extends CookZ_CraftDough_Base
+{    
+    override void Init()
+    {
+        super.Init();
+        InsertIngredient(1,"CookZPlants_CornFlourBag");
+        AddResult("CookZPlants_CornDough");
     }
 };
 

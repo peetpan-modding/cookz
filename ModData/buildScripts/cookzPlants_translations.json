@@ -746,6 +746,34 @@
         "pt": "Pegajosa, pesada e estranhamente viva. Por agora, não é grande coisa — mas com calor, sorte e expectativas baixas, pode até virar comida.",
         "zh-cn": "又黏又重，还有点像活的。现在没啥看头，但加点火、点点运气，再放低点期待，也许真能吃。"
     },
+    "CookZPlants_CornDough_DN": {
+        "en": "Corn Dough",
+        "de": "Maisteig",
+        "cs": "Kukuřičné těsto",
+        "ru": "Кукурузное тесто",
+        "pl": "Ciasto kukurydziane",
+        "it": "Impasto di mais",
+        "es": "Masa de maíz",
+        "fr": "Pâte de maïs",
+        "zh": "玉米面团",
+        "ja": "トウモロコシ生地",
+        "pt": "Massa de milho",
+        "zh-cn": "玉米面团"
+    },
+    "CookZPlants_CornDough_DS": {
+        "en": "A dense, pliable dough made from ground corn. Slightly coarse in texture, commonly used to prepare tortillas, tacos, and other traditional foods.",
+        "de": "Ein dichter, formbarer Teig aus gemahlenem Mais. Mit leicht grober Textur, typischerweise verwendet für Tortillas, Tacos und andere traditionelle Gerichte.",
+        "cs": "Husté, poddajné těsto z mleté kukuřice. Má mírně hrubou strukturu a běžně se používá k přípravě tortill, tacos a dalších tradičních jídel.",
+        "ru": "Плотное, податливое тесто из молотой кукурузы. Слегка грубоватая текстура, используется для приготовления тортильи, тако и других традиционных блюд.",
+        "pl": "Gęste, elastyczne ciasto z mielonej kukurydzy. Ma lekko ziarnistą strukturę i jest często używane do tortilli, tacos i innych tradycyjnych potraw.",
+        "it": "Un impasto denso e modellabile a base di mais macinato. Dalla consistenza leggermente grezza, usato per tortillas, tacos e altri piatti tradizionali.",
+        "es": "Masa densa y maleable hecha con maíz molido. De textura algo gruesa, se usa comúnmente para preparar tortillas, tacos y otros alimentos tradicionales.",
+        "fr": "Une pâte dense et malléable à base de maïs moulu. Légèrement granuleuse, elle est couramment utilisée pour préparer tortillas, tacos et autres plats traditionnels.",
+        "zh": "由研磨玉米制成的稠密且有延展性的面团。质地略粗糙，常用于制作玉米饼、玉米卷和其他传统食物。",
+        "ja": "挽いたトウモロコシから作られる、密度があり柔軟な生地。やや粗めの質感で、トルティーヤやタコスなどの伝統料理によく使われる。",
+        "pt": "Uma massa densa e maleável feita com milho moído. Com textura ligeiramente áspera, é usada para fazer tortillas, tacos e outros pratos tradicionais.",
+        "zh-cn": "由研磨玉米制成的稠密且有延展性的面团。质地略粗糙，常用于制作玉米饼、玉米卷和其他传统食物。"
+    },
 
 
 

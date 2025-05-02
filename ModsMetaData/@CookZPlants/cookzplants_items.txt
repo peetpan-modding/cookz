@@ -14,6 +14,7 @@ CookZPlants_CornSeeds
 CookZPlants_PlantCorn
 CookZPlants_Corn
 CookZPlants_CornFlourBag
+CookZPlants_CornDough
 CookZPlants_OnionSeedsPack
 CookZPlants_OnionSeeds
 CookZPlants_OnionSeed
