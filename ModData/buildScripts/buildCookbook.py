@@ -53,6 +53,8 @@ ingredient_translation_map = {
     "AnyBlood": "#STR_CookZ_Ingredient_AnyBlood",
     "CookZPlants_SoyBeanPod": "#STR_CookZPlants_SoyBeanPod_DN",
     "Rag": "#STR_CfgVehicles_Rag0",
+    "CookZPlants_Chili": "#STR_CookZPlants_Chili_DN",
+    "CookZPlants_Onion": "#STR_CookZPlants_Onion_DN",
 }
 
 translation_map = {

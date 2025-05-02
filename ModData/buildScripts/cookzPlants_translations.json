@@ -803,7 +803,37 @@
     },
 
 
-
+    "CookZPlants_FagioliAllaBudCan_DN": {
+        "en": "Fagioli Alla Bud",
+        "de": "Fagioli Alla Bud",
+        "cs": "Fagioli Alla Bud",
+        "ru": "Фаджоли Алла Бад",
+        "pl": "Fagioli Alla Bud",
+        "it": "Fagioli Alla Bud",
+        "es": "Fagioli Alla Bud",
+        "fr": "Fagioli Alla Bud",
+        "zh": "法焦利·阿拉·巴德",
+        "ja": "ファジョーリ・アッラ・バッド",
+        "pt": "Fagioli Alla Bud",
+        "zh-cn": "法焦利·阿拉·巴德"
+    },
+    "CookZPlants_FagioliAllaBudCan_DS": {
+        "en": "A fistful of flavor in every bite—beans with bacon, onions, and chili that hit harder than a barroom brawl.",
+        "de": "Eine geballte Ladung Geschmack in jedem Bissen – Bohnen mit Speck, Zwiebeln und Chili, die härter zuschlagen als eine Kneipenschlägerei.",
+        "cs": "Pěst plná chuti v každém soustu – fazole se slaninou, cibulí a chilli, které zasáhnou tvrději než hospodská rvačka.",
+        "ru": "Кулак вкуса в каждом укусе — фасоль с беконом, луком и чили, которые бьют сильнее, чем драка в баре.",
+        "pl": "Garść smaku w każdym kęsie — fasola z boczkiem, cebulą i chili, które uderzają mocniej niż bójka w barze.",
+        "it": "Una manciata di sapore in ogni morso: fagioli con pancetta, cipolla e peperoncino che colpiscono più forte di una rissa da saloon.",
+        "es": "Un puñado de sabor en cada bocado: frijoles con tocino, cebolla y chile que golpean más fuerte que una pelea de bar.",
+        "fr": "Une poignée de saveurs à chaque bouchée — des haricots avec du bacon, des oignons et du piment qui frappent plus fort qu'une bagarre de bar.",
+        "zh": "每一口都是满满的风味——培根、洋葱和辣椒炖豆，味道比酒吧斗殴还要猛烈。",
+        "ja": "一口ごとに風味の拳—ベーコン、玉ねぎ、チリ入りの豆が、酒場の乱闘よりも強烈に打ち込む。",
+        "pt": "Um punhado de sabor em cada mordida — feijão com bacon, cebola e pimenta que bate mais forte que uma briga de bar.",
+        "zh-cn": "每一口都是满满的风味——培根、洋葱和辣椒炖豆，味道比酒吧斗殴还要猛烈。"
+    },
+    "CookZPlants_FagioliAllaBudCan_Opened_DS": {
+        "en": "@CookZPlants_FagioliAllaBudCan_DS @&CookZPlants_EatUp"
+    },
 
 
 

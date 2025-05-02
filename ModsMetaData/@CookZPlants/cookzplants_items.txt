@@ -26,6 +26,8 @@ CookZPlants_SoyBeanPod
 CookZPlants_Tofu
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
+CookZPlants_FagioliAllaBudCan
+CookZPlants_FagioliAllaBudCan_Opened
 CookZPlants_MargheritaPizza
 CookZPlants_MargheritaPizza_Opened
 CookZPlants_PepperoniPizza

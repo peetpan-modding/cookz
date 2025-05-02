@@ -25,6 +25,23 @@ class CookZ_Recipes
         };
     };
 
+    // --- Canned Food ---
+
+    class CookZPlants_FagioliAllaBudCan
+    {
+        allowPot = true;
+        allowCauldron = true;
+        needsEmptyCan = true;
+        canBeOpened = true;
+        numDishes = 1;
+        ingredients[] = {
+            "BakedBeansCan_Opened,1",
+            "Lard,1",
+            "CookZPlants_Chili,1",
+            "CookZPlants_Onion,1"
+        };
+    };
+
     // --- Tofu ---
 
     class CookZPlants_Tofu
