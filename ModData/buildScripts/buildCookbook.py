@@ -234,7 +234,7 @@ def main():
             {
                 "filter": lambda recipe: recipe.name.startswith("CookZPlants_"),
                 "output": "P:\\CookZPlants\\data\\cookbook\\01_plant_dishes.html",
-                "extra": "    <p>#STR_CookZPlants_CookingInstructions</p>\n    <h2>#STR_CookZPlants_Dishes</h2>\n",
+                "extra": "    <p>#STR_CookZPlants_CookingInstructions01</p>\n    <p>#STR_CookZPlants_CookingInstructions02</p>\n    <h2>#STR_CookZPlants_Dishes</h2>\n",
                 "title": "#STR_CookZPlants_CookingPlants",
             },
         ]

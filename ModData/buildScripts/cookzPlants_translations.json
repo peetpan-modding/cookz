@@ -963,37 +963,50 @@
 
 
     "CookZPlants_CookingPlants": {
-        "en": "Wheat-Based Recipes",
-        "de": "Weizen-Rezepte",
-        "cs": "Recepty z pšenice",
-        "ru": "Рецепты из пшеницы",
-        "pl": "Przepisy z pszenicy",
-        "it": "Ricette a base di grano",
-        "es": "Recetas con trigo",
-        "fr": "Recettes à base de blé",
-        "zh": "小麦料理",
-        "ja": "小麦を使ったレシピ",
-        "pt": "Receitas com trigo",
-        "zh-cn": "小麦料理"
+        "en": "Beyond the Garden",
+        "de": "Jenseits des Gartens",
+        "cs": "Za hranice zahrady",
+        "ru": "За пределами сада",
+        "pl": "Poza ogrodem",
+        "it": "Oltre il giardino",
+        "es": "Más allá del jardín",
+        "fr": "Au-delà du jardin",
+        "zh": "走出花园",
+        "ja": "庭の向こう側",
+        "pt": "Além do jardim",
+        "zh-cn": "走出花园"
     },
 
 
 
-    "CookZPlants_CookingInstructions": {
-        "en": "Find <b>wheat seeds</b> and plant them to harvest <b>wheat ears.</b> Craft a <b>mortar and pestle</b> from a <b>large stone</b> using a <b>hammer.</b> Use the mortar and pestle to grind the <b>wheat ears</b> into <b>flour.</b> Knead <b>flour</b> and <b>water</b> into <b>dough</b> and use it in recipes.",
-        "de": "Finde <b>Weizensamen</b> und pflanze sie, um <b>Weizenähren</b> zu ernten. Stelle einen <b>Mörser und Stößel</b> aus einem <b>großen Stein</b> mit einem <b>Hammer</b> her. Zermahle die <b>Weizenähren</b> zu <b>Mehl.</b> Verknete <b>Mehl</b> mit <b>Wasser</b> zu <b>Teig</b> und verwende ihn in Rezepten.",
-        "cs": "Najdi <b>pšeničná semena</b> a zasaď je, abys sklidil <b>pšeničné klasy.</b> Vyrob <b>hmoždíř a tlouk</b> z <b>velkého kamene</b> pomocí <b>kladiva.</b> Rozemel <b>pšeničné klasy</b> na <b>mouku.</b> Z <b>mouky</b> a <b>vody</b> uhněť <b>těsto</b> a použij ho v receptech.",
-        "ru": "Найди <b>семена пшеницы</b> и посей их, чтобы получить <b>колосья пшеницы.</b> Создай <b>ступку с пестиком</b> из <b>большого камня</b> с помощью <b>молота.</b> Измельчи <b>колосья</b> в <b>муку.</b> Замеси <b>муку</b> с <b>водой</b> в <b>тесто</b> и используй его в рецептах.",
-        "pl": "Znajdź <b>nasiona pszenicy</b> i posadź je, aby zebrać <b>kłosy pszenicy.</b> Wykonaj <b>moździerz z tłuczkiem</b> z <b>dużego kamienia</b> za pomocą <b>młotka.</b> Zmiel <b>kłosy</b> na <b>mąkę.</b> Zagnieć <b>mąkę</b> z <b>wodą</b> w <b>ciasto</b> i użyj w przepisach.",
-        "it": "Trova <b>semi di grano</b> e piantali per raccogliere <b>spighe di grano.</b> Crea un <b>mortaio con pestello</b> da una <b>grossa pietra</b> usando un <b>martello.</b> Usa il mortaio per macinare le <b>spighe</b> in <b>farina.</b> Impasta <b>farina</b> e <b>acqua</b> per ottenere <b>impasto</b> e usalo nelle ricette.",
-        "es": "Encuentra <b>semillas de trigo</b> y plántalas para cosechar <b>espigas de trigo.</b> Fabrica un <b>mortero con mano</b> con una <b>piedra grande</b> usando un <b>martillo.</b> Usa el mortero para moler las <b>espigas</b> en <b>harina.</b> Amasa <b>harina</b> y <b>agua</b> para hacer <b>masa</b> y úsala en recetas.",
-        "fr": "Trouve des <b>graines de blé</b> et plante-les pour récolter des <b>épis de blé.</b> Fabrique un <b>mortier avec pilon</b> à partir d’une <b>grosse pierre</b> avec un <b>marteau.</b> Utilise-le pour moudre les <b>épis</b> en <b>farine.</b> Pétris <b>farine</b> et <b>eau</b> en <b>pâte</b> et utilise-la dans les recettes.",
-        "zh": "找到 <b>小麦种子</b> 并将其种下以收获 <b>小麦穗</b>。使用 <b>锤子</b> 敲打 <b>大石头</b> 制作 <b>研钵和研杵</b>。用它将 <b>小麦穗</b> 磨成 <b>面粉</b>。将 <b>面粉</b> 与 <b>水</b> 揉成 <b>面团</b>，然后用于食谱中。",
-        "ja": "<b>小麦の種</b> を見つけて植え、<b>小麦の穂</b> を収穫する。<b>大きな石</b> を <b>ハンマー</b> で使って <b>すり鉢とすりこぎ</b> を作る。<b>小麦の穂</b> を <b>小麦粉</b> に粉砕し、<b>小麦粉</b> と <b>水</b> をこねて <b>生地</b> を作り、レシピに使う。",
-        "pt": "Encontre <b>sementes de trigo</b> e plante para colher <b>espigas de trigo.</b> Crie um <b>pilão com almofariz</b> a partir de uma <b>pedra grande</b> usando um <b>martelo.</b> Use-o para moer as <b>espigas</b> em <b>farinha.</b> Amasse <b>farinha</b> com <b>água</b> para formar <b>massa</b> e use-a em receitas.",
-        "zh-cn": "找到 <b>小麦种子</b> 并将其种下以收获 <b>小麦穗</b>。使用 <b>锤子</b> 敲打 <b>大石头</b> 制作 <b>研钵和研杵</b>，将 <b>小麦穗</b> 磨成 <b>面粉</b>。将 <b>面粉</b> 与 <b>水</b> 揉成 <b>面团</b>，然后用于食谱中。"
+    "CookZPlants_CookingInstructions01": {
+        "en": "Find <b>wheat seeds</b> and plant them to harvest <b>wheat ears.</b> Plant <b>corn seeds</b> to grow <b>corn cobs.</b> Use <b>chili seeds</b> to grow <b>chilies.</b> Plant <b>onion seeds</b>, or use an <b>onion</b> to grow more <b>onions.</b> Use <b>soybean seeds</b> to harvest <b>soybean pods.</b>",
+        "de": "Finde <b>Weizensamen</b> und pflanze sie, um <b>Weizenähren</b> zu ernten.</b> Pflanze <b>Maissamen</b>, um <b>Maiskolben</b> zu erhalten.</b> Verwende <b>Chilisamen</b>, um <b>Chilis</b> anzubauen.</b> Pflanze <b>Zwiebelnsamen</b> oder benutze eine <b>Zwiebel</b>, um mehr <b>Zwiebeln</b> zu züchten.</b> Verwende <b>Sojabohnensamen</b>, um <b>Sojabohnenschoten</b> zu ernten.</b>",
+        "cs": "Najdi <b>pšeničná semena</b> a zasaď je pro sklizeň <b>klasů pšenice.</b> Zasaď <b>kukuřičná semena</b> pro <b>klasy kukuřice.</b> Použij <b>semena chilli</b> pro pěstování <b>chilli papriček.</b> Zasaď <b>semena cibule</b> nebo použij <b>cibuli</b> pro více <b>cibulí.</b> Použij <b>semena sóji</b> pro sklizeň <b>lusků sóji.</b>",
+        "ru": "Найди <b>семена пшеницы</b> и посей их, чтобы собрать <b>колосья пшеницы.</b> Посади <b>семена кукурузы</b>, чтобы вырастить <b>початки кукурузы.</b> Используй <b>семена чили</b>, чтобы получить <b>перцы чили.</b> Посади <b>семена лука</b> или используй <b>лук</b>, чтобы вырастить больше <b>луковиц.</b> Используй <b>семена сои</b>, чтобы собрать <b>стручки сои.</b>",
+        "pl": "Znajdź <b>nasiona pszenicy</b> i posadź je, aby zebrać <b>kłosy pszenicy.</b> Posadź <b>nasiona kukurydzy</b>, aby wyrosły <b>kolby kukurydzy.</b> Użyj <b>nasion chili</b>, aby uzyskać <b>papryczki chili.</b> Posadź <b>nasiona cebuli</b> lub użyj <b>cebuli</b>, by mieć więcej <b>cebul.</b> Użyj <b>nasion soi</b>, by zebrać <b>strąki soi.</b>",
+        "it": "Trova <b>semi di grano</b> e piantali per raccogliere <b>spighe di grano.</b> Pianta <b>semi di mais</b> per ottenere <b>pannocchie di mais.</b> Usa <b>semi di peperoncino</b> per coltivare <b>peperoncini.</b> Pianta <b>semi di cipolla</b> o usa una <b>cipolla</b> per ottenere più <b>cipolle.</b> Usa <b>semi di soia</b> per raccogliere <b>baccelli di soia.</b>",
+        "es": "Encuentra <b>semillas de trigo</b> y plántalas para cosechar <b>espigas de trigo.</b> Planta <b>semillas de maíz</b> para obtener <b>mazorcas de maíz.</b> Usa <b>semillas de chile</b> para cultivar <b>chiles.</b> Planta <b>semillas de cebolla</b> o usa una <b>cebolla</b> para conseguir más <b>cebollas.</b> Usa <b>semillas de soja</b> para cosechar <b>vainas de soja.</b>",
+        "fr": "Trouvez des <b>graines de blé</b> et plantez-les pour récolter des <b>épis de blé.</b> Plantez des <b>graines de maïs</b> pour obtenir des <b>épis de maïs.</b> Utilisez des <b>graines de piment</b> pour cultiver des <b>piments.</b> Plantez des <b>graines d'oignon</b> ou utilisez un <b>oignon</b> pour obtenir plus <b>d'oignons.</b> Utilisez des <b>graines de soja</b> pour récolter des <b>gousses de soja.</b>",
+        "zh": "找到<b>小麥種子</b>並種下它們以收穫<b>麥穗。</b> 種下<b>玉米種子</b>可收穫<b>玉米棒。</b> 使用<b>辣椒種子</b>可種出<b>辣椒。</b> 種下<b>洋蔥種子</b>或使用<b>洋蔥</b>可獲得更多<b>洋蔥。</b> 使用<b>黃豆種子</b>可收穫<b>黃豆莢。</b>",
+        "ja": "<b>小麦の種</b>を植えて<b>小麦の穂</b>を収穫しましょう。</b> <b>トウモロコシの種</b>で<b>トウモロコシの穂</b>を育てます。</b> <b>チリの種</b>を使って<b>チリペッパー</b>を育てましょう。</b> <b>タマネギの種</b>を植えるか、<b>タマネギ</b>を使って<b>タマネギ</b>を増やします。</b> <b>ダイズの種</b>を使って<b>ダイズのさや</b>を収穫します。</b>",
+        "pt": "Encontre <b>sementes de trigo</b> e plante-as para colher <b>espigas de trigo.</b> Plante <b>sementes de milho</b> para obter <b>espigas de milho.</b> Use <b>sementes de pimenta</b> para cultivar <b>pimentas.</b> Plante <b>sementes de cebola</b> ou use uma <b>cebola</b> para mais <b>cebolas.</b> Use <b>sementes de soja</b> para colher <b>vagens de soja.</b>",
+        "zh-cn": "找到<b>小麦种子</b>并种下它们以收获<b>麦穗。</b> 种下<b>玉米种子</b>可获得<b>玉米棒。</b> 使用<b>辣椒种子</b>可以种出<b>辣椒。</b> 种下<b>洋葱种子</b>或使用<b>洋葱</b>可以获得更多<b>洋葱。</b> 使用<b>大豆种子</b>可以收获<b>大豆荚。</b>"
     },
-
+    "CookZPlants_CookingInstructions02": {
+        "en": "Craft a <b>mortar and pestle</b> from a <b>large stone</b> using a <b>hammer.</b> Use the <b>mortar and pestle</b> to grind <b>wheat ears</b> or <b>corn cobs</b> into <b>flour.</b> Mix <b>flour</b> with <b>water</b> to make <b>dough.</b> Use <b>dough</b> in recipes.",
+        "de": "Stelle einen <b>Mörser und Stößel</b> aus einem <b>großen Stein</b> mit einem <b>Hammer</b> her.</b> Verwende den <b>Mörser und Stößel</b>, um <b>Weizenähren</b> oder <b>Maiskolben</b> zu <b>Mehl</b> zu mahlen.</b> Mische <b>Mehl</b> mit <b>Wasser</b>, um <b>Teig</b> herzustellen.</b> Verwende <b>Teig</b> in Rezepten.</b>",
+        "cs": "Vyrob <b>hmoždíř a tlouk</b> z <b>velkého kamene</b> pomocí <b>kladiva.</b> Použij <b>hmoždíř a tlouk</b> k rozemletí <b>klasů pšenice</b> nebo <b>klasů kukuřice</b> na <b>mouku.</b> Smíchej <b>mouku</b> s <b>vodou</b>, abys vytvořil <b>těsto.</b> Použij <b>těsto</b> v receptech.",
+        "ru": "Создай <b>ступку и пестик</b> из <b>большого камня</b> с помощью <b>молота.</b> Используй <b>ступку и пестик</b>, чтобы перемолоть <b>колосья пшеницы</b> или <b>початки кукурузы</b> в <b>муку.</b> Смешай <b>муку</b> с <b>водой</b>, чтобы получить <b>тесто.</b> Используй <b>тесто</b> в рецептах.",
+        "pl": "Wykonaj <b>moździerz i tłuczek</b> z <b>dużego kamienia</b> za pomocą <b>młotka.</b> Użyj <b>moździerza i tłuczka</b>, aby zmielić <b>kłosy pszenicy</b> lub <b>kolby kukurydzy</b> na <b>mąkę.</b> Wymieszaj <b>mąkę</b> z <b>wodą</b>, aby uzyskać <b>ciasto.</b> Użyj <b>ciasta</b> w przepisach.",
+        "it": "Crea un <b>mortaio e pestello</b> da una <b>pietra grande</b> usando un <b>martello.</b> Usa il <b>mortaio e pestello</b> per macinare le <b>spighe di grano</b> o le <b>pannocchie di mais</b> in <b>farina.</b> Mescola <b>farina</b> e <b>acqua</b> per fare <b>impasto.</b> Usa <b>impasto</b> nelle ricette.",
+        "es": "Fabrica un <b>mortero y maja</b> con una <b>piedra grande</b> usando un <b>martillo.</b> Usa el <b>mortero y maja</b> para moler <b>espigas de trigo</b> o <b>mazorcas de maíz</b> en <b>harina.</b> Mezcla <b>harina</b> con <b>agua</b> para hacer <b>masa.</b> Usa <b>masa</b> en las recetas.",
+        "fr": "Fabriquez un <b>mortier et pilon</b> à partir d'une <b>grosse pierre</b> avec un <b>marteau.</b> Utilisez le <b>mortier et pilon</b> pour moudre les <b>épis de blé</b> ou les <b>épis de maïs</b> en <b>farine.</b> Mélangez <b>farine</b> avec <b>eau</b> pour faire une <b>pâte.</b> Utilisez la <b>pâte</b> dans les recettes.",
+        "zh": "用<b>大石頭</b>和<b>鐵鎚</b>製作<b>研缽和研杵。</b> 使用<b>研缽和研杵</b>將<b>麥穗</b>或<b>玉米棒</b>磨成<b>麵粉。</b> 將<b>麵粉</b>與<b>水</b>混合製成<b>麵團。</b> 將<b>麵團</b>用於食譜中。",
+        "ja": "<b>大きな石</b>と<b>ハンマー</b>で<b>乳鉢と乳棒</b>を作りましょう。</b> <b>乳鉢と乳棒</b>で<b>小麦の穂</b>または<b>トウモロコシの穂</b>を<b>小麦粉</b>に粉砕します。</b> <b>小麦粉</b>と<b>水</b>を混ぜて<b>生地</b>を作ります。</b> <b>生地</b>をレシピに使いましょう。</b>",
+        "pt": "Crie um <b>almofariz e pilão</b> com uma <b>pedra grande</b> usando um <b>martelo.</b> Use o <b>almofariz e pilão</b> para moer <b>espigas de trigo</b> ou <b>espigas de milho</b> em <b>farinha.</b> Misture <b>farinha</b> com <b>água</b> para fazer <b>massa.</b> Use a <b>massa</b> em receitas.",
+        "zh-cn": "用<b>大石头</b>和<b>锤子</b>制作<b>研钵和杵。</b> 使用<b>研钵和杵</b>将<b>麦穗</b>或<b>玉米棒</b>研磨成<b>面粉。</b> 将<b>面粉</b>与<b>水</b>混合成<b>面团。</b> 将<b>面团</b>用于食谱中。"
+    },
 
 
 
