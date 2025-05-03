@@ -48,4 +48,35 @@ class CfgVehicles
             toxicity=0;
         };
     };
+
+    class CookZPlants_SweetCornCan: SpaghettiCan
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SweetCornCan_DN";
+        descriptionShort="$STR_CookZPlants_SweetCornCan_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\dishes\canned\canned_sweet_corn_co.paa"
+        };
+    };
+    class CookZPlants_SweetCornCan_Opened: SpaghettiCan_Opened
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SweetCornCan_DN";
+        descriptionShort="$STR_CookZPlants_SweetCornCan_Opened_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\dishes\canned\canned_sweet_corn_co.paa"
+        };
+        varQuantityInit=600;
+        varQuantityMax=600;
+        class Nutrition
+        {
+            energy=200;
+            water=119.667;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+    };
 };

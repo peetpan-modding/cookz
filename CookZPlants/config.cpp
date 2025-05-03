@@ -617,6 +617,7 @@ class CfgVehicles
                 {
                     // selection / texture / material
                     visual_properties[]={0,0,0};
+                    // fullness / energy / water / nutritional index / toxicity / agents / digestibility / agents per digest
                     nutrition_properties[]={1,100,33,1,0};
                     cooking_properties[]={0,0};
                 };

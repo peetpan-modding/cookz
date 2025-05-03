@@ -862,6 +862,39 @@
     "CookZPlants_FagioliAllaBudCan_Opened_DS": {
         "en": "@CookZPlants_FagioliAllaBudCan_DS @&CookZPlants_EatUp"
     },
+    "CookZPlants_SweetCornCan_DN": {
+        "en": "Sweet Corn",
+        "de": "Zuckermais",
+        "cs": "Sladká kukuřice",
+        "ru": "Сахарная кукуруза",
+        "pl": "Kukurydza cukrowa",
+        "it": "Mais dolce",
+        "es": "Maíz dulce",
+        "fr": "Maïs doux",
+        "zh": "甜玉米",
+        "ja": "スイートコーン",
+        "pt": "Milho doce",
+        "zh-cn": "甜玉米"
+    },
+    "CookZPlants_SweetCornCan_DS": {
+        "en": "A can of tender sweet corn kernels, perfect as a snack or side dish with a naturally sweet flavor.",
+        "de": "Eine Dose zarter Zuckermaiskörner – perfekt als Snack oder Beilage mit natürlicher Süße.",
+        "cs": "Konzerva s jemnými zrny sladké kukuřice – ideální jako svačina nebo příloha s přirozeně sladkou chutí.",
+        "ru": "Консервы с нежными зёрнами сахарной кукурузы — отличная закуска или гарнир с натуральной сладостью.",
+        "pl": "Puszka delikatnej kukurydzy cukrowej – idealna jako przekąska lub dodatek o naturalnie słodkim smaku.",
+        "it": "Una lattina di teneri chicchi di mais dolce, perfetti come spuntino o contorno dal sapore naturalmente dolce.",
+        "es": "Una lata de tiernos granos de maíz dulce, perfecta como aperitivo o guarnición con un sabor naturalmente dulce.",
+        "fr": "Une boîte de grains tendres de maïs doux, parfaite en en-cas ou en accompagnement au goût naturellement sucré.",
+        "zh": "一罐嫩甜的玉米粒，可作零食或配菜，口感自然甘甜。",
+        "ja": "柔らかいスイートコーンの缶詰。自然な甘さで、スナックや付け合わせにぴったりです。",
+        "pt": "Uma lata de grãos tenros de milho doce, perfeita como lanche ou acompanhamento com sabor naturalmente doce.",
+        "zh-cn": "一罐嫩甜的玉米粒，可作零食或配菜，口感自然甘甜。"
+    },
+    "CookZPlants_SweetCornCan_Opened_DS": {
+        "en": "@CookZPlants_SweetCornCan_DS @&CookZPlants_EatUp"
+    },
+
+
 
 
     "CookZPlants_Tofu_Sausage_DN": {

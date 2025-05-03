@@ -42,6 +42,19 @@ class CookZ_Recipes
         };
     };
 
+    class CookZPlants_SweetCornCan
+    {
+        allowPot = true;
+        allowCauldron = true;
+        needsEmptyCan = true;
+        needsWater = true;
+        canBeOpened = true;
+        numDishes = 1;
+        ingredients[] = {
+            "CookZPlants_Corn,4"
+        };
+    };
+
     // --- Sausages ---
 
     class CookZPlants_Tofu_Sausage
