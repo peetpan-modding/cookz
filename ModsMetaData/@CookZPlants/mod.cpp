@@ -1,7 +1,7 @@
 name = "CookZPlants";
-picture = "CookZPlants\data\cookZLogo.edds"; // picture in expanded description
-logoSmall = "CookZPlants\data\cookZLogo.edds"; // icon next to mod name when description is not expanded
-logo = "CookZPlants\data\cookZLogo.edds"; // logo below game menu
+picture = "CookZPlants\data\cookZPlantsLogo.edds"; // picture in expanded description
+logoSmall = "CookZPlants\data\cookZPlantsLogo.edds"; // icon next to mod name when description is not expanded
+logo = "CookZPlants\data\cookZPlantsLogo.edds"; // logo below game menu
 logoOver = "Cook the mouse over!"; // on mouse hover over logo
 tooltip = "Cook it!"; // tool tip on mouse hover
 overview = "Provides some plants and recipes for pan and pot."; // overview
