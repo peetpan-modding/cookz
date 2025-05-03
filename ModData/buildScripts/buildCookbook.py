@@ -118,8 +118,8 @@ def parse_recipe_file(file_content):
     file_content = re.sub(r'//[^\n]*', '', file_content)
     logging.debug("Removed comments from the content.")
 
-    # regex pattern to match the structure
-    pattern = r'    class ([\w]+)\s*{([^}]+)}\s*;'
+    # Improved regex pattern to match the structure
+    pattern = r'        class ([\w]+)\s*{([^}]+)}\s*;'
 
     matches = re.findall(pattern, file_content, re.DOTALL)
     logging.debug(f"Found {len(matches)} recipe classes.")
