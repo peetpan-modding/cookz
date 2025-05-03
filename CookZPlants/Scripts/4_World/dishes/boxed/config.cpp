@@ -49,4 +49,36 @@ class CfgVehicles
             toxicity=0;
         };
     };
+
+    class CookZPlants_CornDogBox: CookZ_Box_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CornDogBox_DN";
+        descriptionShort="$STR_CookZPlants_CornDogBox_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\dishes\boxed\box_corn_dog_co.paa"
+        };
+    };
+    class CookZPlants_CornDogBox_Opened: CookZ_BoxOpened_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CornDogBox_DN";
+        descriptionShort="$STR_CookZPlants_CornDogBox_Opened_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\dishes\boxed\box_corn_dog_co.paa",
+            "CookZPlants\data\dishes\boxed\box_food_corn_dog_co.paa"
+        };
+        varQuantityInit=1020;
+        varQuantityMax=1020;
+        class Nutrition
+        {
+            energy=287.745;
+            water=111.275;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+    };
 };

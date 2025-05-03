@@ -829,6 +829,39 @@
     "CookZPlants_PierogiBox_Opened_DS": {
         "en": "@CookZPlants_PierogiBox_DS @&CookZPlants_EatUp"
     },
+    "CookZPlants_CornDogBox_DN": {
+        "en": "Corn Dogs",
+        "de": "Corn Dogs",
+        "cs": "Corn Dogy",
+        "ru": "Корн-доги",
+        "pl": "Corn Dogi",
+        "it": "Corn Dogs",
+        "es": "Corn Dogs",
+        "fr": "Corn Dogs",
+        "zh": "玉米热狗",
+        "ja": "コーンドッグ",
+        "pt": "Corn Dogs",
+        "zh-cn": "玉米热狗"
+    },
+    "CookZPlants_CornDogBox_DS": {
+        "en": "Corn Dogs are a no-fuss classic: a juicy hot dog wrapped in golden batter, fried to crisp perfection. Easy to eat, hard to stop at one—and yes, food on a stick still holds up.",
+        "de": "Corn Dogs sind ein unkomplizierter Klassiker: ein saftiges Würstchen in goldbraunem Teig, knusprig frittiert. Einfach zu essen, schwer bei einem aufzuhören – und ja, Essen am Stiel funktioniert immer noch.",
+        "cs": "Corn Dogy jsou klasika bez zbytečností: šťavnatý párek v obalu ze zlatavého těsta, smažený do křupava. Snadné na jídlo, těžké přestat u jednoho – a jídlo na špejli prostě funguje.",
+        "ru": "Корн-доги — это классика без лишних заморочек: сочная сосиска в хрустящей золотистой оболочке. Есть легко, остановиться сложно — и да, еда на палочке всё ещё в моде.",
+        "pl": "Corn Dogi to klasyka bez udziwnień: soczysta parówka w złocistej panierce, usmażona na chrupiąco. Łatwe do zjedzenia, trudne do odstawienia – jedzenie na patyku wciąż daje radę.",
+        "it": "I Corn Dogs sono un classico semplice: un hot dog succoso avvolto in una pastella dorata e fritto fino a diventare croccante. Facili da mangiare, impossibili da smettere – e sì, lo stecco funziona ancora.",
+        "es": "Los Corn Dogs son un clásico sin complicaciones: una salchicha jugosa envuelta en masa dorada y frita hasta quedar crujiente. Fáciles de comer, difíciles de dejar – y sí, lo de la comida en palo sigue funcionando.",
+        "fr": "Les Corn Dogs sont un classique sans prise de tête : une saucisse juteuse enrobée d’une pâte dorée et frite à la perfection. Faciles à manger, difficiles à arrêter – et oui, la nourriture sur un bâton, ça marche encore.",
+        "zh": "玉米热狗是毫不费事的经典美食：多汁香肠裹上金黄面糊，炸得酥脆可口。吃起来轻松，停不下来——是的，插根棍子确实还挺有用。",
+        "ja": "コーンドッグは手軽な定番：ジューシーなソーセージを黄金色の衣で包み、カリッと揚げた一品。食べやすくて止まらない—棒付きフード、まだまだ健在。",
+        "pt": "Corn Dogs são um clássico sem complicação: um cachorro-quente suculento envolto em massa dourada e frito até ficar crocante. Fácil de comer, difícil de parar — e sim, comida no palito ainda funciona.",
+        "zh-cn": "玉米热狗是毫不费事的经典美食：多汁香肠裹上金黄面糊，炸得酥脆可口。吃起来轻松，停不下来——是的，插根棍子确实还挺有用。"
+    },
+    "CookZPlants_CornDogBox_Opened_DS": {
+        "en": "@CookZPlants_CornDogBox_DS @&CookZPlants_EatUp"
+    },
+
+
 
 
     "CookZPlants_FagioliAllaBudCan_DN": {

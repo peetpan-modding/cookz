@@ -25,6 +25,19 @@ class CookZ_Recipes
         };
     };
 
+    class CookZPlants_CornDogBox
+    {
+        allowPan = true;
+        needsEmptyBox = true;
+        canBeOpened = true;
+        numDishes = 1;
+        ingredients[] = {
+            "CookZPlants_CornDough,2",
+            "Lard,1",
+            "AnySausage,1"
+        };
+    };
+
     // --- Canned Food ---
 
     class CookZPlants_FagioliAllaBudCan

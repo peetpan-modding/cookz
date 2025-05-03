@@ -57,6 +57,7 @@ ingredient_translation_map = {
     "CookZPlants_Onion": "#STR_CookZPlants_Onion_DN",
     "CookZPlants_Tofu": "#STR_CookZPlants_Tofu_DN",
     "CookZPlants_Corn": "#STR_CookZPlants_Corn_DN",
+    "CookZPlants_CornDough": "#STR_CookZPlants_CornDough_DN",
 }
 
 translation_map = {
