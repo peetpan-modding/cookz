@@ -11,7 +11,25 @@ class CookZPlants_OnionSeeds : SeedBase {};
 class CookZPlants_OnionSeed : SeedBase {};
 class CookZPlants_SoyBeanSeeds : SeedBase {};
 
-class CookZPlants_PlantWheat : PlantBase
+modded class PlantBase
+{
+    // needs to be directly in PlantBase as m_InfestationChance is private
+    void CookZPlants_DisableInfection()
+    {
+         m_InfestationChance = 0;
+    }
+};
+
+class CookZPlants_PlantBase : PlantBase
+{
+    override void Init(GardenBase garden_base, float fertility, float harvesting_efficiency, float water)
+    {
+        CookZPlants_DisableInfection(); // set before super call because already used in Init
+        super.Init(garden_base, fertility, harvesting_efficiency, water);
+    }
+};
+
+class CookZPlants_PlantWheat : CookZPlants_PlantBase
 {
     void CookZPlants_PlantWheat()
     {
@@ -19,7 +37,7 @@ class CookZPlants_PlantWheat : PlantBase
     }
 };
 
-class CookZPlants_PlantChili : PlantBase
+class CookZPlants_PlantChili : CookZPlants_PlantBase
 {
     void CookZPlants_PlantChili()
     {
@@ -27,7 +45,7 @@ class CookZPlants_PlantChili : PlantBase
     }
 };
 
-class CookZPlants_PlantCorn : PlantBase
+class CookZPlants_PlantCorn : CookZPlants_PlantBase
 {
     void CookZPlants_PlantCorn()
     {
@@ -35,7 +53,7 @@ class CookZPlants_PlantCorn : PlantBase
     }
 };
 
-class CookZPlants_PlantOnion : PlantBase
+class CookZPlants_PlantOnion : CookZPlants_PlantBase
 {
     void CookZPlants_PlantOnion()
     {
@@ -43,7 +61,7 @@ class CookZPlants_PlantOnion : PlantBase
     }
 };
 
-class CookZPlants_PlantSoyBean : PlantBase
+class CookZPlants_PlantSoyBean : CookZPlants_PlantBase
 {
     void CookZPlants_PlantSoyBean()
     {
