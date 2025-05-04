@@ -1,5 +1,5 @@
 A couple of parameters can be configured via a server config file. This file is generated with
-default values at "$missionFolder\CookZ\CookZ.json" the first time you start the server with the
+default values at "$missionFolder\CookZ\CookZ_VXXX.json" the first time you start the server with the
 mod installed. After modifying the configuration, you need to restart the server.
 
 (!) If the mod is updated and new configuration is added, then a file with an incremented version suffix is created,

@@ -24,7 +24,10 @@ class CookZPlants_PlantBase : PlantBase
 {
     override void Init(GardenBase garden_base, float fertility, float harvesting_efficiency, float water)
     {
-        CookZPlants_DisableInfection(); // set before super call because already used in Init
+        if (GetDayZGame().GetCookZPlants_Config().DisablePlantInfection)
+        {
+            CookZPlants_DisableInfection(); // set before super call because already used in Init
+        }
         super.Init(garden_base, fertility, harvesting_efficiency, water);
     }
 };
@@ -33,7 +36,7 @@ class CookZPlants_PlantWheat : CookZPlants_PlantBase
 {
     void CookZPlants_PlantWheat()
     {
-        m_FullMaturityTime = 1350;
+        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeWheat);
     }
 };
 
@@ -41,7 +44,7 @@ class CookZPlants_PlantChili : CookZPlants_PlantBase
 {
     void CookZPlants_PlantChili()
     {
-        m_FullMaturityTime = 1350;
+        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeChili);
     }
 };
 
@@ -49,7 +52,7 @@ class CookZPlants_PlantCorn : CookZPlants_PlantBase
 {
     void CookZPlants_PlantCorn()
     {
-        m_FullMaturityTime = 1350;
+        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeCorn);
     }
 };
 
@@ -57,7 +60,7 @@ class CookZPlants_PlantOnion : CookZPlants_PlantBase
 {
     void CookZPlants_PlantOnion()
     {
-        m_FullMaturityTime = 1350;
+        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeOnion);
     }
 };
 
@@ -65,6 +68,6 @@ class CookZPlants_PlantSoyBean : CookZPlants_PlantBase
 {
     void CookZPlants_PlantSoyBean()
     {
-        m_FullMaturityTime = 1350;
+        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeSoybean);
     }
 };
