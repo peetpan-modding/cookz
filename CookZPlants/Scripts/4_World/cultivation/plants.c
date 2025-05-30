@@ -36,7 +36,15 @@ class CookZPlants_PlantWheat : CookZPlants_PlantBase
 {
     void CookZPlants_PlantWheat()
     {
-        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeWheat);
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeWheat);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
     }
 };
 
@@ -44,7 +52,15 @@ class CookZPlants_PlantChili : CookZPlants_PlantBase
 {
     void CookZPlants_PlantChili()
     {
-        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeChili);
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeChili);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
     }
 };
 
@@ -52,7 +68,15 @@ class CookZPlants_PlantCorn : CookZPlants_PlantBase
 {
     void CookZPlants_PlantCorn()
     {
-        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeCorn);
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeCorn);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
     }
 };
 
@@ -60,7 +84,15 @@ class CookZPlants_PlantOnion : CookZPlants_PlantBase
 {
     void CookZPlants_PlantOnion()
     {
-        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeOnion);
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeOnion);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
     }
 };
 
@@ -68,6 +100,14 @@ class CookZPlants_PlantSoyBean : CookZPlants_PlantBase
 {
     void CookZPlants_PlantSoyBean()
     {
-        m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeSoybean);
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeSoybean);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
     }
 };

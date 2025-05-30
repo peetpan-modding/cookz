@@ -15,19 +15,20 @@ Boolean values are set by 1 for true and by 0 for false.
     // Note: DayZ adds a random number between -60 and 180 per plant.
     // Note: The minimum is capped at 100 to prevent strange effects with values that are too low.
     "FullMaturityTimeWheat": 1350,
-    
+
     // see FullMaturityTimeWheat for chili
     "FullMaturityTimeChili": 1350,
-    
+
     // see FullMaturityTimeWheat for corn
     "FullMaturityTimeCorn": 1350,
-    
+
     // see FullMaturityTimeWheat for onion
     "FullMaturityTimeOnion": 1350,
-    
+
     // see FullMaturityTimeWheat for soybean
     "FullMaturityTimeSoybean": 1350,
 
     // is plant infection disabled
+    // Note: Affects only plants from this mod.
     "DisablePlantInfection": 1
 }
