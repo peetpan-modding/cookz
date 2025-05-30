@@ -131,6 +131,8 @@ class CfgVehicles
         varQuantityInit=20;
         varQuantityMin=0;
         varQuantityMax=20;
+        model="CookZPlants\data\plants\seeds\cookz_seeds.p3d";
+        hiddenSelections[]={"seeds"};
     };
 
     class CookZPlants_Seed_Base: SeedBase
@@ -263,7 +265,7 @@ class CfgVehicles
         scope=2;
         displayName="$STR_CookZPlants_WheatSeeds_DN";
         descriptionShort="$STR_CookZPlants_WheatSeeds_DS";
-        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_wheat_co.paa"};
         class Horticulture
         {
             PlantType="CookZPlants_PlantWheat";
@@ -425,7 +427,7 @@ class CfgVehicles
         scope=2;
         displayName="$STR_CookZPlants_ChiliSeeds_DN";
         descriptionShort="$STR_CookZPlants_ChiliSeeds_DS";
-        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_chili_co.paa"};
         class Horticulture
         {
             PlantType="CookZPlants_PlantChili";
@@ -550,7 +552,7 @@ class CfgVehicles
         scope=2;
         displayName="$STR_CookZPlants_CornSeeds_DN";
         descriptionShort="$STR_CookZPlants_CornSeeds_DS";
-        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_corn_co.paa"};
         class Horticulture
         {
             PlantType="CookZPlants_PlantCorn";
@@ -725,7 +727,7 @@ class CfgVehicles
         scope=2;
         displayName="$STR_CookZPlants_OnionSeeds_DN";
         descriptionShort="$STR_CookZPlants_OnionSeeds_DS";
-        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_onion_co.paa"};
         class Horticulture
         {
             PlantType="CookZPlants_PlantOnion";
@@ -871,7 +873,7 @@ class CfgVehicles
         scope=2;
         displayName="$STR_CookZPlants_SoyBeanSeeds_DN";
         descriptionShort="$STR_CookZPlants_SoyBeanSeeds_DS";
-        model="\dz\gear\cultivation\tomato_seeds.p3d";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_soybean_co.paa"};
         class Horticulture
         {
             PlantType="CookZPlants_PlantSoyBean";
