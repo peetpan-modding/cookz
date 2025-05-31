@@ -1,8 +1,9 @@
 import re
 import logging
 import sys
+import os
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, stream=sys.stdout, format='%(asctime)s - %(levelname)s - %(message)s')
 
 ingredient_translation_map = {
     "Potato": "#STR_Potato0",
@@ -186,9 +187,20 @@ def generate_html_by_body_content(body_content):
 
 
 def write_html_file(output_path, content):
-    """Write the HTML content to a file."""
-    with open(output_path, "w", encoding="utf-8") as file:
-        file.write(content)
+    """Write the HTML content to a file only if it has changed."""
+    try:
+        existing = ""
+        if os.path.exists(output_path):
+            with open(output_path, "r", encoding="utf-8") as f:
+                existing = f.read()
+        if existing != content:
+            with open(output_path, "w", encoding="utf-8") as f:
+                f.write(content)
+            logging.debug(f"Wrote updated file: {output_path}")
+        else:
+            logging.debug(f"Skipped unchanged file: {output_path}")
+    except Exception as e:
+        logging.error(f"Failed to write file: {output_path}", exc_info=True)
 
 
 def process_recipes(recipes, filter_func, output_path, title, extra = ""):
