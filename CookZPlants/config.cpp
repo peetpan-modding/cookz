@@ -49,7 +49,7 @@ class CfgVehicles
     class Inventory_Base;
     class SeedBase;
     class PlantBase;
-    class GreenBellPepper;
+    class FoodAnimationSources;
 
     class CookZ_Cookbook_Item: Inventory_Base
     {
@@ -62,6 +62,81 @@ class CfgVehicles
     };
 
     // bases
+
+    class CookZPlants_FoodStageable_Base: Edible_Base
+    {
+        scope=0;
+        debug_ItemCategory=6;
+        rotationFlags=12;
+        weight=0;
+        stackedUnit="g";
+        varQuantityInit=150;
+        varQuantityMin=0;
+        varQuantityMax=150;
+        quantityBar=1;
+        varTemperatureFreezeTime=2376;
+        varTemperatureThawTime=2376;
+        varTemperatureMax=110;
+        temperaturePerQuantityWeight=1;
+        inventorySlot[]={ "Ingredient", "DirectCookingA", "DirectCookingB", "DirectCookingC", "SmokingA", "SmokingB", "SmokingC", "SmokingD", "Trap_Bait", "Trap_Bait_2" };
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=10;
+                    healthLevels[]={{1, {}}, {0.69999999, {}}, {0.5, {}}, {0.30000001, {}}, {0, {}}};
+                };
+            };
+        };
+        class Trapping
+        {
+            baitTypes[]={3};
+            baitTypeChances[]={0.69999999};
+            resultQuantityBaseMod=0;
+            resultQuantityDispersionMin=0;
+            resultQuantityDispersionMax=0;
+        };
+        class AnimationSources: FoodAnimationSources {};
+        soundImpactType="organic";
+        class AnimEvents
+        {
+            class SoundWeapon
+            {
+                class openTunaCan
+                { 
+                    soundSet="openTunaCan_SoundSet";
+                    id=204;
+                };
+                class pickUpItem
+                {
+                    soundSet="Zucchini_pickup_SoundSet";
+                    id=797;
+                };
+                class Eating_TakeFood
+                {
+                    soundSet="Eating_TakeFood_Soundset";
+                    id=889;
+                };
+                class Eating_BoxOpen
+                {
+                    soundSet="Eating_BoxOpen_Soundset";
+                    id=893;
+                };
+                class Eating_BoxShake
+                {
+                    soundSet="Eating_BoxShake_Soundset";
+                    id=894;
+                };
+                class Eating_BoxEnd
+                {
+                    soundSet="Eating_BoxEnd_Soundset";
+                    id=895;
+                };
+            };
+        };
+    };
 
     class CookZPlants_SeedsPack_Base: Inventory_Base
     {
@@ -459,7 +534,7 @@ class CfgVehicles
         };
     };
 
-    class CookZPlants_Chili: GreenBellPepper
+    class CookZPlants_Chili: CookZPlants_FoodStageable_Base
     {
         scope=2;
         displayName="$STR_CookZPlants_Chili_DN";
@@ -467,6 +542,7 @@ class CfgVehicles
         containsSeedsType="Cultivation_CookZPlants_ChiliSeeds"; // unused?
         containsSeedsQuantity="10"; // unused?
         model="CookZPlants\data\plants\chili\cookz_chili.p3d";
+        itemSize[]={1,2};
         hiddenSelections[]= { "cs_raw" };
         hiddenSelectionsTextures[]=
         {
@@ -485,6 +561,29 @@ class CfgVehicles
             "CookZPlants\data\plants\chili\cookz_chili_dried.rvmat",
             "CookZPlants\data\plants\chili\cookz_chili_burned.rvmat",
             "CookZPlants\data\plants\chili\cookz_chili_rotten.rvmat"
+        };
+        class InventorySlotsOffsets
+        {
+            class Ingredient
+            {
+                position[]={0.01,0.0,0.075};
+                orientation[]={0,90,0};
+            };
+            class DirectCookingA
+            {
+                position[]={0.01,0.0,0.0};
+                orientation[]={110,0,90};
+            };
+            class DirectCookingB
+            {
+                position[]={0.01,0.0,0.0};
+                orientation[]={110,0,90};
+            };
+            class DirectCookingC
+            {
+                position[]={0.01,0.0,0.0};
+                orientation[]={110,0,90};
+            };
         };
         class Food
         {
@@ -584,7 +683,7 @@ class CfgVehicles
         };
     };
 
-    class CookZPlants_Corn: GreenBellPepper
+    class CookZPlants_Corn: CookZPlants_FoodStageable_Base
     {
         scope=2;
         displayName="$STR_CookZPlants_Corn_DN";
@@ -592,6 +691,7 @@ class CfgVehicles
         containsSeedsType="Cultivation_CookZPlants_CornSeeds"; // unused?
         containsSeedsQuantity="10"; // unused?
         model="CookZPlants\data\plants\corn\cookz_corn.p3d";
+        itemSize[]={1,2};
         hiddenSelections[]= { "cs_raw" };
         hiddenSelectionsTextures[]=
         {
@@ -610,6 +710,29 @@ class CfgVehicles
             "CookZPlants\data\plants\corn\cookz_corn_dried.rvmat",
             "CookZPlants\data\plants\corn\cookz_corn_burned.rvmat",
             "CookZPlants\data\plants\corn\cookz_corn_rotten.rvmat"
+        };
+        class InventorySlotsOffsets
+        {
+            class Ingredient
+            {
+                position[]={0.0,0.0,0.0};
+                orientation[]={0,90,0};
+            };
+            class DirectCookingA
+            {
+                position[]={0.0,0.0,0.0};
+                orientation[]={0,90,0};
+            };
+            class DirectCookingB
+            {
+                position[]={0.0,0.0,0.0};
+                orientation[]={0,90,0};
+            };
+            class DirectCookingC
+            {
+                position[]={0.0,0.0,0.0};
+                orientation[]={0,90,0};
+            };
         };
         class Food
         {
@@ -781,7 +904,7 @@ class CfgVehicles
         };
     };
 
-    class CookZPlants_Onion: GreenBellPepper
+    class CookZPlants_Onion: CookZPlants_FoodStageable_Base
     {
         scope=2;
         displayName="$STR_CookZPlants_Onion_DN";
@@ -806,6 +929,29 @@ class CfgVehicles
             "CookZPlants\data\plants\onion\cookz_onion_dried.rvmat",
             "CookZPlants\data\plants\onion\cookz_onion_burned.rvmat",
             "CookZPlants\data\plants\onion\cookz_onion_rotten.rvmat"
+        };
+        class InventorySlotsOffsets
+        {
+            class Ingredient
+            {
+                position[]={0.0,-0.05,0.01};
+                orientation[]={0,0,0};
+            };
+            class DirectCookingA
+            {
+                position[]={0.0,-0.01,0.0};
+                orientation[]={0,0,0};
+            };
+            class DirectCookingB
+            {
+                position[]={0.0,-0.01,0.0};
+                orientation[]={0,0,0};
+            };
+            class DirectCookingC
+            {
+                position[]={0.0,-0.01,0.0};
+                orientation[]={0,0,0};
+            };
         };
         class Food
         {
@@ -937,7 +1083,7 @@ class CfgVehicles
         };
     };
 
-    class CookZPlants_Tofu: GreenBellPepper
+    class CookZPlants_Tofu: CookZPlants_FoodStageable_Base
     {
         scope=2;
         displayName="$STR_CookZPlants_Tofu_DN";
@@ -946,8 +1092,8 @@ class CfgVehicles
         itemSize[]={2,1};
         hiddenSelections[]= { "cs_raw" };
         varQuantityInit=600;
-		varQuantityMin=0;
-		varQuantityMax=600;
+        varQuantityMin=0;
+        varQuantityMax=600;
         hiddenSelectionsTextures[]=
         {
             "CookZPlants\data\ingredients\cookz_tofu_co.paa",
@@ -965,6 +1111,29 @@ class CfgVehicles
             "CookZPlants\data\ingredients\cookz_tofu_dried.rvmat",
             "CookZPlants\data\ingredients\cookz_tofu_burned.rvmat",
             "CookZPlants\data\ingredients\cookz_tofu_rotten.rvmat"
+        };
+        class InventorySlotsOffsets
+        {
+            class Ingredient
+            {
+                position[]={0.0,0.0,-0.03};
+                orientation[]={90,0,-90};
+            };
+            class DirectCookingA
+            {
+                position[]={0.0,0.035,-0.03};
+                orientation[]={90,0,-90};
+            };
+            class DirectCookingB
+            {
+                position[]={0.0,0.035,-0.03};
+                orientation[]={90,0,-90};
+            };
+            class DirectCookingC
+            {
+                position[]={0.0,0.035,-0.03};
+                orientation[]={90,0,-90};
+            };
         };
         class Food
         {
