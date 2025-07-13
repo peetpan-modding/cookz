@@ -378,7 +378,7 @@ class CookZ_Cookbook
         return false;
     }
 
-    private map<string, ref CookZ_IngredientInEquipment> GetIngredientsInEquipment(CargoBase cargo)
+    map<string, ref CookZ_IngredientInEquipment> GetIngredientsInEquipment(CargoBase cargo)
     {
         map<string, ref CookZ_IngredientInEquipment> ingredientsInEquipment = new map<string, ref CookZ_IngredientInEquipment>();
 
