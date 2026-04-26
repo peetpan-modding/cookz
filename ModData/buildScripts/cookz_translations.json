@@ -83,6 +83,34 @@
         "pt": "Caixas vazias",
         "zh-cn": "空盒"
     },
+    "CookZ_Peeler_DN": {
+        "en": "Peeler",
+        "de": "Sparschäler",
+        "cs": "Škrabka",
+        "ru": "Овощечистка",
+        "pl": "Obieraczka",
+        "it": "Pelapatate",
+        "es": "Pelador",
+        "fr": "Éplucheur",
+        "zh": "削皮器",
+        "ja": "ピーラー",
+        "pt": "Descascador",
+        "zh-cn": "削皮器"
+    },
+    "CookZ_Peeler_DS": {
+        "en": "Not impressive, not versatile - just made for exactly what it’s supposed to do.",
+        "de": "Nicht beeindruckend, nicht vielseitig - aber genau dafür gemacht, was er soll.",
+        "cs": "Není působivá ani všestranná - ale přesně k tomu, k čemu je určena.",
+        "ru": "Не впечатляет и не универсальна - но создана именно для того, что должна делать.",
+        "pl": "Nie imponuje ani nie jest wszechstronna - ale dokładnie do tego została stworzona.",
+        "it": "Non è impressionante né versatile, ma è fatta esattamente per ciò che deve fare.",
+        "es": "No es impresionante ni versátil, pero está hecho exactamente para lo que debe hacer.",
+        "fr": "Pas impressionnant ni polyvalent, mais conçu exactement pour ce qu’il doit faire.",
+        "zh": "不出众，也不多用途，但正是为其用途而设计。",
+        "ja": "特別優れているわけでも多用途でもないが、その役割のために作られている。",
+        "pt": "Não é impressionante nem versátil, mas foi feito exatamente para aquilo a que se destina.",
+        "zh-cn": "不出众，也不多用途，但正是为其用途而设计。"
+    },
 
 
 

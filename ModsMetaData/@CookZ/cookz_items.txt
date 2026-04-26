@@ -1,5 +1,6 @@
 CookZ_EmptyCan
 CookZ_EmptyBox
+CookZ_Peeler
 CookZ_Cookbook_Item
 CookZ_FriedPotatoesBox
 CookZ_FriedPotatoesBox_Opened

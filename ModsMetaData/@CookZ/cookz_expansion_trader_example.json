@@ -29,6 +29,17 @@
             "Variants": []
         },
         {
+            "ClassName": "CookZ_Peeler",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 10,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "CookZ_Cookbook_Item",
             "MaxPriceThreshold": 20,
             "MinPriceThreshold": 10,
