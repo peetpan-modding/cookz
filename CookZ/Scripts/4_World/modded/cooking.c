@@ -106,8 +106,16 @@ modded class Cooking
             if (1.0 - Math.RandomFloat(0, 1) <= chanceToRemoveHeavyMetalAgent) agents &= ~eAgents.HEAVYMETAL;
             if (1.0 - Math.RandomFloat(0, 1) <= chanceToRemoveSalmonellaAgent) agents &= ~eAgents.SALMONELLA;
             
-            // remove ALL liquid for now so that spawned items will not get wet
-            cooking_equipment.AddQuantity(-cooking_equipment.GetQuantity());
+            if (GetDayZGame().GetCookZ_Config().KeepLeftoverWater)
+            {
+                // remove COOKZ_WATER_QUANTITY_FOR_DISHES liquid
+                 cooking_equipment.AddQuantity(-COOKZ_WATER_QUANTITY_FOR_DISHES);
+            }
+            else
+            {
+                // remove ALL liquid
+                cooking_equipment.AddQuantity(-cooking_equipment.GetQuantity());
+            }
 
             // get config temperature of created dish
             int dishTemp = Math.Clamp(GetDayZGame().GetCookZ_Config().TemperaturOfCreatedDish, 0.0, 100.0);

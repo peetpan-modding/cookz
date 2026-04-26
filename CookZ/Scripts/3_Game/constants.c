@@ -9,3 +9,5 @@ static int COOKZ_COOKBOOK_MENU = 5342723;
 static string COOKZ_CONFIG_FILE_NAME = "CookZ_V002.json";
 // root folder for config files
 static string COOKZ_CONFIG_ROOT = "$mission:\\CookZ\\";
+
+static int COOKZ_WATER_QUANTITY_FOR_DISHES = 500;

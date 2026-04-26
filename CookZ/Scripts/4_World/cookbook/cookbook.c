@@ -329,7 +329,7 @@ class CookZ_Cookbook
         }
 
         // check water
-        if (recipe.needsWater && water < 500)
+        if (recipe.needsWater && water < COOKZ_WATER_QUANTITY_FOR_DISHES)
         {
             return false;
         }

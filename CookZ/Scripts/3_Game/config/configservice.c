@@ -13,6 +13,7 @@ class CookZ_Config
     bool EnableSausageDecay;
     bool EnableBoxAndCanDecay;
     bool InstantCook;
+    bool KeepLeftoverWater;
     ref TStringArray DisableRecipes;
 };
 
@@ -67,6 +68,7 @@ class CookZ_ConfigService
         config.EnableSausageDecay = false;
         config.EnableBoxAndCanDecay = true;
         config.InstantCook = false;
+        config.KeepLeftoverWater = false;
         config.DisableRecipes = {};
     }
 };
