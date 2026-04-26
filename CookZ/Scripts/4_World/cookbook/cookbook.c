@@ -213,6 +213,10 @@ class CookZ_Cookbook
         {
             string recipeName;
             GetGame().ConfigGetChildName(recipesPath, i, recipeName);
+            if (GetDayZGame().GetCookZ_Config().DisableRecipes.Find(recipeName) != -1)
+            {
+                continue;
+            }
 
             string allowPot = "";
             string allowCauldron = "";

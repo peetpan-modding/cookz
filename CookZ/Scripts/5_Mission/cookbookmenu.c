@@ -65,6 +65,7 @@ class CookbookMenu extends UIScriptedMenu
         {
             string chapterContent = "";
             LoadFile(chapters[i], chapterContent);
+            chapterContent = FilterEntries(chapterContent, GetDayZGame().GetCookZ_Config().DisableRecipes);
             m_content.Insert(chapterContent);
 
             m_content_left.SetText(m_content[i]);
@@ -98,6 +99,64 @@ class CookbookMenu extends UIScriptedMenu
         m_author.SetText( book.ConfigGetString("author") );
         m_title.SetText( book.ConfigGetString("title") );
     }
+
+    // Remove recipes from cook book.
+    string FilterEntries(string input, TStringArray keys)
+    {
+        if (!keys || keys.Count() == 0)
+            return input;
+
+        string result = "";
+        int pos = 0;
+
+        while (true)
+        {
+            int start = input.IndexOfFrom(pos, "<recipe");
+            if (start == -1)
+            {
+                // no more recipes, append rest of document
+                result += input.Substring(pos, input.Length() - pos);
+                break;
+            }
+
+            // copy everything before next recipe block
+            result += input.Substring(pos, start - pos);
+
+            int end = input.IndexOfFrom(start, "</recipe>");
+            if (end == -1)
+            {
+                // malformed html: no closing tag, append rest safely
+                result += input.Substring(start, input.Length() - start);
+                break;
+            }
+            end += 9; // "</recipe>".Length()
+
+            // full <recipe>...</recipe> block
+            string block = input.Substring(start, end - start);
+
+            bool remove = false;
+
+            // check if this recipe id matches any filter key
+            foreach (string key : keys)
+            {
+                if (block.Contains("id=\"" + key + "\""))
+                {
+                    remove = true;
+                    break;
+                }
+            }
+
+            // keep only if not filtered out
+            if (!remove)
+            {
+                result += block;
+            }
+
+            pos = end;
+        }
+
+        return result;
+    }   
 
     bool LoadFile(string file, out string content)
     {

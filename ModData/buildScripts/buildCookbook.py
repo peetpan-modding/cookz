@@ -108,7 +108,7 @@ class Recipe:
             tools.append("#STR_CfgVehicles_FryingPan0")
         use_equipment = f"#STR_CookZ_UseA {" #STR_CookZ_Or ".join(tools)}{" #STR_CookZ_WithWater" if self.needs_water else ""}."
 
-        return f"<p><b>#{translation_map.get(self.name, f"STR_{self.name}_DN")}:</b> {ingredient_string}. {use_equipment}{" #STR_CookZ_UseEmptyCan" if self.needs_empty_can else " #STR_CookZ_UseEmptyBox" if self.needs_empty_box else ""}</p>"
+        return f"<recipe id=\"{self.name}\"><p><b>#{translation_map.get(self.name, f"STR_{self.name}_DN")}:</b> {ingredient_string}. {use_equipment}{" #STR_CookZ_UseEmptyCan" if self.needs_empty_can else " #STR_CookZ_UseEmptyBox" if self.needs_empty_box else ""}</p></recipe>"
 
 # Function to parse the content into models
 def parse_recipe_file(file_content):
