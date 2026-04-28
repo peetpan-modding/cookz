@@ -89,6 +89,24 @@ class CookZ_Cookbook
     static const string COOKING_INGREDIENT_BLOOD_BAG_FULL            = "BloodBagFull";
     static const string COOKING_INGREDIENT_BLOOD_BAG_IV              = "BloodBagIV";
 
+    static const string COOKING_INGREDIENT_PAJKA                     = "Pajka_Opened";
+    static const string COOKING_INGREDIENT_PATE                      = "Pate_Opened";
+    static const string COOKING_INGREDIENT_BRISKET_SPREAD            = "BrisketSpread_Opened";
+    
+    static const string COOKING_INGREDIENT_DOG_FOOD                  = "DogFoodCan_Opened";
+    static const string COOKING_INGREDIENT_CAT_FOOD                  = "CatFoodCan_Opened";
+    static const string COOKING_INGREDIENT_PORK                      = "PorkCan_Opened";
+    static const string COOKING_INGREDIENT_LUNCHMEAT                 = "Lunchmeat_Opened";
+    static const string COOKING_INGREDIENT_CRAB                      = "CrabCan_Opened";
+
+    static const string COOKING_INGREDIENT_ZAGORKY                   = "Zagorky";
+    static const string COOKING_INGREDIENT_ZAGORKY_CHOCOLATE         = "ZagorkyChocolate";
+    static const string COOKING_INGREDIENT_ZAGORKY_PEANUTS           = "ZagorkyPeanuts";
+    
+    static const string COOKING_INGREDIENT_CUTE_CEREAL_UWU           = "CookZ_CuteCereal_UwU";
+    static const string COOKING_INGREDIENT_CUTE_CEREAL_HELLFIRE      = "CookZ_CuteCereal_Hellfire";
+    static const string COOKING_INGREDIENT_CUTE_CEREAL_GREEN_MOUNTAIN = "CookZ_CuteCereal_GreenMountain";
+
     static const string COOKING_INGREDIENT_ANY_MEAT           = "AnyMeat";
     static const string COOKING_INGREDIENT_ANY_FRUIT          = "AnyFruit";
     static const string COOKING_INGREDIENT_ANY_VEG            = "AnyVeg";
@@ -99,6 +117,10 @@ class CookZ_Cookbook
     static const string COOKING_INGREDIENT_ANY_DISINFECT      = "AnyDisinfect";
     static const string COOKING_INGREDIENT_ANY_BREADCRUMB     = "AnyBreadcrumb";
     static const string COOKING_INGREDIENT_ANY_BLOOD          = "AnyBlood";
+    static const string COOKING_INGREDIENT_ANY_FODD_CAN_100G  = "AnyFoodCan100g";
+    static const string COOKING_INGREDIENT_ANY_FODD_CAN_250G  = "AnyFoodCan250g";
+    static const string COOKING_INGREDIENT_ANY_ZAGORKY        = "AnyZagorky";
+    static const string COOKING_INGREDIENT_ANY_CUTE_CEREAL    = "AnyCuteCereal";
 
     ref map<string, ref array<string>> anyIngredientMap;
     ref array<ref CookZ_Recipe> allRecipes;
@@ -186,6 +208,24 @@ class CookZ_Cookbook
         // any blood
         RegisterAnyIngredient(COOKING_INGREDIENT_ANY_BLOOD, COOKING_INGREDIENT_BLOOD_BAG_FULL);
         RegisterAnyIngredient(COOKING_INGREDIENT_ANY_BLOOD, COOKING_INGREDIENT_BLOOD_BAG_IV);
+        // any food can 100g (spread)
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_FODD_CAN_100G, COOKING_INGREDIENT_PAJKA);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_FODD_CAN_100G, COOKING_INGREDIENT_PATE);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_FODD_CAN_100G, COOKING_INGREDIENT_BRISKET_SPREAD);
+        // any food can 250g
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_FODD_CAN_250G, COOKING_INGREDIENT_DOG_FOOD);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_FODD_CAN_250G, COOKING_INGREDIENT_CAT_FOOD);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_FODD_CAN_250G, COOKING_INGREDIENT_PORK);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_FODD_CAN_250G, COOKING_INGREDIENT_LUNCHMEAT);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_FODD_CAN_250G, COOKING_INGREDIENT_CRAB);
+        // any zagorky
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_ZAGORKY, COOKING_INGREDIENT_ZAGORKY);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_ZAGORKY, COOKING_INGREDIENT_ZAGORKY_CHOCOLATE);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_ZAGORKY, COOKING_INGREDIENT_ZAGORKY_PEANUTS);
+        // any cute cereal
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_CUTE_CEREAL, COOKING_INGREDIENT_CUTE_CEREAL_UWU);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_CUTE_CEREAL, COOKING_INGREDIENT_CUTE_CEREAL_HELLFIRE);
+        RegisterAnyIngredient(COOKING_INGREDIENT_ANY_CUTE_CEREAL, COOKING_INGREDIENT_CUTE_CEREAL_GREEN_MOUNTAIN);
     }
 
     void RegisterAnyIngredient(string group, string ingredient)
@@ -494,15 +534,19 @@ class CookZ_Cookbook
     static map<string, string> InitDeputyMap()
     {
         map<string, string> tempMap = new map<string, string>;
-        tempMap.Insert(COOKING_INGREDIENT_ANY_MEAT,         COOKING_INGREDIENT_PIG_STEAK_MEAT);
-        tempMap.Insert(COOKING_INGREDIENT_ANY_FRUIT,        COOKING_INGREDIENT_APPLE);
-        tempMap.Insert(COOKING_INGREDIENT_ANY_VEG,          COOKING_INGREDIENT_GREEN_BELL_PEPPER);
-        tempMap.Insert(COOKING_INGREDIENT_ANY_FISH,         COOKING_INGREDIENT_CARP_FILLET_MEAT);
-        tempMap.Insert(COOKING_INGREDIENT_ANY_FISH_FILLET,  COOKING_INGREDIENT_CARP_FILLET_MEAT);
-        tempMap.Insert(COOKING_INGREDIENT_ANY_MUSHROOM,     COOKING_INGREDIENT_BOLETUS_MUSHROOM);
-        tempMap.Insert(COOKING_INGREDIENT_ANY_SAUSAGE,      COOKING_INGREDIENT_BEEF_SAUSAGE);
-        tempMap.Insert(COOKING_INGREDIENT_ANY_BREADCRUMB,   COOKING_INGREDIENT_CRACKERS);
-        tempMap.Insert(COOKING_INGREDIENT_ANY_BLOOD,        COOKING_INGREDIENT_BLOOD_BAG_FULL);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_MEAT,          COOKING_INGREDIENT_PIG_STEAK_MEAT);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_FRUIT,         COOKING_INGREDIENT_APPLE);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_VEG,           COOKING_INGREDIENT_GREEN_BELL_PEPPER);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_FISH,          COOKING_INGREDIENT_CARP_FILLET_MEAT);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_FISH_FILLET,   COOKING_INGREDIENT_CARP_FILLET_MEAT);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_MUSHROOM,      COOKING_INGREDIENT_BOLETUS_MUSHROOM);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_SAUSAGE,       COOKING_INGREDIENT_BEEF_SAUSAGE);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_BREADCRUMB,    COOKING_INGREDIENT_CRACKERS);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_BLOOD,         COOKING_INGREDIENT_BLOOD_BAG_FULL);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_FODD_CAN_100G, COOKING_INGREDIENT_PATE);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_FODD_CAN_250G, COOKING_INGREDIENT_PORK);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_ZAGORKY,       COOKING_INGREDIENT_ZAGORKY_CHOCOLATE);
+        tempMap.Insert(COOKING_INGREDIENT_ANY_CUTE_CEREAL,   COOKING_INGREDIENT_CUTE_CEREAL_UWU);
         return tempMap;
     }
 

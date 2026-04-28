@@ -1051,4 +1051,132 @@ class CfgVehicles
             toxicity=0;
         };
     };
+
+    class CookZ_LeberkaeseBox: CookZ_Box_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_LeberkaeseBox_DN";
+        descriptionShort="$STR_CookZ_LeberkaeseBox_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZ\data\dishes\boxed\box_leberkaese_co.paa"
+        };
+    };
+    class CookZ_LeberkaeseBox_Opened: CookZ_BoxOpened_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_LeberkaeseBox_DN";
+        descriptionShort="$STR_CookZ_LeberkaeseBox_Opened_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZ\data\dishes\boxed\box_leberkaese_co.paa",
+            "CookZ\data\dishes\boxed\box_food_leberkaese_co.paa"
+        };
+        varQuantityInit=1150;
+        varQuantityMax=1150;
+        class Nutrition
+        {
+            energy=209.783;
+            water=40.8696;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+    };
+
+    class CookZ_HoneyGlazedVegetablesBox: CookZ_Box_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_HoneyGlazedVegetablesBox_DN";
+        descriptionShort="$STR_CookZ_HoneyGlazedVegetablesBox_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZ\data\dishes\boxed\box_honey_glazed_vegs_co.paa"
+        };
+    };
+    class CookZ_HoneyGlazedVegetablesBox_Opened: CookZ_BoxOpened_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_HoneyGlazedVegetablesBox_DN";
+        descriptionShort="$STR_CookZ_HoneyGlazedVegetablesBox_Opened_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZ\data\dishes\boxed\box_honey_glazed_vegs_co.paa",
+            "CookZ\data\dishes\boxed\box_food_honey_glazed_vegs_co.paa"
+        };
+        varQuantityInit=1000;
+        varQuantityMax=1000;
+        class Nutrition
+        {
+            energy=225;
+            water=7.6;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+    };
+
+    class CookZ_FlapjacksBox: CookZ_Box_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_FlapjacksBox_DN";
+        descriptionShort="$STR_CookZ_FlapjacksBox_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZ\data\dishes\boxed\box_flapjacks_co.paa"
+        };
+    };
+    class CookZ_FlapjacksBox_Opened: CookZ_BoxOpened_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_FlapjacksBox_DN";
+        descriptionShort="$STR_CookZ_FlapjacksBox_Opened_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZ\data\dishes\boxed\box_flapjacks_co.paa",
+            "CookZ\data\dishes\boxed\box_food_flapjacks_co.paa"
+        };
+        varQuantityInit=700;
+        varQuantityMax=700;
+        class Nutrition
+        {
+            energy=275;
+            water=3.42857;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+    };
+
+    class CookZ_PumpkinBhartaBox: CookZ_Box_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_PumpkinBhartaBox_DN";
+        descriptionShort="$STR_CookZ_PumpkinBhartaBox_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZ\data\dishes\boxed\box_pumpkin_bharta_co.paa"
+        };
+    };
+    class CookZ_PumpkinBhartaBox_Opened: CookZ_BoxOpened_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_PumpkinBhartaBox_DN";
+        descriptionShort="$STR_CookZ_PumpkinBhartaBox_Opened_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZ\data\dishes\boxed\box_pumpkin_bharta_co.paa",
+            "CookZ\data\dishes\boxed\box_food_pumpkin_bharta_co.paa"
+        };
+        varQuantityInit=850;
+        varQuantityMax=850;
+        class Nutrition
+        {
+            energy=167.647;
+            water=17.6471;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+    };
 };

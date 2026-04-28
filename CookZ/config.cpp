@@ -313,11 +313,4 @@ class CfgVehicles
         varTemperatureMin=0;
         varTemperatureMax=100;
     };
-
-    class SodaCan_Kvass: SodaCan_ColorBase
-    {
-        varTemperatureInit=0;
-        varTemperatureMin=0;
-        varTemperatureMax=100;
-    };
 };

@@ -360,6 +360,53 @@ class CfgVehicles
                 "Tomato,1"
             };
         };
+        class CookZ_LeberkaeseBox
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsEmptyBox = true;
+            canBeOpened = true;
+            ingredients[] = {
+                "UnknownFoodCan_Opened,2",
+                "AnyFoodCan100g,1",
+                "AnyFoodCan250g,1"
+            };
+        };
+        class CookZ_HoneyGlazedVegetablesBox
+        {
+            allowPan = true;
+            needsEmptyBox = true;
+            canBeOpened = true;
+            ingredients[] = {
+                "Honey,1",
+                "SlicedPumpkin,1",
+                "Potato,1",
+                "GreenBellPepper,1"
+            };
+        }
+        class CookZ_FlapjacksBox
+        {
+            allowPan = true;
+            needsEmptyBox = true;
+            canBeOpened = true;
+            ingredients[] = {
+                "AnyCuteCereal,1",
+                "Honey,1",
+                "AnyZagorky,1"
+            };
+        }
+        class CookZ_PumpkinBhartaBox
+        {
+            allowPan = true;
+            allowPot = true;
+            needsEmptyBox = true;
+            canBeOpened = true;
+            ingredients[] = {
+                "SlicedPumpkin,2",
+                "GreenBellPepper,1",
+                "Tomato,2"
+            };
+        }
 
         // --- Canned Food ---
 
@@ -720,6 +767,44 @@ class CfgVehicles
             ingredients[] = {
                 "Guts,1",
                 "AnyBlood,1"
+            };
+        };
+
+        // --- Cereal ---
+
+        class CookZ_CuteCereal_UwU
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsEmptyBox = true;
+            numDishes = 2;
+            ingredients[] = {
+                "BoxCerealCrunchin,1",
+                "Plum,2"
+            };
+        };
+
+        class CookZ_CuteCereal_Hellfire
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsEmptyBox = true;
+            numDishes = 2;
+            ingredients[] = {
+                "BoxCerealCrunchin,1",
+                "Pear,1"
+            };
+        };
+
+        class CookZ_CuteCereal_GreenMountain
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsEmptyBox = true;
+            numDishes = 2;
+            ingredients[] = {
+                "BoxCerealCrunchin,1",
+                "Apple,2"
             };
         };
 

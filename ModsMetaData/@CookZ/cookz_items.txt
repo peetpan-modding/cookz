@@ -58,6 +58,14 @@ CookZ_FishSticksBox
 CookZ_FishSticksBox_Opened
 CookZ_PaellaBox
 CookZ_PaellaBox_Opened
+CookZ_LeberkaeseBox
+CookZ_LeberkaeseBox_Opened
+CookZ_HoneyGlazedVegetablesBox
+CookZ_HoneyGlazedVegetablesBox_Opened
+CookZ_FlapjacksBox
+CookZ_FlapjacksBox_Opened
+CookZ_PumpkinBhartaBox
+CookZ_PumpkinBhartaBox_Opened
 CookZ_GoulashCan
 CookZ_GoulashCan_Opened
 CookZ_PumpkinSoupCan
@@ -92,6 +100,9 @@ CookZ_PlumMarmaladeCan
 CookZ_PlumMarmaladeCan_Opened
 CookZ_PearMarmaladeCan
 CookZ_PearMarmaladeCan_Opened
+CookZ_CuteCereal_UwU
+CookZ_CuteCereal_Hellfire
+CookZ_CuteCereal_GreenMountain
 CookZ_Cheese
 CookZ_Beef_Sausage
 CookZ_Chicken_Sausage

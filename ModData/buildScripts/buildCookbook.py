@@ -59,6 +59,16 @@ ingredient_translation_map = {
     "CookZPlants_Tofu": "#STR_CookZPlants_Tofu_DN",
     "CookZPlants_Corn": "#STR_CookZPlants_Corn_DN",
     "CookZPlants_CornDough": "#STR_CookZPlants_CornDough_DN",
+    "UnknownFoodCan_Opened": "#STR_UnknownFoodCan0 (#STR_CookZ_Open)",
+    "AnyFoodCan100g": "#STR_CookZ_Ingredient_AnyFoodCan100g (#STR_CookZ_Open)",
+    "AnyFoodCan250g": "#STR_CookZ_Ingredient_AnyFoodCan250g (#STR_CookZ_Open)",
+    "Honey": "#STR_Honey0",
+    "BoxCerealCrunchin": "#STR_CfgVehicles_BoxCerealCrunchin0",
+    "AnyZagorky": "#STR_Zagorky0",
+    "SodaCan_Fronta": "#STR_CfgVehicles_SodaCan_Fronta0",
+    "SodaCan_Pipsi": "#STR_CfgVehicles_SodaCan_Pipsi0",
+    "SodaCan_Spite": "#STR_CfgVehicles_SodaCan_Spite0",
+    "AnyCuteCereal": "#STR_CookZ_Ingredient_AnyCuteCereal",
 }
 
 translation_map = {

@@ -1062,6 +1062,134 @@
     "CookZ_RiceALaMaltaBox_Opened_DS": {
         "en": "@CookZ_RiceALaMaltaBox_DS @&CookZ_EatUp"
     },
+    "CookZ_LeberkaeseBox_DN": {
+        "en": "Leberkäse",
+        "de": "Leberkäse",
+        "cs": "Leberkäse",
+        "ru": "Leberkäse",
+        "pl": "Leberkäse",
+        "it": "Leberkäse",
+        "es": "Leberkäse",
+        "fr": "Leberkäse",
+        "zh": "Leberkäse",
+        "ja": "Leberkäse",
+        "pt": "Leberkäse",
+        "zh-cn": "Leberkäse"
+    },
+    "CookZ_LeberkaeseBox_DS": {
+        "en": "A compact block of seasoned meat of unclear origin. Surprisingly good, undeniably filling - and easier to accept the less you think about it.",
+        "de": "Ein kompakter Block gewürztes Fleisch unklarer Herkunft. Erstaunlich gut, definitiv sättigend - und leichter zu akzeptieren, je weniger man darüber nachdenkt.",
+        "cs": "Kompaktní blok kořeněného masa nejasného původu. Překvapivě dobrý, rozhodně sytý - a snazší přijmout, čím méně nad tím přemýšlíte.",
+        "ru": "Компактный кусок приправленного мяса неясного происхождения. Удивительно вкусный и сытный - и легче принять, чем меньше об этом думаешь.",
+        "pl": "Kompaktowy blok przyprawionego mięsa o niejasnym pochodzeniu. Zaskakująco dobry i sycący - łatwiejszy do zaakceptowania, im mniej się nad tym zastanawiasz.",
+        "it": "Un blocco compatto di carne condita di origine incerta. Sorprendentemente buono e decisamente saziante - più facile da accettare se non ci si pensa troppo.",
+        "es": "Un bloque compacto de carne sazonada de origen incierto. Sorprendentemente bueno y saciante - más fácil de aceptar cuanto menos lo pienses.",
+        "fr": "Un bloc compact de viande assaisonnée d'origine incertaine. Étonnamment bon et nourrissant - plus facile à accepter quand on n'y pense pas trop.",
+        "zh": "一块来源不明的调味肉块。出奇地好吃又管饱 - 想得越少越容易接受。",
+        "ja": "出所不明の味付け肉のコンパクトな塊。意外と美味しくて満腹になる - 深く考えないほど受け入れやすい。",
+        "pt": "Um bloco compacto de carne temperada de origem incerta. Surpreendentemente bom e saciante - mais fácil de aceitar quanto menos se pensa nisso.",
+        "zh-cn": "一块来源不明的调味肉块。出奇地好吃又管饱 - 想得越少越容易接受。"
+    },
+    "CookZ_LeberkaeseBox_Opened_DS": {
+        "en": "@CookZ_LeberkaeseBox_DS @&CookZ_EatUp"
+    },
+        "CookZ_HoneyGlazedVegetablesBox_DN": {
+        "en": "Honey-Glazed Vegetables",
+        "de": "Gemüse in Honigglasur",
+        "cs": "Zelenina v medové polevě",
+        "ru": "Овощи в медовой глазури",
+        "pl": "Warzywa w miodowej glazurze",
+        "it": "Verdure glassate al miele",
+        "es": "Verduras glaseadas con miel",
+        "fr": "Légumes glacés au miel",
+        "zh": "蜂蜜糖渍蔬菜",
+        "ja": "はちみつグレーズ野菜",
+        "pt": "Legumes glaceados com mel",
+        "zh-cn": "蜂蜜糖渍蔬菜"
+    },
+    "CookZ_HoneyGlazedVegetablesBox_DS": {
+        "en": "Pumpkin, potatoes, and green bell pepper glazed in honey. Sweet, hearty, and just refined enough to forget where you are.",
+        "de": "Kürbis, Kartoffeln und grüne Paprika mit Honigglasur. Süß, herzhaft und gerade edel genug, um kurz zu vergessen, wo man ist.",
+        "cs": "Dýně, brambory a zelená paprika v medové polevě. Sladké, vydatné a dostatečně vytříbené, aby člověk na chvíli zapomněl, kde je.",
+        "ru": "Тыква, картофель и зелёный перец в медовой глазури. Сладко, сытно и достаточно изысканно, чтобы на время забыть, где ты находишься.",
+        "pl": "Dynia, ziemniaki i zielona papryka w miodowej glazurze. Słodkie, sycące i na tyle wykwintne, by na chwilę zapomnieć, gdzie się jest.",
+        "it": "Zucca, patate e peperone verde glassati al miele. Dolci, sostanziosi e abbastanza raffinati da farti dimenticare dove ti trovi.",
+        "es": "Calabaza, patatas y pimiento verde glaseados con miel. Dulce, sustancioso y lo bastante refinado como para olvidar por un momento dónde estás.",
+        "fr": "Citrouille, pommes de terre et poivron vert glacés au miel. Doux, nourrissant et suffisamment raffiné pour faire oublier où l'on se trouve.",
+        "zh": "南瓜、土豆和青椒裹上蜂蜜糖浆。香甜饱腹，精致得让人暂时忘记身处何地。",
+        "ja": "カボチャ、ジャガイモ、ピーマンをはちみつでグレーズした一品。甘くて食べ応えがあり、ここがどこか忘れさせてくれる程度には上品。",
+        "pt": "Abóbora, batatas e pimento verde glaceados com mel. Doce, substancial e refinado o suficiente para esquecer por um momento onde você está.",
+        "zh-cn": "南瓜、土豆和青椒裹上蜂蜜糖浆。香甜饱腹，精致得让人暂时忘记身处何地。"
+    },
+    "CookZ_HoneyGlazedVegetablesBox_Opened_DS": {
+        "en": "@CookZ_HoneyGlazedVegetablesBox_DS @&CookZ_EatUp"
+    },
+    "CookZ_FlapjacksBox_DN": {
+        "en": "Flapjacks",
+        "de": "Flapjacks",
+        "cs": "Flapjacks",
+        "ru": "Flapjacks",
+        "pl": "Flapjacks",
+        "it": "Flapjacks",
+        "es": "Flapjacks",
+        "fr": "Flapjacks",
+        "zh": "Flapjacks",
+        "ja": "Flapjacks",
+        "pt": "Flapjacks",
+        "zh-cn": "Flapjacks"
+    },
+    "CookZ_FlapjacksBox_DS": {
+        "en": "Corn flakes and honey pressed into a dense slab. Not pretty, but efficient - exactly what you need when time isn’t on your side.",
+        "de": "Cornflakes und Honig zu einer dichten Masse gepresst. Nicht schön, aber effizient - genau das, was man braucht, wenn die Zeit knapp wird.",
+        "cs": "Kukuřičné lupínky a med slisované do hutného bloku. Není to hezké, ale je to efektivní - přesně to, co potřebujete, když nemáte čas.",
+        "ru": "Кукурузные хлопья и мёд, спрессованные в плотный брусок. Неказисто, но эффективно - именно то, что нужно, когда времени мало.",
+        "pl": "Płatki kukurydziane i miód sprasowane w gęsty blok. Niezbyt ładne, ale skuteczne - dokładnie to, czego potrzeba, gdy brakuje czasu.",
+        "it": "Corn flakes e miele pressati in un blocco denso. Non belli, ma efficienti - esattamente ciò che serve quando il tempo è poco.",
+        "es": "Copos de maíz y miel prensados en un bloque denso. No es bonito, pero es eficiente - justo lo que necesitas cuando el tiempo apremia.",
+        "fr": "Corn flakes et miel pressés en un bloc dense. Pas très beau, mais efficace - exactement ce qu’il faut quand le temps manque.",
+        "zh": "玉米片和蜂蜜压成的致密块状。不好看，但高效 - 当时间不站在你这边时正合适。",
+        "ja": "コーンフレークとはちみつを固く押し固めた塊。見た目は良くないが効率的 - 時間がないときにちょうどいい。",
+        "pt": "Flocos de milho e mel prensados em um bloco denso. Não é bonito, mas é eficiente - exatamente o que você precisa quando o tempo está contra você.",
+        "zh-cn": "玉米片和蜂蜜压成的致密块状。不好看，但高效 - 当时间不站在你这边时正合适。"
+    },
+    "CookZ_FlapjacksBox_Opened_DS": {
+        "en": "@CookZ_FlapjacksBox_DS @&CookZ_EatUp"
+    },
+    "CookZ_PumpkinBhartaBox_DN": {
+        "en": "Pumpkin Bharta",
+        "de": "Pumpkin Bharta",
+        "cs": "Pumpkin Bharta",
+        "ru": "Pumpkin Bharta",
+        "pl": "Pumpkin Bharta",
+        "it": "Pumpkin Bharta",
+        "es": "Pumpkin Bharta",
+        "fr": "Pumpkin Bharta",
+        "zh": "Pumpkin Bharta",
+        "ja": "Pumpkin Bharta",
+        "pt": "Pumpkin Bharta",
+        "zh-cn": "Pumpkin Bharta"
+    },
+    "CookZ_PumpkinBhartaBox_DS": {
+        "en": "A spiced mash of pumpkin, tomatoes, and green bell pepper. Warm, savory, and a welcome change from the usual.",
+        "de": "Ein gewürztes Mus aus Kürbis, Tomaten und grüner Paprika. Warm, herzhaft und eine willkommene Abwechslung.",
+        "cs": "Kořeněná kaše z dýně, rajčat a zelené papriky. Hřejivá, slaná a vítaná změna oproti běžné stravě.",
+        "ru": "Пряное пюре из тыквы, томатов и зелёного перца. Тёплое, сытное и приятное разнообразие.",
+        "pl": "Przyprawiona pasta z dyni, pomidorów i zielonej papryki. Ciepła, wytrawna i miła odmiana od codzienności.",
+        "it": "Una purea speziata di zucca, pomodori e peperone verde. Calda, saporita e una piacevole variazione.",
+        "es": "Un puré especiado de calabaza, tomates y pimiento verde. Caliente, sabroso y una agradable variación.",
+        "fr": "Une purée épicée de citrouille, tomates et poivron vert. Chaude, savoureuse et un changement bienvenu.",
+        "zh": "由南瓜、番茄和青椒制成的香料泥。温暖可口，是日常之外的不错选择。",
+        "ja": "カボチャ、トマト、ピーマンを使ったスパイス風味のマッシュ。温かくて風味豊か、いつもと違う良い一品。",
+        "pt": "Um puré temperado de abóbora, tomates e pimento verde. Quente, saboroso e uma mudança bem-vinda.",
+        "zh-cn": "由南瓜、番茄和青椒制成的香料泥。温暖可口，是日常之外的不错选择。"
+    },
+    "CookZ_PumpkinBhartaBox_Opened_DS": {
+        "en": "@CookZ_PumpkinBhartaBox_DS @&CookZ_EatUp"
+    },
+    
+    
+    
+    
     "CookZ_PeachGoetterspeiseCan_DN": {
         "en": "Wobbly Delight with Peaches",
         "de": "Götterspeise mit Pfirsichen",
@@ -1093,10 +1221,6 @@
     "CookZ_PeachGoetterspeiseCan_Opened_DS": {
         "en": "@CookZ_PeachGoetterspeiseCan_DS @&CookZ_EatUp"
     },
-    
-    
-
-
     "CookZ_GoulashCan_DN": {
         "en": "Goulash",
         "de": "Gulasch",
@@ -2300,6 +2424,48 @@
         "pt": "Bolsa de sangue",
         "zh-cn": "输血袋"
     },
+    "CookZ_Ingredient_AnyFoodCan100g": {
+        "en": "Food Can 100g",
+        "cs": "Konzerva jídla 100 g",
+        "de": "Konservendose 100 g",
+        "ru": "Банка еды 100 г",
+        "pl": "Puszka jedzenia 100 g",
+        "it": "Lattina di cibo 100 g",
+        "es": "Lata de comida 100 g",
+        "fr": "Boîte de conserve 100 g",
+        "zh": "100克食品罐头",
+        "ja": "食品缶 100g",
+        "pt": "Lata de comida 100 g",
+        "zh-cn": "100克食品罐头"
+    },
+    "CookZ_Ingredient_AnyFoodCan250g": {
+        "en": "Food Can 250g",
+        "cs": "Konzerva jídla 250 g",
+        "de": "Konservendose 250 g",
+        "ru": "Банка еды 250 г",
+        "pl": "Puszka jedzenia 250 g",
+        "it": "Lattina di cibo 250 g",
+        "es": "Lata de comida 250 g",
+        "fr": "Boîte de conserve 250 g",
+        "zh": "250克食品罐头",
+        "ja": "食品缶 250g",
+        "pt": "Lata de comida 250 g",
+        "zh-cn": "250克食品罐头"
+    },
+    "CookZ_Ingredient_AnyCuteCereal": {
+        "en": "Small Cereal Box",
+        "cs": "Malá krabice cereálií",
+        "de": "Kleine Schachtel Frühstücksflocken",
+        "ru": "Маленькая коробка хлопьев",
+        "pl": "Małe pudełko płatków śniadaniowych",
+        "it": "Piccola scatola di cereali",
+        "es": "Caja pequeña de cereales",
+        "fr": "Petite boîte de céréales",
+        "zh": "小盒早餐穀片",
+        "ja": "小さなシリアル箱",
+        "pt": "Caixa pequena de cereais",
+        "zh-cn": "小盒麦片"
+    },
 
 
 
@@ -2415,5 +2581,91 @@
         "ja": "クックブック",
         "pt": "Livro de receitas",
         "zh-cn": "食谱"
+    },
+
+
+    "CookZ_CuteCereal_UwU_DN": {
+        "en": "UwU Corn Flakes",
+        "de": "UwU Cornflakes",
+        "cs": "UwU kukuřičné lupínky",
+        "ru": "UwU кукурузные хлопья",
+        "pl": "UwU płatki kukurydziane",
+        "it": "UwU corn flakes",
+        "es": "UwU copos de maíz",
+        "fr": "UwU corn flakes",
+        "zh": "UwU 玉米片",
+        "ja": "UwU コーンフレーク",
+        "pt": "UwU flocos de milho",
+        "zh-cn": "UwU 玉米片"
+    },
+    "CookZ_CuteCereal_UwU_DS": {
+        "en": "A small box of plum-flavored corn flakes. Subtly sweet, faintly questionable, unmistakably uwu.",
+        "de": "Eine kleine Packung Cornflakes mit Pflaumengeschmack. Dezent süß, leicht fragwürdig, eindeutig uwu.",
+        "cs": "Malá krabička kukuřičných lupínků s příchutí švestky. Jemně sladké, lehce pochybné, jednoznačně uwu.",
+        "ru": "Небольшая коробка кукурузных хлопьев со вкусом сливы. Ненавязчиво сладкие, слегка сомнительные, однозначно uwu.",
+        "pl": "Małe pudełko płatków kukurydzianych o smaku śliwki. Delikatnie słodkie, lekko podejrzane, zdecydowanie uwu.",
+        "it": "Una piccola scatola di corn flakes al gusto di prugna. Delicatamente dolci, leggermente discutibili, decisamente uwu.",
+        "es": "Una pequeña caja de copos de maíz con sabor a ciruela. Sutilmente dulces, ligeramente cuestionables, inconfundiblemente uwu.",
+        "fr": "Une petite boîte de corn flakes au goût de prune. Subtilement sucrés, légèrement douteux, indéniablement uwu.",
+        "zh": "一小盒李子味玉米片。微甜，略显可疑，但毫无疑问很 uwu。",
+        "ja": "プラム風味のコーンフレークの小箱。ほのかに甘く、やや怪しく、それでも確実に uwu。",
+        "pt": "Uma pequena caixa de flocos de milho com sabor a ameixa. Sutilmente doces, ligeiramente questionáveis, inconfundivelmente uwu.",
+        "zh-cn": "一小盒李子味玉米片。微甜，略显可疑，但毫无疑问很 uwu。"
+    },
+    "CookZ_CuteCereal_Hellfire_DN": {
+        "en": "Hellfire Corn Flakes",
+        "de": "Hellfire Cornflakes",
+        "cs": "Hellfire kukuřičné lupínky",
+        "ru": "Hellfire кукурузные хлопья",
+        "pl": "Hellfire płatki kukurydziane",
+        "it": "Hellfire corn flakes",
+        "es": "Hellfire copos de maíz",
+        "fr": "Hellfire corn flakes",
+        "zh": "Hellfire 玉米片",
+        "ja": "Hellfire コーンフレーク",
+        "pt": "Hellfire flocos de milho",
+        "zh-cn": "Hellfire 玉米片"
+    },
+    "CookZ_CuteCereal_Hellfire_DS": {
+        "en": "A small box of pear-flavored corn flakes. Mildly sweet with a harsh finish - pairs well with a shotgun and questionable decisions.",
+        "de": "Eine kleine Packung Cornflakes mit Birnengeschmack. Mäßig süß mit hartem Abgang - passt gut zu einer Schrotflinte und fragwürdigen Entscheidungen.",
+        "cs": "Malá krabička kukuřičných lupínků s příchutí hrušky. Mírně sladké s drsným dozvukem - hodí se ke brokovnici a pochybným rozhodnutím.",
+        "ru": "Небольшая коробка кукурузных хлопьев со вкусом груши. Умеренно сладкие с жёстким послевкусием - хорошо сочетаются с дробовиком и сомнительными решениями.",
+        "pl": "Małe pudełko płatków kukurydzianych o smaku gruszki. Lekko słodkie z ostrym finiszem - dobrze pasują do strzelby i wątpliwych decyzji.",
+        "it": "Una piccola scatola di corn flakes al gusto di pera. Leggermente dolci con un finale deciso - si abbinano bene a un fucile a pompa e a scelte discutibili.",
+        "es": "Una pequeña caja de copos de maíz con sabor a pera. Ligeramente dulces con un final duro - combinan bien con una escopeta y decisiones cuestionables.",
+        "fr": "Une petite boîte de corn flakes au goût de poire. Légèrement sucrés avec une fin brutale - s’accordent bien avec un fusil à pompe et des décisions douteuses.",
+        "zh": "一小盒梨味玉米片。略带甜味但收尾强烈 - 适合搭配霰弹枪和 questionable 的决定。",
+        "ja": "洋梨風味のコーンフレークの小箱。やや甘く荒い後味 - ショットガンと微妙な判断に合う。",
+        "pt": "Uma pequena caixa de flocos de milho com sabor a pera. Levemente doces com um final forte - combinam bem com uma espingarda e decisões questionáveis.",
+        "zh-cn": "一小盒梨味玉米片。略带甜味但收尾强烈 - 适合搭配霰弹枪和 questionable 的决定。"
+    },
+    "CookZ_CuteCereal_GreenMountain_DN": {
+        "en": "Green Mountain No.1",
+        "de": "Green Mountain No.1",
+        "cs": "Green Mountain No.1",
+        "ru": "Green Mountain No.1",
+        "pl": "Green Mountain No.1",
+        "it": "Green Mountain No.1",
+        "es": "Green Mountain No.1",
+        "fr": "Green Mountain No.1",
+        "zh": "Green Mountain No.1",
+        "ja": "Green Mountain No.1",
+        "pt": "Green Mountain No.1",
+        "zh-cn": "Green Mountain No.1"
+    },
+    "CookZ_CuteCereal_GreenMountain_DS": {
+        "en": "A small box of apple-flavored corn flakes. Straight from Green Mountain - Chernarus' No.1 cereal, familiar, reliable, and hard to replace.",
+        "de": "Eine kleine Packung Cornflakes mit Apfelgeschmack. Direkt vom Green Mountain - Chernarus' Nr.1 unter den Cerealien, vertraut, verlässlich und schwer zu ersetzen.",
+        "cs": "Malá krabička kukuřičných lupínků s příchutí jablka. Přímo z Green Mountain - cereálie č.1 v Chernarusu, známé, spolehlivé a těžko nahraditelné.",
+        "ru": "Небольшая коробка кукурузных хлопьев со вкусом яблока. Прямо с Green Mountain - хлопья №1 в Чернаруси, привычные, надёжные и трудно заменимые.",
+        "pl": "Małe pudełko płatków kukurydzianych o smaku jabłka. Prosto z Green Mountain - płatki nr 1 w Chernarusie, znane, niezawodne i trudne do zastąpienia.",
+        "it": "Una piccola scatola di corn flakes al gusto di mela. Direttamente da Green Mountain - i cereali n.1 di Chernarus, familiari, affidabili e difficili da sostituire.",
+        "es": "Una pequeña caja de copos de maíz con sabor a manzana. Directamente de Green Mountain - el cereal n.º 1 de Chernarus, familiar, fiable y difícil de reemplazar.",
+        "fr": "Une petite boîte de corn flakes au goût de pomme. Directement de Green Mountain - les céréales n°1 de Chernarus, familières, fiables et difficiles à remplacer.",
+        "zh": "一小盒苹果味玉米片。来自Green Mountain - 切尔纳鲁斯排名第一的麦片，熟悉、可靠且难以替代。",
+        "ja": "リンゴ風味のコーンフレークの小箱。Green Mountain直送 - チェルナルスでNo.1のシリアル、馴染み深く信頼できて代えがたい。",
+        "pt": "Uma pequena caixa de flocos de milho com sabor a maçã. Diretamente de Green Mountain - o cereal nº1 de Chernarus, familiar, confiável e difícil de substituir.",
+        "zh-cn": "一小盒苹果味玉米片。来自Green Mountain - 切尔纳鲁斯排名第一的麦片，熟悉、可靠且难以替代。"
     }
 }
