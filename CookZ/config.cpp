@@ -125,40 +125,6 @@ class CfgVehicles
         inventorySlot[] = {"CookZ_EmptyBoxes"};
     };
 
-    // define peeler ----------------------------------------
-
-    class CookZ_Peeler: Inventory_Base
-    {
-        scope=2;
-        displayName="$STR_CookZ_Peeler_DN";
-        descriptionShort="$STR_CookZ_Peeler_DS";
-        itemSize[]={1,2};
-        model="CookZ\data\misc\cookz_peeler.p3d";
-        hiddenSelections[]={"peeler"};
-        hiddenSelectionsTextures[]={"CookZ\data\misc\peeler_co.paa"};
-        weight=36.279999;
-        soundImpactType="metal";
-        rotationFlags = 1;
-         class DamageSystem
-        {
-            class GlobalHealth
-            {
-                class Health
-                {
-                    hitpoints=80;
-                    healthLevels[]=
-                    {
-                        {1,          {"CookZ\data\misc\peeler.rvmat"}},
-                        {0.69999999, {"CookZ\data\misc\peeler.rvmat"}},
-                        {0.5,        {"CookZ\data\misc\peeler_damage.rvmat"}},
-                        {0.30000001, {"CookZ\data\misc\peeler_damage.rvmat"}},
-                        {0,          {"CookZ\data\misc\peeler_destruct.rvmat"}}
-                    };
-                };
-            };
-        };
-    };
-
     // define equipment slots ----------------------------------------
 
     class Pot: Bottle_Base
@@ -209,6 +175,72 @@ class CfgVehicles
             };
         };
     };
+
+    // define peeler ----------------------------------------
+
+    class CookZ_Peeler: Inventory_Base
+    {
+        scope=2;
+        displayName="$STR_CookZ_Peeler_DN";
+        descriptionShort="$STR_CookZ_Peeler_DS";
+        itemSize[]={1,2};
+        model="CookZ\data\misc\cookz_peeler.p3d";
+        hiddenSelections[]={"peeler"};
+        hiddenSelectionsTextures[]={"CookZ\data\misc\peeler_co.paa"};
+        weight=36.279999;
+        soundImpactType="metal";
+        rotationFlags = 1;
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=80;
+                    healthLevels[]=
+                    {
+                        {1,          {"CookZ\data\misc\peeler.rvmat"}},
+                        {0.69999999, {"CookZ\data\misc\peeler.rvmat"}},
+                        {0.5,        {"CookZ\data\misc\peeler_damage.rvmat"}},
+                        {0.30000001, {"CookZ\data\misc\peeler_damage.rvmat"}},
+                        {0,          {"CookZ\data\misc\peeler_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+    };
+
+    class CookZ_DrumPeeler : Pot
+    {
+        displayName="$STR_CookZ_DrumPeeler_DN";
+        descriptionShort="$STR_CookZ_DrumPeeler_DS";
+        attachments[] = {};
+        inventorySlot[] = {};
+        class InventoryEquipment { playerSlots[] = {}; };
+        model="CookZ\data\misc\cookz_drumpeeler.p3d";
+        hiddenSelections[]={"peeler"};
+        hiddenSelectionsTextures[]={"CookZ\data\misc\drumpeeler_co.paa"};
+        itemsCargoSize[]={4,3};
+        canBeDigged=0;
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=200;
+                    healthLevels[]=
+                    {
+                        {1,          {"CookZ\data\misc\drumpeeler.rvmat"}},
+                        {0.69999999, {"CookZ\data\misc\drumpeeler.rvmat"}},
+                        {0.5,        {"CookZ\data\misc\drumpeeler_damage.rvmat"}},
+                        {0.30000001, {"CookZ\data\misc\drumpeeler_damage.rvmat"}},
+                        {0,          {"CookZ\data\misc\drumpeeler_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+    }
 
     // define readable cookbook ----------------------------------------
 
