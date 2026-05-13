@@ -24,5 +24,6 @@ modded class ModItemRegisterCallbacks
 
         pType.AddItemInHandsProfileIK("CookZ_Pizza_Base",               "dz/anims/workspaces/player/player_main/player_main_2h.asi",    pBehavior,  "dz/anims/anm/player/ik/two_handed/BatteryCar.anm");
         pType.AddItemInHandsProfileIK("CookZ_PizzaOpened_Base",         "dz/anims/workspaces/player/player_main/player_main_2h.asi",    pBehavior,  "dz/anims/anm/player/ik/two_handed/BatteryCar.anm");
+        pType.AddItemInHandsProfileIK("CookZPlants_MushroomSpawn",      "dz/anims/workspaces/player/player_main/weapons/player_main_2h_extinguisher.asi",    pBehavior,  "dz/anims/anm/player/ik/two_handed/firewood.anm");
     };
 };

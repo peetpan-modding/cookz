@@ -10,6 +10,7 @@ class CookZPlants_CornSeeds : SeedBase {};
 class CookZPlants_OnionSeeds : SeedBase {};
 class CookZPlants_OnionSeed : SeedBase {};
 class CookZPlants_SoyBeanSeeds : SeedBase {};
+class CookZPlants_MushroomSpawn : SeedBase {};
 
 modded class PlantBase
 {
@@ -109,5 +110,57 @@ class CookZPlants_PlantSoyBean : CookZPlants_PlantBase
             // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
             m_FullMaturityTime = 1350;
         }
+    }
+};
+
+class CookZPlants_PlantMushroom : CookZPlants_PlantBase
+{
+    // exclude not-spawning content "PsilocybeMushroom", "AmanitaMushroom", "AuriculariaMushroom"
+    static ref array<string> m_RandomMushrooms = {"AgaricusMushroom", "BoletusMushroom", "LactariusMushroom", "MacrolepiotaMushroom", "PleurotusMushroom", "CraterellusMushroom"};
+
+    void CookZPlants_PlantMushroom()
+    {
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeMushroom);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
+    }
+
+    override void RemovePlantEx( vector pos )
+    {
+        if ( g_Game && g_Game.IsServer() )
+        {
+            UnlockFromParent();
+            
+            ItemBase item = ItemBase.Cast( g_Game.CreateObjectEx( "FireWood", pos, ECE_PLACE_ON_SURFACE ) );
+            item.SetQuantity(1);
+            
+            RemoveSlot();
+        }
+    }
+
+    override void Harvest( PlayerBase player )
+    {
+        if (IsHarvestable())
+        {
+            for ( int i = 0; i < CookZPlants_GetCropsCount(); i++ )
+            {
+                vector pos = player.GetPosition();
+                ItemBase item = ItemBase.Cast( g_Game.CreateObjectEx( m_RandomMushrooms.GetRandomElement(), pos, ECE_PLACE_ON_SURFACE ) );
+                item.SetQuantity( item.GetQuantityMax() );
+            }
+        }
+
+        CookZPlants_SetHasCrops(false);
+
+        SetSynchDirty();
+
+        UpdatePlant();
+        GetGarden().SyncSlots();
     }
 };

@@ -20,4 +20,21 @@ modded class PlantBase
         SetSynchDirty();
         UpdatePlant();
     }
+
+    // access private variables in extending classes
+
+    protected int CookZPlants_GetCropsCount()
+    {
+        return m_CropsCount;
+    }
+
+    protected string CookZPlants_GetCropsType()
+    {
+        return m_CropsType;
+    }
+
+    protected void CookZPlants_SetHasCrops(bool value)
+    {
+        m_HasCrops = value;
+    }
 }

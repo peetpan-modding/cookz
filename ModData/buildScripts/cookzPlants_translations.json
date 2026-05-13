@@ -1226,5 +1226,78 @@
     },
     "CookZPlants_MushroomPizza_Opened_DS": {
         "en": "@CookZPlants_MushroomPizza_DS @&CookZPlants_EatUp"
+    },
+
+
+
+    "CookZPlants_DummyMushroom_DN": {
+        "en": "Mushrooms",
+        "de": "Pilze",
+        "cs": "Houby",
+        "ru": "Грибы",
+        "pl": "Grzyby",
+        "it": "Funghi",
+        "es": "Setas",
+        "fr": "Champignons",
+        "zh": "蘑菇",
+        "ja": "キノコ",
+        "pt": "Cogumelos",
+        "zh-cn": "蘑菇"
+    },
+    "CookZPlants_MushroomSpawn_DN": {
+        "en": "Mushroom Log",
+        "de": "Pilzholz",
+        "cs": "Houbové poleno",
+        "ru": "Грибное полено",
+        "pl": "Grzybowa kłoda",
+        "it": "Tronco fungino",
+        "es": "Tronco de hongos",
+        "fr": "Bûche à champignons",
+        "zh": "菌菇木段",
+        "ja": "キノコ原木",
+        "pt": "Tora de cogumelos",
+        "zh-cn": "菌菇木段"
+    },
+    "CookZPlants_MushroomSpawn_DS": {
+        "en": "This hardwood log has been colonized by mushroom mycelium. Bury it in fertile soil, keep it damp, and wait for a healthy mushroom flush.",
+        "de": "Dieser Hartholzscheit wurde von Pilzmyzel besiedelt. Vergrabe ihn in fruchtbarer Erde, halte ihn feucht und warte auf eine gesunde Pilzernte.",
+        "cs": "Tento kmen tvrdého dřeva byl kolonizován houbovým myceliem. Zakopejte ho do úrodné půdy, udržujte vlhký a čekejte na bohatou úrodu hub.",
+        "ru": "Этот брусок твердой древесины был заселён грибным мицелием. Закопайте его в плодородную почву, поддерживайте влажность и ждите хорошего урожая грибов.",
+        "pl": "Ta kłoda z twardego drewna została skolonizowana przez grzybnię. Zakop ją w żyznej glebie, utrzymuj wilgoć i czekaj na obfity wzrost grzybów.",
+        "it": "Questo tronco di legno duro è stato colonizzato dal micelio fungino. Interralo in un terreno fertile, mantienilo umido e attendi una sana crescita di funghi.",
+        "es": "Este tronco de madera dura ha sido colonizado por micelio de hongos. Entiérralo en suelo fértil, mantenlo húmedo y espera una buena cosecha de setas.",
+        "fr": "Cette bûche de bois dur a été colonisée par du mycélium. Enterrez-la dans un sol fertile, gardez-la humide et attendez une belle poussée de champignons.",
+        "zh": "这段硬木已被菌丝体占据。将其埋入肥沃土壤中，保持湿润，耐心等待蘑菇生长。",
+        "ja": "この広葉樹の丸太は菌糸に定着されています。肥沃な土に埋めて湿った状態を保てば、やがてキノコが育ちます。",
+        "pt": "Esta tora de madeira dura foi colonizada por micélio de cogumelo. Enterre-a em solo fértil, mantenha-a úmida e espere por uma boa colheita de cogumelos.",
+        "zh-cn": "这段硬木已被菌丝体占据。将其埋入肥沃土壤中，保持湿润，耐心等待蘑菇生长。"
+    },
+    "CookZPlants_PlantMushroom_DN": {
+        "en": "Mushroom Colony",
+        "de": "Pilzkolonie",
+        "cs": "Houbová kolonie",
+        "ru": "Грибная колония",
+        "pl": "Kolonia grzybów",
+        "it": "Colonia fungina",
+        "es": "Colonia de hongos",
+        "fr": "Colonie de champignons",
+        "zh": "菌菇菌落",
+        "ja": "キノココロニー",
+        "pt": "Colônia de cogumelos",
+        "zh-cn": "菌菇菌落"
+    },
+    "CookZPlants_PlantMushroom_DS": {
+        "en": "A colonized log beginning to fruit mushrooms. Keep it watered to ensure a healthy harvest.",
+        "de": "Ein besiedelter Holzscheit, der beginnt Pilze auszubilden. Halte ihn feucht, um eine gesunde Ernte zu sichern.",
+        "cs": "Kolonizované poleno začínající plodit houby. Udržujte ho vlhké, aby byla zajištěna zdravá úroda.",
+        "ru": "Заселённое полено начинает плодоносить грибами. Поддерживайте влажность, чтобы получить хороший урожай.",
+        "pl": "Skolonizowana kłoda zaczyna wydawać grzyby. Utrzymuj ją wilgotną, aby zapewnić zdrowe zbiory.",
+        "it": "Un tronco colonizzato che sta iniziando a produrre funghi. Mantienilo umido per garantire un raccolto sano.",
+        "es": "Un tronco colonizado que comienza a producir setas. Manténlo húmedo para asegurar una buena cosecha.",
+        "fr": "Une bûche colonisée qui commence à produire des champignons. Gardez-la humide pour assurer une récolte saine.",
+        "zh": "这段被菌丝占据的木头开始长出蘑菇。保持湿润以确保健康收获。",
+        "ja": "菌糸が定着した原木にキノコが生え始めている。良い収穫のために湿った状態を保とう。",
+        "pt": "Uma tora colonizada começando a produzir cogumelos. Mantenha-a úmida para garantir uma colheita saudável.",
+        "zh-cn": "这段被菌丝占据的木头开始长出蘑菇。保持湿润以确保健康收获。"
     }
 }

@@ -1181,6 +1181,81 @@ class CfgVehicles
             class FoodStageTransitions: FruitStageTransitions {};
         };
     };
+
+    // mushrooms
+
+    class CookZPlants_MushroomSpawn : SeedBase
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_MushroomSpawn_DN";
+        descriptionShort="$STR_CookZPlants_MushroomSpawn_DS";
+        canBeSplit=1;
+        varQuantityInit=3;
+        varQuantityMin=0;
+        varQuantityMax=3;
+        weight=2000;
+        itemSize[]={5,2};
+        model="CookZPlants\data\plants\mushroom\cookz_mushroom_spawn.p3d";
+        hiddenSelections[]={"spawn"};
+        hiddenSelectionsTextures[]= {"CookZPlants\data\plants\mushroom\cookz_mushroom_spawn_co.paa"};
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantMushroom";
+        };
+        // TODO correct damage rvmats? firewood does not have them ... it's a bug though
+        class InventorySlotsOffsets
+        {
+            class SeedBase_1 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_2 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_3 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_4 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_5 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_6 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_7 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_8 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_9 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_10 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_11 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_12 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+            class SeedBase_13 { position[]={0.0,0.3,0.0}; orientation[]={-10,90,0}; };
+        };
+    };
+
+    // see CookZPlants_PlantMushroom.Horticulture.CropsType
+    class CookZPlants_DummyMushroom : Edible_Base
+    {
+        // no scope, should not spawn
+        displayName="$STR_CookZPlants_DummyMushroom_DN";
+    }
+
+    class CookZPlants_PlantMushroom: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PlantMushroom_DN";
+        descriptionShort="$STR_CookZPlants_PlantMushroom_DS";
+        model="CookZPlants\data\plants\mushroom\cookz_mushroom_plant.p3d";
+        hiddenSelections[]+={"spawn"};
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_seeds_package_co.paa", // seeds package
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_plant_co.paa", // stage 1
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_plant_co.paa", // stage 2
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_plant_co.paa", // stage 3
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_plant_co.paa", // stage 4
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_plant_co.paa", // stage 4 crops
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_plant_moldy_co.paa", // stage 5
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_plant_moldy_co.paa", // stage 5 crops
+            "CookZPlants\data\plants\mushroom\cookz_mushroom_spawn_co.paa" // spawn
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=3;
+            // just for displaying a name for harvest action
+            // random mushrooms are created
+            CropsType="CookZPlants_DummyMushroom";
+        };
+    };
 };
 
 class CfgHorticulture
@@ -1225,6 +1300,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\soybean\cookz_soybean_plant_co.paa";
             healthyMat="CookZPlants\data\plants\soybean\cookz_soybean_plant.rvmat";
+        };
+
+        class CookZPlants_PlantMushroom
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\mushroom\cookz_mushroom_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\mushroom\cookz_mushroom_plant.rvmat";
         };
     };
 };

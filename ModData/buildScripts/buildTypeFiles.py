@@ -6,7 +6,8 @@ import sys
 exclude_list = [
     'CookZ_BoxedDishes',
     'CookZ_CannedDishes',
-    'CookZ_Sausage'
+    'CookZ_Sausage',
+    'CookZPlants_DummyMushroom'
 ]
 
 def find_all_config_files(root_dir):
