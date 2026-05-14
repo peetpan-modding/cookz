@@ -27,6 +27,10 @@ CookZPlants_SoyBeanPod
 CookZPlants_Tofu
 CookZPlants_MushroomSpawn
 CookZPlants_PlantMushroom
+CookZPlants_SugarBeetSeedsPack
+CookZPlants_SugarBeetSeeds
+CookZPlants_PlantSugarBeet
+CookZPlants_SugarBeet
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
 CookZPlants_CornDogBox

@@ -1256,6 +1256,155 @@ class CfgVehicles
             CropsType="CookZPlants_DummyMushroom";
         };
     };
+
+    // sugar beet
+    
+    class CookZPlants_SugarBeetSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SugarBeetSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_SugarBeetSeedsPack_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\sugarbeet\cookz_sugarbeets_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_SugarBeetSeeds";
+            ContainsSeedsQuantity=10;
+        };
+    };
+
+    class CookZPlants_SugarBeetSeeds: CookZPlants_Seeds_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SugarBeetSeeds_DN";
+        descriptionShort="$STR_CookZPlants_SugarBeetSeeds_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_sugarbeet_co.paa"};
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantSugarBeet";
+        };
+    };
+
+    class CookZPlants_PlantSugarBeet: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PlantSugarBeet_DN";
+        descriptionShort="$STR_CookZPlants_PlantSugarBeet_DS";
+        model="CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant.p3d";
+        hiddenSelections[]+={"spawn"};
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeets_seeds_package_co.paa", // seeds package
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_co.paa", // stage 1
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_co.paa", // stage 2
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_co.paa", // stage 3
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_co.paa", // stage 4
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_co.paa", // stage 4 crops
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_moldy_co.paa", // stage 5
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_moldy_co.paa", // stage 5 crops
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=3;
+            CropsType="CookZPlants_SugarBeet";
+        };
+    };
+
+    class CookZPlants_SugarBeet: CookZPlants_FoodStageable_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SugarBeet_DN";
+        descriptionShort="$STR_CookZPlants_SugarBeet_DS";
+        model="CookZPlants\data\plants\sugarbeet\cookz_sugarbeet.p3d";
+        itemSize[]={1,2};
+        hiddenSelections[]= { "cs_raw" };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_raw_co.paa", // raw
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_baked_co.paa", // baked
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_boiled_co.paa", // boiled
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_dried_co.paa", // dried
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_burned_co.paa", // burned
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_rotten_co.paa"  // rotten
+        };
+        hiddenSelectionsMaterials[]=
+        {
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_raw.rvmat", // raw
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_raw.rvmat", // baked
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_raw.rvmat", // boiled
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_raw.rvmat", // dried
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_raw.rvmat", // burned
+            "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_raw.rvmat"  // rotten
+        };
+        class InventorySlotsOffsets
+        {
+            class Ingredient
+            {
+                position[]={0.0,0.0,0.04};
+                orientation[]={0,90,0};
+            };
+            class DirectCookingA
+            {
+                position[]={0.0,0.025,0.0};
+                orientation[]={0,80,0};
+            };
+            class DirectCookingB
+            {
+                position[]={0.0,0.025,0.0};
+                orientation[]={0,80,0};
+            };
+            class DirectCookingC
+            {
+                position[]={0.0,0.025,0.0};
+                orientation[]={0,80,0};
+            };
+        };
+        class Food
+        {
+            class FoodStages
+            {
+                class Raw
+                {
+                    // selection / texture / material
+                    visual_properties[]={0,0,0};
+                    // fullness / energy / water / nutritional index / toxicity / agents / digestibility / agents per digest
+                    nutrition_properties[]={1,150,50,1,0};
+                    cooking_properties[]={0,0};
+                };
+                class Baked
+                {
+                    visual_properties[]={0,1,1};
+                    nutrition_properties[]={1,250,20,1,0};
+                    cooking_properties[]={70,35};
+                };
+                class Boiled
+                {
+                    visual_properties[]={0,2,2};
+                    nutrition_properties[]={1,200,70,1,0};
+                    cooking_properties[]={105,45};
+                };
+                class Dried
+                {
+                    visual_properties[]={0,3,3};
+                    nutrition_properties[]={1,200,7,1,0};
+                    cooking_properties[]={70,30,80};
+                };
+                class Burned
+                {
+                    visual_properties[]={0,4,4};
+                    nutrition_properties[]={5,100,0,1,0,16,1,3};
+                    cooking_properties[]={100,20};
+                };
+                class Rotten
+                {
+                    visual_properties[]={0,5,5};
+                    nutrition_properties[]={10,50,13,1,0,16,1,9};
+                    cooking_properties[]={0,0};
+                };
+            };
+            class FoodStageTransitions: FruitStageTransitions {};
+        };
+    };
 };
 
 class CfgHorticulture
@@ -1308,6 +1457,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\mushroom\cookz_mushroom_plant_co.paa";
             healthyMat="CookZPlants\data\plants\mushroom\cookz_mushroom_plant.rvmat";
+        };
+
+        class CookZPlants_PlantSugarBeet
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant.rvmat";
         };
     };
 };

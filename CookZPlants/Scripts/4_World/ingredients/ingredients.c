@@ -16,3 +16,4 @@ class CookZPlants_Chili: GreenBellPepper {}
 class CookZPlants_Corn: GreenBellPepper {}
 class CookZPlants_Tofu: GreenBellPepper {}
 class CookZPlants_Onion: GreenBellPepper {}
+class CookZPlants_SugarBeet: GreenBellPepper {}

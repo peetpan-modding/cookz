@@ -630,6 +630,122 @@
         "pt": "Um enorme bloco de tofu. Enche o estômago, mas quase não tem gosto. Ainda assim, pode ser a base perfeita para algo realmente delicioso.",
         "zh-cn": "一大块豆腐。能填饱肚子，但几乎没有味道。不过，它也许能成为美味佳肴的绝佳基础。"
     },
+    "CookZPlants_PlantSugarBeet_DN": {
+        "en": "Sugar Beet Plant",
+        "de": "Zuckerrübenpflanze",
+        "cs": "Rostlina cukrové řepy",
+        "ru": "Растение сахарной свёклы",
+        "pl": "Roślina buraka cukrowego",
+        "it": "Pianta di barbabietola da zucchero",
+        "es": "Planta de remolacha azucarera",
+        "fr": "Plant de betterave sucrière",
+        "zh": "甜菜植株",
+        "ja": "テンサイの植物",
+        "pt": "Planta de beterraba-açucareira",
+        "zh-cn": "甜菜植株"
+    },
+    "CookZPlants_PlantSugarBeet_DS": {
+        "en": "A sturdy sugar beet plant with broad green leaves and a thick root hidden beneath the soil. Harvest it when mature to begin refining valuable sugar.",
+        "de": "Eine robuste Zuckerrübenpflanze mit breiten grünen Blättern und einer dicken Wurzel unter der Erde. Ernte sie im reifen Zustand, um wertvollen Zucker daraus zu gewinnen.",
+        "cs": "Robustní rostlina cukrové řepy se širokými zelenými listy a silným kořenem ukrytým pod zemí. Sklízej ji po dozrání a začni vyrábět cenný cukr.",
+        "ru": "Крепкое растение сахарной свёклы с широкими зелёными листьями и толстым корнем, скрытым под землёй. Соберите урожай после созревания, чтобы начать производство ценного сахара.",
+        "pl": "Wytrzymała roślina buraka cukrowego z szerokimi zielonymi liśćmi i grubym korzeniem ukrytym pod ziemią. Zbierz ją po dojrzeniu, aby rozpocząć produkcję cennego cukru.",
+        "it": "Una robusta pianta di barbabietola da zucchero con ampie foglie verdi e una grossa radice nascosta sotto terra. Raccoglila a maturazione per iniziare a produrre prezioso zucchero.",
+        "es": "Una resistente planta de remolacha azucarera con amplias hojas verdes y una gruesa raíz escondida bajo tierra. Cosechala cuando madure para comenzar a refinar un valioso azúcar.",
+        "fr": "Une robuste plante de betterave sucrière aux larges feuilles vertes et à la racine épaisse cachée sous terre. Récoltez-la à maturité pour commencer à produire un sucre précieux.",
+        "zh": "一种结实的甜菜植株，拥有宽大的绿色叶片和埋藏在地下的粗大根部。成熟后收获，可开始提炼珍贵的糖。",
+        "ja": "幅広い緑の葉と地中に隠れた太い根を持つ丈夫なテンサイの植物です。成熟したら収穫し、貴重な砂糖作りを始めましょう。",
+        "pt": "Uma resistente planta de beterraba-açucareira com largas folhas verdes e uma raiz espessa escondida sob a terra. Colha quando estiver madura para começar a produzir açúcar valioso.",
+        "zh-cn": "一种结实的甜菜植株，拥有宽大的绿色叶片和埋藏在地下的粗大根部。成熟后收获，可开始提炼珍贵的糖。"
+    },
+
+
+
+
+    "CookZPlants_SugarBeetSeedsPack_DN": {
+        "en": "Packed Sugar Beet Seeds",
+        "de": "Zuckerrübensamenpäckchen",
+        "cs": "Sáček semínek cukrové řepy",
+        "ru": "Пакет семян сахарной свёклы",
+        "pl": "Saszetka z nasionami buraka cukrowego",
+        "it": "Bustina di semi di barbabietola da zucchero",
+        "es": "Sobre de semillas de remolacha azucarera",
+        "fr": "Sachet de graines de betterave sucrière",
+        "zh": "小包甜菜种子",
+        "ja": "小袋入りのテンサイの種",
+        "pt": "Pacote de sementes de beterraba-açucareira",
+        "zh-cn": "小包甜菜种子"
+    },
+    "CookZPlants_SugarBeetSeedsPack_DS": {
+        "en": "A package of sugar beet seeds.",
+        "de": "Ein Päckchen mit Zuckerrübensamen.",
+        "cs": "Malý sáček se semeny cukrové řepy.",
+        "ru": "Небольшой пакет с семенами сахарной свёклы.",
+        "pl": "Mała paczka z nasionami buraka cukrowego.",
+        "it": "Una bustina di semi di barbabietola da zucchero.",
+        "es": "Un sobre con semillas de remolacha azucarera.",
+        "fr": "Un sachet contenant des graines de betterave sucrière.",
+        "zh": "一小包甜菜种子。",
+        "ja": "テンサイの種が入った小袋です。",
+        "pt": "Um pacotinho de sementes de beterraba-açucareira.",
+        "zh-cn": "一小包甜菜种子。"
+    },
+    "CookZPlants_SugarBeetSeeds_DN": {
+        "en": "Sugar Beet Seeds",
+        "de": "Zuckerrübensamen",
+        "cs": "Semínka cukrové řepy",
+        "ru": "Семена сахарной свёклы",
+        "pl": "Nasiona buraka cukrowego",
+        "it": "Semi di barbabietola da zucchero",
+        "es": "Semillas de remolacha azucarera",
+        "fr": "Graines de betterave sucrière",
+        "zh": "甜菜种子",
+        "ja": "テンサイの種",
+        "pt": "Sementes de beterraba-açucareira",
+        "zh-cn": "甜菜种子"
+    },
+    "CookZPlants_SugarBeetSeeds_DS": {
+        "en": "These seeds, if planted in the ground and given some loving care, will grow into sugar beet plants.",
+        "de": "Diese Samen wachsen zu Zuckerrübenpflanzen heran, wenn sie mit Liebe gepflegt werden.",
+        "cs": "Tato semínka vyrostou v cukrovou řepu, pokud je zasadíte a dobře se o ně postaráte.",
+        "ru": "Эти семена вырастут в сахарную свёклу, если посадить их в землю и ухаживать за ними с любовью.",
+        "pl": "Te nasiona, odpowiednio posadzone i pielęgnowane, wyrosną w buraki cukrowe.",
+        "it": "Questi semi, se piantati e curati con amore, cresceranno in piante di barbabietola da zucchero.",
+        "es": "Estas semillas, si se plantan y se cuidan con cariño, crecerán en plantas de remolacha azucarera.",
+        "fr": "Ces graines, plantées et bien entretenues, donneront des plants de betterave sucrière.",
+        "zh": "如果播种并细心照料，这些种子会长成甜菜。",
+        "ja": "これらの種は、丁寧に植えて世話をすれば、テンサイに育ちます。",
+        "pt": "Essas sementes, se plantadas e cuidadas com carinho, crescerão em plantas de beterraba-açucareira.",
+        "zh-cn": "如果播种并细心照料，这些种子会长成甜菜。"
+    },
+    "CookZPlants_SugarBeet_DN": {
+        "en": "Sugar Beet",
+        "de": "Zuckerrübe",
+        "cs": "Cukrová řepa",
+        "ru": "Сахарная свёкла",
+        "pl": "Burak cukrowy",
+        "it": "Barbabietola da zucchero",
+        "es": "Remolacha azucarera",
+        "fr": "Betterave sucrière",
+        "zh": "甜菜",
+        "ja": "テンサイ",
+        "pt": "Beterraba-açucareira",
+        "zh-cn": "甜菜"
+    },
+    "CookZPlants_SugarBeet_DS": {
+        "en": "A rugged root vegetable commonly used for sugar production. Edible when survival demands it, but the taste leaves much to be desired.",
+        "de": "Ein robustes Wurzelgemüse, das hauptsächlich zur Zuckerherstellung genutzt wird. Essbar, wenn das Überleben es verlangt, doch geschmacklich eher eine Strafe.",
+        "cs": "Odolná kořenová zelenina běžně používaná k výrobě cukru. Dá se jíst v nouzi, ale její chuť není zrovna příjemná.",
+        "ru": "Прочный корнеплод, обычно используемый для производства сахара. Съедобен, когда выживание того требует, но вкус оставляет желать лучшего.",
+        "pl": "Wytrzymałe warzywo korzeniowe powszechnie używane do produkcji cukru. Jadalne, gdy wymaga tego przetrwanie, ale jego smak pozostawia wiele do życzenia.",
+        "it": "Un robusto ortaggio a radice comunemente usato per la produzione di zucchero. Commestibile quando la sopravvivenza lo richiede, ma il sapore lascia molto a desiderare.",
+        "es": "Una resistente raíz vegetal utilizada comúnmente para producir azúcar. Comestible cuando la supervivencia lo exige, aunque su sabor deja mucho que desear.",
+        "fr": "Un légume-racine robuste couramment utilisé pour produire du sucre. Comestible en cas de survie, mais son goût laisse franchement à désirer.",
+        "zh": "一种常用于制糖的坚韧根茎类蔬菜。在生存所迫时可以食用，但味道并不讨喜。",
+        "ja": "主に砂糖の生産に使われる丈夫な根菜です。生き延びるためなら食べられますが、味はあまり期待できません。",
+        "pt": "Um vegetal de raiz resistente, normalmente usado para a produção de açúcar. Comestível quando a sobrevivência exige, mas o sabor deixa muito a desejar.",
+        "zh-cn": "一种常用于制糖的坚韧根茎类蔬菜。在生存所迫时可以食用，但味道并不讨喜。"
+    },
 
 
 

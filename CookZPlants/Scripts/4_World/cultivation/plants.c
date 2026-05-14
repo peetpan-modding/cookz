@@ -3,6 +3,7 @@ class CookZPlants_ChiliSeedsPack extends SeedPackBase {}
 class CookZPlants_CornSeedsPack extends SeedPackBase {}
 class CookZPlants_OnionSeedsPack extends SeedPackBase {}
 class CookZPlants_SoyBeanSeedsPack extends SeedPackBase {}
+class CookZPlants_SugarBeetSeedsPack extends SeedPackBase {}
 
 class CookZPlants_WheatSeeds : SeedBase {};
 class CookZPlants_ChiliSeeds : SeedBase {};
@@ -10,6 +11,7 @@ class CookZPlants_CornSeeds : SeedBase {};
 class CookZPlants_OnionSeeds : SeedBase {};
 class CookZPlants_OnionSeed : SeedBase {};
 class CookZPlants_SoyBeanSeeds : SeedBase {};
+class CookZPlants_SugarBeetSeeds : SeedBase {};
 class CookZPlants_MushroomSpawn : SeedBase {};
 
 modded class PlantBase
@@ -156,6 +158,45 @@ class CookZPlants_PlantMushroom : CookZPlants_PlantBase
             }
         }
 
+        CookZPlants_SetHasCrops(false);
+
+        SetSynchDirty();
+
+        UpdatePlant();
+        GetGarden().SyncSlots();
+    }
+};
+
+class CookZPlants_PlantSugarBeet : CookZPlants_PlantBase
+{
+    void CookZPlants_PlantSugarBeet()
+    {
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeSugarBett);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
+    }
+
+    override void Harvest( PlayerBase player )
+    {        
+        if (IsHarvestable())
+        {
+            vector pos = player.GetPosition();
+            for ( int i = 0; i < CookZPlants_GetCropsCount(); i++ )
+            {
+                ItemBase item = ItemBase.Cast( g_Game.CreateObjectEx( CookZPlants_GetCropsType(), pos, ECE_PLACE_ON_SURFACE ) );
+                item.SetQuantity( item.GetQuantityMax() );
+            }
+            // create some seeds when harvesting - cutting them out is imho too unrealistic
+            ItemBase seeds = ItemBase.Cast( g_Game.CreateObjectEx( "CookZPlants_SugarBeetSeeds", pos, ECE_PLACE_ON_SURFACE ) );
+            seeds.SetQuantity( CookZPlants_GetCropsCount() );
+        }
+        
         CookZPlants_SetHasCrops(false);
 
         SetSynchDirty();
