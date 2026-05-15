@@ -31,6 +31,10 @@ CookZPlants_SugarBeetSeedsPack
 CookZPlants_SugarBeetSeeds
 CookZPlants_PlantSugarBeet
 CookZPlants_SugarBeet
+CookZPlants_SunflowerSeedsPack
+CookZPlants_SunflowerSeeds
+CookZPlants_PlantSunflower
+CookZPlants_SunflowerHead
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
 CookZPlants_CornDogBox

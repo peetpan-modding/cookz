@@ -1405,6 +1405,92 @@ class CfgVehicles
             class FoodStageTransitions: FruitStageTransitions {};
         };
     };
+
+    // sunflower
+
+    class CookZPlants_SunflowerSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SunflowerSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_SunflowerSeedsPack_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\sunflower\cookz_sunflower_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_SunflowerSeeds";
+            ContainsSeedsQuantity=10;
+        };
+    };
+
+    class CookZPlants_SunflowerSeeds: CookZPlants_Seeds_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SunflowerSeeds_DN";
+        descriptionShort="$STR_CookZPlants_SunflowerSeeds_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\sunflower\cookz_seeds_sunflower_co.paa"};
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantSunflower";
+        };
+    };
+
+    class CookZPlants_PlantSunflower: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PlantSunflower_DN";
+        descriptionShort="$STR_CookZPlants_PlantSunflower_DS";
+        model="CookZPlants\data\plants\sunflower\cookz_sunflower_plant.p3d";
+        hiddenSelections[]+={"spawn"};
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_seeds_package_co.paa", // seeds package
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_plant_co.paa", // stage 1
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_plant_co.paa", // stage 2
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_plant_co.paa", // stage 3
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_plant_co.paa", // stage 4
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_plant_co.paa", // stage 4 crops
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_plant_moldy_co.paa", // stage 5
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_plant_moldy_co.paa", // stage 5 crops
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=3;
+            CropsType="CookZPlants_SunflowerHead";
+        };
+    };
+
+    class CookZPlants_SunflowerHead: CookZPlants_StackableIngredientBase
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SunflowerHead_DN";
+        descriptionShort="$STR_CookZPlants_SunflowerHead_DS";
+        itemSize[]={2,2};
+        rotationFlags = 32;
+        model="CookZPlants\data\plants\sunflower\cookz_sunflower_head.p3d";
+        hiddenSelections[]= { "head" };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\sunflower\cookz_sunflower_head_co.paa",
+        };
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=40;
+                    healthLevels[]=
+                    {
+                        {1, {"CookZPlants\data\plants\sunflower\cookz_sunflower_head.rvmat"}},
+                        {0.69999999, {"CookZPlants\data\plants\sunflower\cookz_sunflower_head.rvmat"}},
+                        {0.5, {"CookZPlants\data\plants\sunflower\cookz_sunflower_head_damage.rvmat"}},
+                        {0.30000001, {"CookZPlants\data\plants\sunflower\cookz_sunflower_head_damage.rvmat"}},
+                        {0, {"CookZPlants\data\plants\sunflower\cookz_sunflower_head_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+    };
 };
 
 class CfgHorticulture
@@ -1465,6 +1551,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant_co.paa";
             healthyMat="CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant.rvmat";
+        };
+
+        class CookZPlants_PlantSunflower
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\sunflower\cookz_sunflower_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\sunflower\cookz_sunflower_plant.rvmat";
         };
     };
 };

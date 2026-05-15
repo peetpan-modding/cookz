@@ -4,6 +4,7 @@ class CookZPlants_CornSeedsPack extends SeedPackBase {}
 class CookZPlants_OnionSeedsPack extends SeedPackBase {}
 class CookZPlants_SoyBeanSeedsPack extends SeedPackBase {}
 class CookZPlants_SugarBeetSeedsPack extends SeedPackBase {}
+class CookZPlants_SunflowerSeedsPack extends SeedPackBase {}
 
 class CookZPlants_WheatSeeds : SeedBase {};
 class CookZPlants_ChiliSeeds : SeedBase {};
@@ -13,13 +14,30 @@ class CookZPlants_OnionSeed : SeedBase {};
 class CookZPlants_SoyBeanSeeds : SeedBase {};
 class CookZPlants_SugarBeetSeeds : SeedBase {};
 class CookZPlants_MushroomSpawn : SeedBase {};
+class CookZPlants_SunflowerSeeds : SeedBase {};
 
 modded class PlantBase
 {
-    // needs to be directly in PlantBase as m_InfestationChance is private
-    void CookZPlants_DisableInfection()
+    // access private variables in extending classes
+    
+    protected void CookZPlants_DisableInfection()
     {
          m_InfestationChance = 0;
+    }
+
+    protected int CookZPlants_GetCropsCount()
+    {
+        return m_CropsCount;
+    }
+
+    protected string CookZPlants_GetCropsType()
+    {
+        return m_CropsType;
+    }
+
+    protected void CookZPlants_SetHasCrops(bool value)
+    {
+        m_HasCrops = value;
     }
 };
 
@@ -48,6 +66,24 @@ class CookZPlants_PlantWheat : CookZPlants_PlantBase
             // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
             m_FullMaturityTime = 1350;
         }
+    }
+
+    // harvest an item that is splitable - i.e. only create one item and set the quantity to m_CropsCount
+    override void Harvest( PlayerBase player )
+    {
+        if (IsHarvestable())
+        {
+            vector pos = player.GetPosition();
+            ItemBase item = ItemBase.Cast( GetGame().CreateObjectEx( CookZPlants_GetCropsType(), pos, ECE_PLACE_ON_SURFACE ) );
+            item.SetQuantity(CookZPlants_GetCropsCount());
+        }
+        
+        CookZPlants_SetHasCrops(false);
+
+        SetSynchDirty();
+
+        UpdatePlant();
+        GetGarden().SyncSlots();
     }
 };
 
@@ -112,6 +148,24 @@ class CookZPlants_PlantSoyBean : CookZPlants_PlantBase
             // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
             m_FullMaturityTime = 1350;
         }
+    }
+
+    // harvest an item that is splitable - i.e. only create one item and set the quantity to m_CropsCount
+    override void Harvest( PlayerBase player )
+    {
+        if (IsHarvestable())
+        {
+            vector pos = player.GetPosition();
+            ItemBase item = ItemBase.Cast( GetGame().CreateObjectEx( CookZPlants_GetCropsType(), pos, ECE_PLACE_ON_SURFACE ) );
+            item.SetQuantity(CookZPlants_GetCropsCount());
+        }
+        
+        CookZPlants_SetHasCrops(false);
+
+        SetSynchDirty();
+
+        UpdatePlant();
+        GetGarden().SyncSlots();
     }
 };
 
@@ -195,6 +249,40 @@ class CookZPlants_PlantSugarBeet : CookZPlants_PlantBase
             // create some seeds when harvesting - cutting them out is imho too unrealistic
             ItemBase seeds = ItemBase.Cast( g_Game.CreateObjectEx( "CookZPlants_SugarBeetSeeds", pos, ECE_PLACE_ON_SURFACE ) );
             seeds.SetQuantity( CookZPlants_GetCropsCount() );
+        }
+        
+        CookZPlants_SetHasCrops(false);
+
+        SetSynchDirty();
+
+        UpdatePlant();
+        GetGarden().SyncSlots();
+    }
+};
+
+class CookZPlants_PlantSunflower : CookZPlants_PlantBase
+{
+    void CookZPlants_PlantSunflower()
+    {
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeSunflower);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
+    }
+
+    // harvest an item that is splitable - i.e. only create one item and set the quantity to m_CropsCount
+    override void Harvest( PlayerBase player )
+    {
+        if (IsHarvestable())
+        {
+            vector pos = player.GetPosition();
+            ItemBase item = ItemBase.Cast( GetGame().CreateObjectEx( CookZPlants_GetCropsType(), pos, ECE_PLACE_ON_SURFACE ) );
+            item.SetQuantity(CookZPlants_GetCropsCount());
         }
         
         CookZPlants_SetHasCrops(false);

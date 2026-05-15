@@ -5,6 +5,7 @@ modded class PluginRecipesManager
         super.RegisterRecipies();
         RegisterRecipe(new CookZ_CutOutWheatSeeds);
         RegisterRecipe(new CookZ_CutOutSoyBeanSeeds);
+        RegisterRecipe(new CookZ_CutOutSunflowerSeeds);
         RegisterRecipe(new CookZ_CraftMortarAndPestle);
         RegisterRecipe(new CookZ_CraftFlour);
         RegisterRecipe(new CookZ_CraftCornFlour);
@@ -120,6 +121,16 @@ class CookZ_CutOutSoyBeanSeeds extends CookZ_CutOutSplitableSeeds_Base
         super.Init();
         InsertIngredient(0,"CookZPlants_SoyBeanPod");
         AddResult("CookZPlants_SoyBeanSeeds");
+    }
+};
+
+class CookZ_CutOutSunflowerSeeds extends CookZ_CutOutSplitableSeeds_Base
+{    
+    override void Init()
+    {
+        super.Init();
+        InsertIngredient(0,"CookZPlants_SunflowerHead");
+        AddResult("CookZPlants_SunflowerSeeds");
     }
 };
 
