@@ -18,6 +18,7 @@ modded class ModItemRegisterCallbacks
         pType.AddItemInHandsProfileIK("CookZPlants_Onion",              "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/apple.anm");
         pType.AddItemInHandsProfileIK("CookZPlants_Tofu",               "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/pepper_green_fresh.anm");
         pType.AddItemInHandsProfileIK("CookZPlants_SugarBeet",          "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/pepper_green_fresh.anm");
+        pType.AddItemInHandsProfileIK("CookZPlants_CabbageSlice",       "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/pepper_green_fresh.anm");
     };
 
     override void RegisterTwoHanded(DayZPlayerType pType, DayzPlayerItemBehaviorCfg pBehavior)
@@ -27,5 +28,6 @@ modded class ModItemRegisterCallbacks
         pType.AddItemInHandsProfileIK("CookZ_Pizza_Base",               "dz/anims/workspaces/player/player_main/player_main_2h.asi",    pBehavior,  "dz/anims/anm/player/ik/two_handed/BatteryCar.anm");
         pType.AddItemInHandsProfileIK("CookZ_PizzaOpened_Base",         "dz/anims/workspaces/player/player_main/player_main_2h.asi",    pBehavior,  "dz/anims/anm/player/ik/two_handed/BatteryCar.anm");
         pType.AddItemInHandsProfileIK("CookZPlants_MushroomSpawn",      "dz/anims/workspaces/player/player_main/weapons/player_main_2h_extinguisher.asi",    pBehavior,  "dz/anims/anm/player/ik/two_handed/firewood.anm");
+        pType.AddItemInHandsProfileIK("CookZPlants_CabbageHead",        "dz/anims/workspaces/player/player_main/player_main_2h.asi",    pBehavior,  "dz/anims/anm/player/ik/two_handed/pumpkin_fresh.anm");
     };
 };

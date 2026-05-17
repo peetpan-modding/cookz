@@ -5,6 +5,7 @@ class CookZPlants_OnionSeedsPack extends SeedPackBase {}
 class CookZPlants_SoyBeanSeedsPack extends SeedPackBase {}
 class CookZPlants_SugarBeetSeedsPack extends SeedPackBase {}
 class CookZPlants_SunflowerSeedsPack extends SeedPackBase {}
+class CookZPlants_CabbageSeedsPack extends SeedPackBase {}
 
 class CookZPlants_WheatSeeds : SeedBase {};
 class CookZPlants_ChiliSeeds : SeedBase {};
@@ -15,6 +16,7 @@ class CookZPlants_SoyBeanSeeds : SeedBase {};
 class CookZPlants_SugarBeetSeeds : SeedBase {};
 class CookZPlants_MushroomSpawn : SeedBase {};
 class CookZPlants_SunflowerSeeds : SeedBase {};
+class CookZPlants_CabbageSeeds : SeedBase {};
 
 modded class PlantBase
 {
@@ -283,6 +285,45 @@ class CookZPlants_PlantSunflower : CookZPlants_PlantBase
             vector pos = player.GetPosition();
             ItemBase item = ItemBase.Cast( GetGame().CreateObjectEx( CookZPlants_GetCropsType(), pos, ECE_PLACE_ON_SURFACE ) );
             item.SetQuantity(CookZPlants_GetCropsCount());
+        }
+        
+        CookZPlants_SetHasCrops(false);
+
+        SetSynchDirty();
+
+        UpdatePlant();
+        GetGarden().SyncSlots();
+    }
+};
+
+class CookZPlants_PlantCabbage : CookZPlants_PlantBase
+{
+    void CookZPlants_PlantCabbage()
+    {
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeCabbage);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
+    }
+
+    override void Harvest( PlayerBase player )
+    {        
+        if (IsHarvestable())
+        {
+            vector pos = player.GetPosition();
+            for ( int i = 0; i < CookZPlants_GetCropsCount(); i++ )
+            {
+                ItemBase item = ItemBase.Cast( g_Game.CreateObjectEx( CookZPlants_GetCropsType(), pos, ECE_PLACE_ON_SURFACE ) );
+                item.SetQuantity( item.GetQuantityMax() );
+            }
+            // create some seeds when harvesting - cutting them out is imho too unrealistic
+            ItemBase seeds = ItemBase.Cast( g_Game.CreateObjectEx( "CookZPlants_CabbageSeeds", pos, ECE_PLACE_ON_SURFACE ) );
+            seeds.SetQuantity(3);
         }
         
         CookZPlants_SetHasCrops(false);

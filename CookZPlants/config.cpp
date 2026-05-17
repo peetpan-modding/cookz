@@ -1290,7 +1290,6 @@ class CfgVehicles
         displayName="$STR_CookZPlants_PlantSugarBeet_DN";
         descriptionShort="$STR_CookZPlants_PlantSugarBeet_DS";
         model="CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_plant.p3d";
-        hiddenSelections[]+={"spawn"};
         hiddenSelectionsTextures[]+=
         {
             "CookZPlants\data\plants\sugarbeet\cookz_sugarbeets_seeds_package_co.paa", // seeds package
@@ -1318,6 +1317,9 @@ class CfgVehicles
         model="CookZPlants\data\plants\sugarbeet\cookz_sugarbeet.p3d";
         itemSize[]={1,2};
         hiddenSelections[]= { "cs_raw" };
+        varQuantityInit=500;
+        varQuantityMin=0;
+        varQuantityMax=500;
         hiddenSelectionsTextures[]=
         {
             "CookZPlants\data\plants\sugarbeet\cookz_sugarbeet_raw_co.paa", // raw
@@ -1426,7 +1428,7 @@ class CfgVehicles
         scope=2;
         displayName="$STR_CookZPlants_SunflowerSeeds_DN";
         descriptionShort="$STR_CookZPlants_SunflowerSeeds_DS";
-        hiddenSelectionsTextures[]={"CookZPlants\data\plants\sunflower\cookz_seeds_sunflower_co.paa"};
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_sunflower_co.paa"};
         class Horticulture
         {
             PlantType="CookZPlants_PlantSunflower";
@@ -1439,7 +1441,6 @@ class CfgVehicles
         displayName="$STR_CookZPlants_PlantSunflower_DN";
         descriptionShort="$STR_CookZPlants_PlantSunflower_DS";
         model="CookZPlants\data\plants\sunflower\cookz_sunflower_plant.p3d";
-        hiddenSelections[]+={"spawn"};
         hiddenSelectionsTextures[]+=
         {
             "CookZPlants\data\plants\sunflower\cookz_sunflower_seeds_package_co.paa", // seeds package
@@ -1489,6 +1490,195 @@ class CfgVehicles
                     };
                 };
             };
+        };
+    };
+
+    // cabbage
+
+    class CookZPlants_CabbageSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CabbageSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_CabbageSeedsPack_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\cabbage\cookz_cabbage_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_CabbageSeeds";
+            ContainsSeedsQuantity=10;
+        };
+    };
+
+    class CookZPlants_CabbageSeeds: CookZPlants_Seeds_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CabbageSeeds_DN";
+        descriptionShort="$STR_CookZPlants_CabbageSeeds_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_cabbage_co.paa"};
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantCabbage";
+        };
+    };
+
+    class CookZPlants_PlantCabbage: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PlantCabbage_DN";
+        descriptionShort="$STR_CookZPlants_PlantCabbage_DS";
+        model="CookZPlants\data\plants\cabbage\cookz_cabbage_plant.p3d";
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_seeds_package_co.paa", // seeds package
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_plant_co.paa", // stage 1
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_plant_co.paa", // stage 2
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_plant_co.paa", // stage 3
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_plant_co.paa", // stage 4
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_plant_co.paa", // stage 4 crops
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_plant_moldy_co.paa", // stage 5
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_plant_moldy_co.paa", // stage 5 crops
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=1;
+            CropsType="CookZPlants_CabbageHead";
+        };
+    };
+
+    class CookZPlants_CabbageHead: Inventory_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CabbageHead_DN";
+        descriptionShort="$STR_CookZPlants_CabbageHead_DS";
+        itemSize[]={2,2};
+        rotationFlags = 2;
+        model="CookZPlants\data\plants\cabbage\cookz_cabbage_head.p3d";
+        hiddenSelections[]= { "head" };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_head_co.paa",
+        };
+        weight=2000;
+        soundImpactType="organic";
+        varTemperatureInit=0;
+        varTemperatureMin=0;
+        varTemperatureMax=120;
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=40;
+                    healthLevels[]=
+                    {
+                        {1, {"CookZPlants\data\plants\cabbage\cookz_cabbage_head.rvmat"}},
+                        {0.69999999, {"CookZPlants\data\plants\cabbage\cookz_cabbage_head.rvmat"}},
+                        {0.5, {"CookZPlants\data\plants\cabbage\cookz_cabbage_head_damage.rvmat"}},
+                        {0.30000001, {"CookZPlants\data\plants\cabbage\cookz_cabbage_head_damage.rvmat"}},
+                        {0, {"CookZPlants\data\plants\cabbage\cookz_cabbage_head_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+    };
+
+    class CookZPlants_CabbageSlice: CookZPlants_FoodStageable_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CabbageSlice_DN";
+        descriptionShort="$STR_CookZPlants_CabbageSlice_DS";
+        model="CookZPlants\data\plants\cabbage\cookz_cabbage_slice.p3d";
+        itemSize[]={1,2};
+        hiddenSelections[]= { "cs_raw" };
+        varQuantityInit=500;
+        varQuantityMin=0;
+        varQuantityMax=500;
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_head_co.paa", // raw
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_slice_baked_co.paa", // baked
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_slice_boiled_co.paa", // boiled
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_slice_dried_co.paa", // dried
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_slice_burned_co.paa", // burned
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_slice_rotten_co.paa"  // rotten
+        };
+        hiddenSelectionsMaterials[]=
+        {
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_head.rvmat", // raw
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_head.rvmat", // baked
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_head.rvmat", // boiled
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_head.rvmat", // dried
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_head.rvmat", // burned
+            "CookZPlants\data\plants\cabbage\cookz_cabbage_head.rvmat"  // rotten
+        };
+        class InventorySlotsOffsets
+        {
+            class Ingredient
+            {
+                position[]={0.0,0.0,0.04};
+                orientation[]={0,90,0};
+            };
+            class DirectCookingA
+            {
+                position[]={0.0,0.025,0.0};
+                orientation[]={90,0,90};
+            };
+            class DirectCookingB
+            {
+                position[]={0.0,0.025,0.0};
+                orientation[]={90,0,90};
+            };
+            class DirectCookingC
+            {
+                position[]={0.0,0.025,0.0};
+                orientation[]={90,0,90};
+            };
+        };
+        class Food
+        {
+            class FoodStages
+            {
+                class Raw
+                {
+                    // selection / texture / material
+                    visual_properties[]={0,0,0};
+                    // fullness / energy / water / nutritional index / toxicity / agents / digestibility / agents per digest
+                    nutrition_properties[]={1,150,50,1,0};
+                    cooking_properties[]={0,0};
+                };
+                class Baked
+                {
+                    visual_properties[]={0,1,1};
+                    nutrition_properties[]={1,250,20,1,0};
+                    cooking_properties[]={70,35};
+                };
+                class Boiled
+                {
+                    visual_properties[]={0,2,2};
+                    nutrition_properties[]={1,200,70,1,0};
+                    cooking_properties[]={105,45};
+                };
+                class Dried
+                {
+                    visual_properties[]={0,3,3};
+                    nutrition_properties[]={1,200,7,1,0};
+                    cooking_properties[]={70,30,80};
+                };
+                class Burned
+                {
+                    visual_properties[]={0,4,4};
+                    nutrition_properties[]={5,100,0,1,0,16,1,3};
+                    cooking_properties[]={100,20};
+                };
+                class Rotten
+                {
+                    visual_properties[]={0,5,5};
+                    nutrition_properties[]={10,50,13,1,0,16,1,9};
+                    cooking_properties[]={0,0};
+                };
+            };
+            class FoodStageTransitions: FruitStageTransitions {};
         };
     };
 };
@@ -1559,6 +1749,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\sunflower\cookz_sunflower_plant_co.paa";
             healthyMat="CookZPlants\data\plants\sunflower\cookz_sunflower_plant.rvmat";
+        };
+
+        class CookZPlants_PlantCabbage
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\cabbage\cookz_cabbage_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\cabbage\cookz_cabbage_plant.rvmat";
         };
     };
 };

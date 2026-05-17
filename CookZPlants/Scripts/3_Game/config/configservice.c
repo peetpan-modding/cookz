@@ -8,6 +8,7 @@ class CookZPlants_Config
     int FullMaturityTimeMushroom;
     int FullMaturityTimeSugarBett;
     int FullMaturityTimeSunflower;
+    int FullMaturityTimeCabbage;
     bool DisablePlantInfection;
 };
 
@@ -57,6 +58,7 @@ class CookZPlants_ConfigService
         config.FullMaturityTimeMushroom = 1350;
         config.FullMaturityTimeSugarBett = 1350;
         config.FullMaturityTimeSunflower = 1350;
+        config.FullMaturityTimeCabbage = 1350;
         config.DisablePlantInfection = true;
     }
 };

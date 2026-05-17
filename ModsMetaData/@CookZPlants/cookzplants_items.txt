@@ -35,6 +35,11 @@ CookZPlants_SunflowerSeedsPack
 CookZPlants_SunflowerSeeds
 CookZPlants_PlantSunflower
 CookZPlants_SunflowerHead
+CookZPlants_CabbageSeedsPack
+CookZPlants_CabbageSeeds
+CookZPlants_PlantCabbage
+CookZPlants_CabbageHead
+CookZPlants_CabbageSlice
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
 CookZPlants_CornDogBox
