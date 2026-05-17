@@ -40,6 +40,10 @@ CookZPlants_CabbageSeeds
 CookZPlants_PlantCabbage
 CookZPlants_CabbageHead
 CookZPlants_CabbageSlice
+CookZPlants_CucumberSeedsPack
+CookZPlants_CucumberSeeds
+CookZPlants_PlantCucumber
+CookZPlants_Cucumber
 CookZPlants_PierogiBox
 CookZPlants_PierogiBox_Opened
 CookZPlants_CornDogBox

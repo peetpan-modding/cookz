@@ -1006,6 +1006,120 @@
     },
 
 
+    "CookZPlants_CucumberSeedsPack_DN": {
+        "en": "Packed Cucumber Seeds",
+        "de": "Gurkensamenpäckchen",
+        "cs": "Sáček okurkových semínek",
+        "ru": "Пакет семян огурца",
+        "pl": "Saszetka z nasionami ogórka",
+        "it": "Bustina di semi di cetriolo",
+        "es": "Sobre de semillas de pepino",
+        "fr": "Sachet de graines de concombre",
+        "zh": "小包黄瓜种子",
+        "ja": "小袋入りのキュウリの種",
+        "pt": "Pacote de sementes de pepino",
+        "zh-cn": "小包黄瓜种子"
+    },
+    "CookZPlants_CucumberSeedsPack_DS": {
+        "en": "A package of cucumber seeds.",
+        "de": "Ein Päckchen mit Gurkensamen.",
+        "cs": "Malý sáček s okurkovými semínky.",
+        "ru": "Небольшой пакет с семенами огурца.",
+        "pl": "Mała paczka z nasionami ogórka.",
+        "it": "Una bustina di semi di cetriolo.",
+        "es": "Un sobre con semillas de pepino.",
+        "fr": "Un sachet contenant des graines de concombre.",
+        "zh": "一小包黄瓜种子。",
+        "ja": "キュウリの種が入った小袋です。",
+        "pt": "Um pacotinho de sementes de pepino.",
+        "zh-cn": "一小包黄瓜种子。"
+    },
+    "CookZPlants_CucumberSeeds_DN": {
+        "en": "Cucumber Seeds",
+        "de": "Gurkensamen",
+        "cs": "Okurková semínka",
+        "ru": "Семена огурца",
+        "pl": "Nasiona ogórka",
+        "it": "Semi di cetriolo",
+        "es": "Semillas de pepino",
+        "fr": "Graines de concombre",
+        "zh": "黄瓜种子",
+        "ja": "キュウリの種",
+        "pt": "Sementes de pepino",
+        "zh-cn": "黄瓜种子"
+    },
+    "CookZPlants_CucumberSeeds_DS": {
+        "en": "These seeds, if planted in the ground and given some loving care, will grow into cucumber plants.",
+        "de": "Diese Samen wachsen zu Gurkenpflanzen heran, wenn sie mit Liebe gepflegt werden.",
+        "cs": "Tato semínka vyrostou v okurky, pokud je zasadíte a dobře se o ně postaráte.",
+        "ru": "Эти семена вырастут в огурцы, если посадить их в землю и ухаживать за ними с любовью.",
+        "pl": "Te nasiona, odpowiednio posadzone i pielęgnowane, wyrosną w ogórki.",
+        "it": "Questi semi, se piantati e curati con amore, cresceranno in piante di cetriolo.",
+        "es": "Estas semillas, si se plantan y se cuidan con cariño, crecerán en plantas de pepino.",
+        "fr": "Ces graines, plantées et bien entretenues, donneront des plants de concombre.",
+        "zh": "如果播种并细心照料，这些种子会长成黄瓜。",
+        "ja": "これらの種は、丁寧に植えて世話をすれば、キュウリに育ちます。",
+        "pt": "Essas sementes, se plantadas e cuidadas com carinho, crescerão em plantas de pepino.",
+        "zh-cn": "如果播种并细心照料，这些种子会长成黄瓜。"
+    },
+    "CookZPlants_PlantCucumber_DN": {
+        "en": "Cucumber Plant",
+        "de": "Gurkenpflanze",
+        "cs": "Okurková rostlina",
+        "ru": "Огуречное растение",
+        "pl": "Roślina ogórka",
+        "it": "Pianta di cetriolo",
+        "es": "Planta de pepino",
+        "fr": "Plant de concombre",
+        "zh": "黄瓜植株",
+        "ja": "キュウリの植物",
+        "pt": "Planta de pepino",
+        "zh-cn": "黄瓜植株"
+    },
+    "CookZPlants_PlantCucumber_DS": {
+        "en": "A healthy cucumber plant. Surprisingly fragile, surprisingly valuable, and somehow always producing more cucumbers than expected.",
+        "de": "Eine gesunde Gurkenpflanze. Überraschend empfindlich, überraschend wertvoll und irgendwie immer voller Gurken.",
+        "cs": "Zdravá okurková rostlina. Překvapivě křehká, překvapivě cenná a nějak vždy plná dalších okurek.",
+        "ru": "Здоровое огуречное растение. Удивительно хрупкое, удивительно ценное и почему-то всегда дающее больше огурцов, чем ожидаешь.",
+        "pl": "Zdrowa roślina ogórka. Zaskakująco delikatna, zaskakująco cenna i jakoś zawsze pełna większej ilości ogórków, niż się spodziewasz.",
+        "it": "Una sana pianta di cetriolo. Sorprendentemente fragile, sorprendentemente preziosa e in qualche modo sempre piena di più cetrioli del previsto.",
+        "es": "Una saludable planta de pepino. Sorprendentemente frágil, sorprendentemente valiosa y de alguna manera siempre produce más pepinos de lo esperado.",
+        "fr": "Un plant de concombre en bonne santé. Étonnamment fragile, étonnamment précieux et produisant toujours plus de concombres que prévu.",
+        "zh": "一株健康的黄瓜植株。出奇地脆弱，出奇地宝贵，而且总能结出比预想更多的黄瓜。",
+        "ja": "健康なキュウリの植物です。驚くほど繊細で、驚くほど貴重で、なぜかいつも予想以上のキュウリを実らせます。",
+        "pt": "Uma planta de pepino saudável. Surpreendentemente frágil, surpreendentemente valiosa e de alguma forma sempre produzindo mais pepinos do que o esperado.",
+        "zh-cn": "一株健康的黄瓜植株。出奇地脆弱，出奇地宝贵，而且总能结出比预想更多的黄瓜。"
+    },
+    "CookZPlants_Cucumber_DN": {
+        "en": "Cucumber",
+        "de": "Gurke",
+        "cs": "Okurka",
+        "ru": "Огурец",
+        "pl": "Ogórek",
+        "it": "Cetriolo",
+        "es": "Pepino",
+        "fr": "Concombre",
+        "zh": "黄瓜",
+        "ja": "キュウリ",
+        "pt": "Pepino",
+        "zh-cn": "黄瓜"
+    },
+    "CookZPlants_Cucumber_DS": {
+        "en": "A fresh cucumber. Crisp, refreshing and surprisingly filling for such a simple vegetable. Can be eaten raw, cooked into proper dishes or harvested for seeds to grow even more. Somehow it also feels like the kind of vegetable that could start a very questionable science experiment.",
+        "de": "Eine frische Gurke. Knackig, erfrischend und überraschend sättigend für so ein simples Gemüse. Kann roh gegessen, gekocht oder zur Gewinnung weiterer Samen verwendet werden. Irgendwie wirkt sie außerdem wie die Art von Gemüse, aus der ein äußerst fragwürdiges Wissenschaftsexperiment entstehen könnte.",
+        "cs": "Čerstvá okurka. Křupavá, osvěžující a překvapivě sytá na tak jednoduchou zeleninu. Dá se jíst syrová, použít při vaření nebo z ní získat semínka pro další pěstování. Nějak také působí jako druh zeleniny, ze které by mohl vzniknout velmi pochybný vědecký experiment.",
+        "ru": "Свежий огурец. Хрустящий, освежающий и удивительно сытный для такого простого овоща. Его можно есть сырым, готовить из него блюда или использовать семена для выращивания новых растений. Почему-то он ещё и выглядит как овощ, с которого может начаться очень сомнительный научный эксперимент.",
+        "pl": "Świeży ogórek. Chrupiący, orzeźwiający i zaskakująco sycący jak na tak proste warzywo. Można go jeść na surowo, wykorzystać do gotowania albo pozyskać z niego nasiona do dalszej uprawy. Jest też coś w nim, co sprawia wrażenie początku bardzo podejrzanego eksperymentu naukowego.",
+        "it": "Un cetriolo fresco. Croccante, rinfrescante e sorprendentemente saziante per essere un ortaggio così semplice. Può essere mangiato crudo, cucinato in veri piatti o usato per ottenere semi da coltivare. In qualche modo sembra anche il tipo di verdura da cui potrebbe nascere un esperimento scientifico molto discutibile.",
+        "es": "Un pepino fresco. Crujiente, refrescante y sorprendentemente saciante para ser una verdura tan simple. Puede comerse crudo, cocinarse en platos completos o usarse para obtener semillas y cultivar más. De alguna manera también parece el tipo de vegetal que podría iniciar un experimento científico muy cuestionable.",
+        "fr": "Un concombre frais. Croquant, rafraîchissant et étonnamment nourrissant pour un légume aussi simple. Peut être mangé cru, cuisiné dans de vrais plats ou utilisé pour récolter des graines afin d’en faire pousser davantage. Il a aussi étrangement l’air du genre de légume capable de déclencher une expérience scientifique très douteuse.",
+        "zh": "一根新鲜的黄瓜。清脆、爽口，而且对于这么普通的蔬菜来说意外地能填饱肚子。可以生吃、烹饪成菜肴，或取出种子继续种植更多黄瓜。不知为何，它看起来也像是某种可疑科学实验的开端。",
+        "ja": "新鮮なキュウリです。シャキシャキして爽やかで、こんなに単純な野菜のわりには意外と腹持ちがします。そのまま食べたり、料理に使ったり、種を取ってさらに育てることもできます。なぜか、とても危険な科学実験の始まりになりそうな雰囲気もあります。",
+        "pt": "Um pepino fresco. Crocante, refrescante e surpreendentemente satisfatório para um vegetal tão simples. Pode ser consumido cru, usado em pratos cozidos ou aproveitado para extrair sementes e cultivar ainda mais. De alguma forma também parece o tipo de vegetal que daria início a um experimento científico extremamente questionável.",
+        "zh-cn": "一根新鲜的黄瓜。清脆、爽口，而且对于这么普通的蔬菜来说意外地能填饱肚子。可以生吃、烹饪成菜肴，或取出种子继续种植更多黄瓜。不知为何，它看起来也像是某种可疑科学实验的开端。"
+    },
+
+
 
 
     "CookZPlants_MortarAndPestle_DN": {

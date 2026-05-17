@@ -18,3 +18,4 @@ class CookZPlants_Tofu: GreenBellPepper {}
 class CookZPlants_Onion: GreenBellPepper {}
 class CookZPlants_SugarBeet: GreenBellPepper {}
 class CookZPlants_CabbageSlice: GreenBellPepper {}
+class CookZPlants_Cucumber: GreenBellPepper {}

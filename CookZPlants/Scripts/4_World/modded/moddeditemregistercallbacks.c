@@ -19,6 +19,7 @@ modded class ModItemRegisterCallbacks
         pType.AddItemInHandsProfileIK("CookZPlants_Tofu",               "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/pepper_green_fresh.anm");
         pType.AddItemInHandsProfileIK("CookZPlants_SugarBeet",          "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/pepper_green_fresh.anm");
         pType.AddItemInHandsProfileIK("CookZPlants_CabbageSlice",       "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/pepper_green_fresh.anm");
+        pType.AddItemInHandsProfileIK("CookZPlants_Cucumber",           "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/Mushroom_boletus.anm");
     };
 
     override void RegisterTwoHanded(DayZPlayerType pType, DayzPlayerItemBehaviorCfg pBehavior)

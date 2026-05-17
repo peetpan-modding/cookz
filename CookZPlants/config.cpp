@@ -1681,6 +1681,155 @@ class CfgVehicles
             class FoodStageTransitions: FruitStageTransitions {};
         };
     };
+
+    // cucumber
+
+    class CookZPlants_CucumberSeedsPack: CookZPlants_SeedsPack_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CucumberSeedsPack_DN";
+        descriptionShort="$STR_CookZPlants_CucumberSeedsPack_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\cucumber\cookz_cucumber_seeds_package_co.paa"};
+        class Horticulture
+        {
+            ContainsSeedsType="CookZPlants_CucumberSeeds";
+            ContainsSeedsQuantity=10;
+        };
+    };
+
+    class CookZPlants_CucumberSeeds: CookZPlants_Seeds_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_CucumberSeeds_DN";
+        descriptionShort="$STR_CookZPlants_CucumberSeeds_DS";
+        hiddenSelectionsTextures[]={"CookZPlants\data\plants\seeds\cookz_seeds_cucumber_co.paa"};
+        class Horticulture
+        {
+            PlantType="CookZPlants_PlantCucumber";
+        };
+    };
+
+    class CookZPlants_PlantCucumber: CookZPlants_Plant_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PlantCucumber_DN";
+        descriptionShort="$STR_CookZPlants_PlantCucumber_DS";
+        model="CookZPlants\data\plants\cucumber\cookz_cucumber_plant.p3d";
+        hiddenSelections[]+={"rack"};
+        hiddenSelectionsTextures[]+=
+        {
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_seeds_package_co.paa", // seeds package
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_plant_co.paa", // stage 1
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_plant_co.paa", // stage 2
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_plant_co.paa", // stage 3
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_plant_co.paa", // stage 4
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_plant_co.paa", // stage 4 crops
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_plant_moldy_co.paa", // stage 5
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_plant_moldy_co.paa", // stage 5 crops
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_plant_rack_co.paa" // rack
+        };
+        class Horticulture
+        {
+            GrowthStagesCount=6;
+            CropsCount=5;
+            CropsType="CookZPlants_Cucumber";
+        };
+    };
+
+    class CookZPlants_Cucumber: CookZPlants_FoodStageable_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_Cucumber_DN";
+        descriptionShort="$STR_CookZPlants_Cucumber_DS";
+        model="CookZPlants\data\plants\cucumber\cookz_cucumber.p3d";
+        itemSize[]={1,2};
+        hiddenSelections[]= { "cs_raw" };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_raw_co.paa", // raw
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_baked_co.paa", // baked
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_boiled_co.paa", // boiled
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_dried_co.paa", // dried
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_burned_co.paa", // burned
+            "CookZPlants\data\plants\cucumber\cookz_cucumber_rotten_co.paa"  // rotten
+        };
+        hiddenSelectionsMaterials[]=
+        {
+            "CookZPlants\data\plants\cucumber\cookz_cucumber.rvmat",    // raw
+            "CookZPlants\data\plants\cucumber\cookz_cucumber.rvmat",    // baked
+            "CookZPlants\data\plants\cucumber\cookz_cucumber.rvmat",    // boiled
+            "CookZPlants\data\plants\cucumber\cookz_cucumber.rvmat",    // dried
+            "CookZPlants\data\plants\cucumber\cookz_cucumber.rvmat",    // burned
+            "CookZPlants\data\plants\cucumber\cookz_cucumber.rvmat"     // rotten
+        };
+        class InventorySlotsOffsets
+        {
+            class Ingredient
+            {
+                position[]={0.01,0.0,0.075};
+                orientation[]={0,90,0};
+            };
+            class DirectCookingA
+            {
+                position[]={0.01,0.0,0.0};
+                orientation[]={110,0,90};
+            };
+            class DirectCookingB
+            {
+                position[]={0.01,0.0,0.0};
+                orientation[]={110,0,90};
+            };
+            class DirectCookingC
+            {
+                position[]={0.01,0.0,0.0};
+                orientation[]={110,0,90};
+            };
+        };
+        class Food
+        {
+            class FoodStages
+            {
+                class Raw
+                {
+                    // selection / texture / material
+                    visual_properties[]={0,0,0};
+                    nutrition_properties[]={1,100,33,1,0};
+                    cooking_properties[]={0,0};
+                };
+                class Baked
+                {
+                    visual_properties[]={0,1,1};
+                    nutrition_properties[]={1,250,20,1,0};
+                    cooking_properties[]={70,35};
+                };
+                class Boiled
+                {
+                    visual_properties[]={0,2,2};
+                    nutrition_properties[]={1,200,53,1,0};
+                    cooking_properties[]={105,45};
+                };
+                class Dried
+                {
+                    visual_properties[]={0,3,3};
+                    nutrition_properties[]={1,200,7,1,0};
+                    cooking_properties[]={70,30,80};
+                };
+                class Burned
+                {
+                    visual_properties[]={0,4,4};
+                    nutrition_properties[]={5,100,0,1,0,16,1,3};
+                    cooking_properties[]={100,20};
+                };
+                class Rotten
+                {
+                    visual_properties[]={0,5,5};
+                    nutrition_properties[]={10,50,13,1,0,16,1,9};
+                    cooking_properties[]={0,0};
+                };
+            };
+            class FoodStageTransitions: FruitStageTransitions {};
+        };
+    };
 };
 
 class CfgHorticulture
@@ -1757,6 +1906,14 @@ class CfgHorticulture
             infestedMat="";
             healthyTex="CookZPlants\data\plants\cabbage\cookz_cabbage_plant_co.paa";
             healthyMat="CookZPlants\data\plants\cabbage\cookz_cabbage_plant.rvmat";
+        };
+
+        class CookZPlants_PlantCucumber
+        {
+            infestedTex="";
+            infestedMat="";
+            healthyTex="CookZPlants\data\plants\cucumber\cookz_cucumber_plant_co.paa";
+            healthyMat="CookZPlants\data\plants\cucumber\cookz_cucumber_plant.rvmat";
         };
     };
 };

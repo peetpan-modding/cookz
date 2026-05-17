@@ -16,6 +16,7 @@ modded class PluginRecipesManager
         RegisterRecipe(new CutOutCookZPlants_Corn);
         RegisterRecipe(new CookZ_CraftMushroomSpawn);
         RegisterRecipe(new CookZ_SliceCabbage);
+        RegisterRecipe(new CutOutCookZPlants_Cucumber);
     }
 }
 
@@ -831,5 +832,15 @@ class CookZ_SliceCabbage extends RecipeBase
     override void Do(ItemBase ingredients[], PlayerBase player, array<ItemBase> results, float specialty_weight)
     {
         super.Do(ingredients, player, results, specialty_weight);
+    }
+};
+
+class CutOutCookZPlants_Cucumber extends CutOutCookZPlantSeeds_Base
+{    
+    override void Init()
+    {
+        super.Init();
+        InsertIngredient(0, "CookZPlants_Cucumber");
+        AddResult("CookZPlants_CucumberSeeds");
     }
 };

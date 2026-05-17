@@ -6,6 +6,7 @@ class CookZPlants_SoyBeanSeedsPack extends SeedPackBase {}
 class CookZPlants_SugarBeetSeedsPack extends SeedPackBase {}
 class CookZPlants_SunflowerSeedsPack extends SeedPackBase {}
 class CookZPlants_CabbageSeedsPack extends SeedPackBase {}
+class CookZPlants_CucumberSeedsPack extends SeedPackBase {}
 
 class CookZPlants_WheatSeeds : SeedBase {};
 class CookZPlants_ChiliSeeds : SeedBase {};
@@ -17,6 +18,7 @@ class CookZPlants_SugarBeetSeeds : SeedBase {};
 class CookZPlants_MushroomSpawn : SeedBase {};
 class CookZPlants_SunflowerSeeds : SeedBase {};
 class CookZPlants_CabbageSeeds : SeedBase {};
+class CookZPlants_CucumberSeeds : SeedBase {};
 
 modded class PlantBase
 {
@@ -332,5 +334,21 @@ class CookZPlants_PlantCabbage : CookZPlants_PlantBase
 
         UpdatePlant();
         GetGarden().SyncSlots();
+    }
+};
+
+class CookZPlants_PlantCucumber : CookZPlants_PlantBase
+{
+    void CookZPlants_PlantCucumber()
+    {
+        if (GetDayZGame().GetCookZPlants_Config())
+        {
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeCabbage);
+        }
+        else
+        {
+            // this can only happen on client if rpc config did not arrive yet, but server value counts anyway
+            m_FullMaturityTime = 1350;
+        }
     }
 };

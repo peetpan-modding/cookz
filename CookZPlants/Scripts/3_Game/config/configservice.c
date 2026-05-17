@@ -9,6 +9,7 @@ class CookZPlants_Config
     int FullMaturityTimeSugarBett;
     int FullMaturityTimeSunflower;
     int FullMaturityTimeCabbage;
+    int FullMaturityTimeCucumber;
     bool DisablePlantInfection;
 };
 
@@ -59,6 +60,7 @@ class CookZPlants_ConfigService
         config.FullMaturityTimeSugarBett = 1350;
         config.FullMaturityTimeSunflower = 1350;
         config.FullMaturityTimeCabbage = 1350;
+        config.FullMaturityTimeCucumber = 1350;
         config.DisablePlantInfection = true;
     }
 };
