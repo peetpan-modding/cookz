@@ -370,6 +370,17 @@
             "Variants": []
         },
         {
+            "ClassName": "CookZPlants_SugarBag",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 10,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
             "ClassName": "CookZPlants_SunflowerSeedsPack",
             "MaxPriceThreshold": 20,
             "MinPriceThreshold": 10,
@@ -404,6 +415,17 @@
         },
         {
             "ClassName": "CookZPlants_SunflowerHead",
+            "MaxPriceThreshold": 20,
+            "MinPriceThreshold": 10,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "CookZPlants_SunflowerOil",
             "MaxPriceThreshold": 20,
             "MinPriceThreshold": 10,
             "SellPricePercent": -1.0,

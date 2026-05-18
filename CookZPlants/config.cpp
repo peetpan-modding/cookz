@@ -1408,6 +1408,68 @@ class CfgVehicles
         };
     };
 
+    class CookZPlants_SugarBag: Edible_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SugarBag_DN";
+        descriptionShort="$STR_CookZPlants_SugarBag_DS";
+        weight=400;
+        itemSize[]={1,2};
+        varQuantityInit=500;
+        varQuantityMin=0;
+        varQuantityMax=500;
+        model="CookZPlants\data\ingredients\cookz_sugar_bag.p3d";
+        hiddenSelections[]= { "sugar_bag" };
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\ingredients\cookz_sugar_bag_co.paa"
+        };
+        class Nutrition
+        {
+            totalVolume=1;
+            energy=400;
+            water=0;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=40;
+                    healthLevels[]=
+                    {
+                        {1, {"CookZPlants\data\ingredients\cookz_sugar_bag.rvmat"}},
+                        {0.69999999, {"CookZPlants\data\ingredients\cookz_sugar_bag.rvmat"}},
+                        {0.5, {"CookZPlants\data\ingredients\cookz_sugar_bag_damage.rvmat"}},
+                        {0.30000001, {"CookZPlants\data\ingredients\cookz_sugar_bag_damage.rvmat"}},
+                        {0, {"CookZPlants\data\ingredients\cookz_sugar_bag_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+        class InventorySlotsOffsets 
+        {
+            class DirectCookingA
+            {
+                position[]={0.0,0.025,0};
+                orientation[]={0,0,0};
+            };
+            class DirectCookingB
+            {
+                position[]={0.0,0.05,0};
+                orientation[]={0,0,0};
+            };
+            class DirectCookingC
+            {
+                position[]={0.0,0.075,0};
+                orientation[]={0,0,0};
+            };
+        };
+    };
+
     // sunflower
 
     class CookZPlants_SunflowerSeedsPack: CookZPlants_SeedsPack_Base
@@ -1467,6 +1529,7 @@ class CfgVehicles
         descriptionShort="$STR_CookZPlants_SunflowerHead_DS";
         itemSize[]={2,2};
         rotationFlags = 32;
+        varQuantityMax=5;
         model="CookZPlants\data\plants\sunflower\cookz_sunflower_head.p3d";
         hiddenSelections[]= { "head" };
         hiddenSelectionsTextures[]=
@@ -1489,6 +1552,75 @@ class CfgVehicles
                         {0, {"CookZPlants\data\plants\sunflower\cookz_sunflower_head_destruct.rvmat"}}
                     };
                 };
+            };
+        };
+    };
+
+    class CookZPlants_SunflowerOil: Edible_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SunflowerOil_DN";
+        descriptionShort="$STR_CookZPlants_SunflowerOil_DS";
+        itemSize[]={1,2};
+        weight=500;
+        varTemperatureFreezePoint=-200;
+        varTemperatureThawPoint=-200;
+        varTemperatureFreezeTime=1980;
+        varTemperatureThawTime=1980;
+        varTemperatureMax=110;
+        varQuantityInit=500;
+        varQuantityMin=0;
+        varQuantityMax=500;
+        temperaturePerQuantityWeight=1;
+        model="CookZPlants\data\ingredients\cookz_sunflower_oil.p3d";
+        hiddenSelections[]={"bottle"};
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\ingredients\cookz_sunflower_oil_co.paa",
+        };
+        class DamageSystem
+        {
+            class GlobalHealth
+            {
+                class Health
+                {
+                    hitpoints=50;
+                    healthLevels[]=
+                    {
+                        {1, {"CookZPlants\data\ingredients\cookz_sunflower_oil.rvmat"}},
+                        {0.69999999, {"CookZPlants\data\ingredients\cookz_sunflower_oil.rvmat"}},
+                        {0.5, {"CookZPlants\data\ingredients\cookz_sunflower_oil_damage.rvmat"}},
+                        {0.30000001, {"CookZPlants\data\ingredients\cookz_sunflower_oil_damage.rvmat"}},
+                        {0, {"CookZPlants\data\ingredients\cookz_sunflower_oil_destruct.rvmat"}}
+                    };
+                };
+            };
+        };
+        soundImpactType="metal";
+        class Nutrition
+        {
+            totalVolume=1;
+            energy=800;
+            water=0;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+        class InventorySlotsOffsets 
+        {
+            class DirectCookingA
+            {
+                position[]={0.0,0.075,0};
+                orientation[]={0,0,0};
+            };
+            class DirectCookingB
+            {
+                position[]={0.0,0.075,0};
+                orientation[]={0,0,0};
+            };
+            class DirectCookingC
+            {
+                position[]={0.0,0.075,0};
+                orientation[]={0,0,0};
             };
         };
     };

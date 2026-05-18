@@ -69,6 +69,7 @@ ingredient_translation_map = {
     "SodaCan_Pipsi": "#STR_CfgVehicles_SodaCan_Pipsi0",
     "SodaCan_Spite": "#STR_CfgVehicles_SodaCan_Spite0",
     "AnyCuteCereal": "#STR_CookZ_Ingredient_AnyCuteCereal",
+    "CookZPlants_SugarBeet": "#STR_CookZPlants_SugarBeet_DN",
 }
 
 translation_map = {

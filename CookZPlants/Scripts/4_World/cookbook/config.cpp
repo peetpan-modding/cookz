@@ -96,6 +96,19 @@ class CfgVehicles
             };
         };
 
+        // --- Sugar Bag ---
+
+        class CookZPlants_SugarBag
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsWater = true;
+            numDishes = 2;
+            ingredients[] = {
+                "CookZPlants_SugarBeet,6"
+            };
+        };
+
         // --- Pizza ---
 
         class CookZPlants_MargheritaPizza

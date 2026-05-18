@@ -746,6 +746,34 @@
         "pt": "Um vegetal de raiz resistente, normalmente usado para a produção de açúcar. Comestível quando a sobrevivência exige, mas o sabor deixa muito a desejar.",
         "zh-cn": "一种常用于制糖的坚韧根茎类蔬菜。在生存所迫时可以食用，但味道并不讨喜。"
     },
+    "CookZPlants_SugarBag_DN": {
+        "en": "Bag of Sugar",
+        "de": "Zuckerpackung",
+        "cs": "Balení cukru",
+        "ru": "Пакет сахара",
+        "pl": "Paczka cukru",
+        "it": "Pacco di zucchero",
+        "es": "Paquete de azúcar",
+        "fr": "Paquet de sucre",
+        "zh": "袋装糖",
+        "ja": "砂糖袋",
+        "pt": "Pacote de açúcar",
+        "zh-cn": "袋装糖"
+    },
+    "CookZPlants_SugarBag_DS": {
+        "en": "A pack of sugar. The kind of thing people used to throw into shopping carts without thinking twice. Now it feels more like treasure. Great for baking and cooking. Also provides a fast burst of energy if eaten directly.",
+        "de": "Eine Zuckerpackung. Früher einfach gedankenlos in den Einkaufswagen geworfen, heute fast schon ein kleiner Schatz. Perfekt zum Backen und Kochen. Kann auch direkt gegessen werden und liefert schnell Energie.",
+        "cs": "Balení cukru. Dřív něco, co lidé bez přemýšlení házeli do nákupního vozíku. Dnes už to působí spíš jako poklad. Skvělé na pečení a vaření. Při přímé konzumaci také rychle dodá energii.",
+        "ru": "Пакет сахара. Раньше люди без раздумий бросали такое в продуктовую тележку. Теперь это почти сокровище. Отлично подходит для выпечки и готовки. При употреблении напрямую быстро восполняет энергию.",
+        "pl": "Paczka cukru. Kiedyś ludzie wrzucali coś takiego do koszyka bez zastanowienia. Teraz bardziej przypomina mały skarb. Świetnie nadaje się do pieczenia i gotowania. Zjedzony prosto z paczki szybko dostarcza energii.",
+        "it": "Un pacco di zucchero. Una volta la gente lo buttava nel carrello senza pensarci due volte. Ora sembra quasi un tesoro. Ottimo per cucinare e preparare dolci. Mangiarlo direttamente fornisce anche una rapida dose di energia.",
+        "es": "Un paquete de azúcar. Antes la gente lo tiraba al carrito de compras sin pensarlo dos veces. Ahora parece más bien un tesoro. Ideal para cocinar y hornear. También proporciona un rápido impulso de energía si se consume directamente.",
+        "fr": "Un paquet de sucre. Avant, les gens en jetaient dans leur chariot sans même réfléchir. Aujourd’hui, cela ressemble presque à un trésor. Parfait pour la cuisine et la pâtisserie. Peut aussi fournir un rapide apport d’énergie s’il est consommé directement.",
+        "zh": "一袋糖。过去人们会毫不在意地把它扔进购物车，现在却更像是一种宝物。非常适合烘焙和烹饪。直接食用时也能快速补充能量。",
+        "ja": "砂糖の袋。昔は何も考えず買い物カゴに放り込まれていたような品だが、今ではちょっとした宝物のように感じる。料理やお菓子作りに最適。そのまま食べれば素早くエネルギー補給もできる。",
+        "pt": "Um pacote de açúcar. Antigamente as pessoas jogavam isso no carrinho de compras sem pensar duas vezes. Agora parece mais um tesouro. Ótimo para cozinhar e fazer doces. Também fornece uma rápida dose de energia se consumido diretamente.",
+        "zh-cn": "一袋糖。过去人们会毫不在意地把它扔进购物车，现在却更像是一种宝物。非常适合烘焙和烹饪。直接食用时也能快速补充能量。"
+    },
 
 
 
@@ -860,6 +888,34 @@
         "ja": "茎から切り離された重いヒマワリの花頭です。種は植え付け用に取り出したり、高度な調理に使われる貴重な食用油へ加工したりできます。",
         "pt": "Uma pesada cabeça de girassol separada do caule. As sementes podem ser removidas para plantio ou transformadas em precioso óleo culinário usado em receitas avançadas.",
         "zh-cn": "一个从茎秆上取下的沉重向日葵花盘。种子可以取出用于种植，或加工成用于高级烹饪的珍贵食用油。"
+    },
+    "CookZPlants_SunflowerOil_DN": {
+        "en": "Sunflower Oil",
+        "de": "Sonnenblumenöl",
+        "cs": "Slunečnicový olej",
+        "ru": "Подсолнечное масло",
+        "pl": "Olej słonecznikowy",
+        "it": "Olio di girasole",
+        "es": "Aceite de girasol",
+        "fr": "Huile de tournesol",
+        "zh": "葵花籽油",
+        "ja": "ひまわり油",
+        "pt": "Óleo de girassol",
+        "zh-cn": "葵花籽油"
+    },
+    "CookZPlants_SunflowerOil_DS": {
+        "en": "Homemade sunflower oil. Took way more work than it probably should have, so wasting it would be pretty stupid. Can be drunk straight if things get bad enough, but using it for cooking is definitely the better idea. Makes fried food taste less depressing and turns random scavenged ingredients into something almost decent.",
+        "de": "Selbstgemachtes Sonnenblumenöl. Hat deutlich mehr Arbeit gekostet als es eigentlich sollte, also wäre Verschütten ziemlich dumm. Kann direkt getrunken werden, wenn es wirklich schlimm läuft, aber zum Kochen ist es eindeutig besser geeignet. Macht gebratenes Essen weniger traurig und verwandelt zufällig gefundene Zutaten in etwas halbwegs Anständiges.",
+        "cs": "Domácí slunečnicový olej. Dalo mnohem víc práce ho vyrobit, než by asi mělo, takže plýtvat s ním by byla docela hloupost. Dá se pít přímo, když je nejhůř, ale používat ho na vaření je rozhodně lepší nápad. Smažené jídlo díky němu působí méně depresivně a náhodně nalezené suroviny promění v něco skoro normálního.",
+        "ru": "Домашнее подсолнечное масло. На его изготовление ушло куда больше сил, чем должно было, так что проливать его было бы довольно глупо. В крайнем случае его можно пить прямо так, но для готовки оно подходит намного лучше. Делает жареную еду менее унылой и превращает случайно найденные ингредиенты во что-то почти съедобное.",
+        "pl": "Domowy olej słonecznikowy. Zrobienie go kosztowało znacznie więcej pracy, niż powinno, więc marnowanie go byłoby dość głupie. Można go wypić prosto z butelki, jeśli sytuacja zrobi się naprawdę zła, ale zdecydowanie lepiej nadaje się do gotowania. Sprawia, że smażone jedzenie jest mniej przygnębiające i zamienia przypadkowo znalezione składniki w coś prawie porządnego.",
+        "it": "Olio di girasole fatto in casa. Prepararlo ha richiesto molto più lavoro del previsto, quindi sprecarlo sarebbe piuttosto stupido. Può essere bevuto direttamente se la situazione si mette male, ma usarlo per cucinare è decisamente l’idea migliore. Rende il cibo fritto meno deprimente e trasforma ingredienti recuperati a caso in qualcosa di quasi decente.",
+        "es": "Aceite de girasol casero. Costó mucho más trabajo hacerlo de lo que probablemente debería, así que desperdiciarlo sería bastante idiota. Puede beberse directamente si la situación se pone realmente mala, pero usarlo para cocinar es claramente la mejor opción. Hace que la comida frita sea menos deprimente y convierte ingredientes encontrados al azar en algo casi decente.",
+        "fr": "Huile de tournesol faite maison. Sa fabrication a demandé bien plus de travail qu’elle n’aurait dû, alors la gaspiller serait franchement idiot. Peut être bue directement si la situation devient vraiment mauvaise, mais elle est clairement meilleure pour cuisiner. Rend les aliments frits moins déprimants et transforme des ingrédients récupérés au hasard en quelque chose de presque correct.",
+        "zh": "自制葵花籽油。制作它花的功夫远比想象中多，所以浪费掉就太蠢了。情况糟糕时可以直接喝下去，但拿来做饭显然是更好的选择。能让油炸食物没那么令人沮丧，也能把随便捡来的食材变成勉强像样的一餐。",
+        "ja": "自家製のひまわり油。作るのに必要以上に手間がかかったので、無駄にするのはかなりもったいない。どうしても追い詰められたならそのまま飲むこともできるが、料理に使ったほうがずっとマシ。揚げ物を少しはマシな味にし、適当に拾った材料をなんとか食べられる料理に変えてくれる。",
+        "pt": "Óleo de girassol caseiro. Deu muito mais trabalho para fazer do que provavelmente deveria, então desperdiçar seria bem idiota. Pode ser bebido puro se a situação ficar ruim o bastante, mas usar na cozinha é claramente a melhor ideia. Deixa comida frita menos deprimente e transforma ingredientes aleatórios encontrados por aí em algo quase decente.",
+        "zh-cn": "自制葵花籽油。制作它花的功夫远比想象中多，所以浪费掉就太蠢了。情况糟糕时可以直接喝下去，但拿来做饭显然是更好的选择。能让油炸食物没那么令人沮丧，也能把随便捡来的食材变成勉强像样的一餐。"
     },
 
 
