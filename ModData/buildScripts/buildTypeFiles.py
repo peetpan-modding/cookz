@@ -37,21 +37,31 @@ def find_cookz_classes(file_paths, exclude_contains=None):
     return found_classes
 
 def write_types_xml(class_names, output_path):
+    seed_pack_pattern = re.compile(r'^CookZ.+SeedsPack$')
+
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n')
         f.write('<types>\n')
+
         for class_name in class_names:
+            is_seed_pack = bool(seed_pack_pattern.match(class_name))
+
+            nominal = 5 if is_seed_pack else 0
+            min_value = 3 if is_seed_pack else 0
+            crafted = "0" if is_seed_pack else "1"
+
             f.write(f'    <type name="{class_name}">\n')
-            f.write('        <nominal>0</nominal>\n')
+            f.write(f'        <nominal>{nominal}</nominal>\n')
             f.write('        <lifetime>9000</lifetime>\n')
             f.write('        <restock>0</restock>\n')
-            f.write('        <min>0</min>\n')
+            f.write(f'        <min>{min_value}</min>\n')
             f.write('        <quantmin>-1</quantmin>\n')
             f.write('        <quantmax>-1</quantmax>\n')
             f.write('        <cost>100</cost>\n')
-            f.write('        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />\n')
+            f.write(f'        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="{crafted}" deloot="0" />\n')
             f.write('        <category name="food" />\n')
             f.write('    </type>\n')
+
         f.write('</types>\n')
 
 def write_items_txt(class_names, output_path):
