@@ -13,6 +13,8 @@ modded class ModItemRegisterCallbacks
         pType.AddItemInHandsProfileIK("CookZPlants_SunflowerHead",      "dz/anims/workspaces/player/player_main/player_main_1h.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/Bark_oak.anm");
         pType.AddItemInHandsProfileIK("CookZPlants_SunflowerOil",       "dz/anims/workspaces/player/player_main/player_main_1h.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/food_can.anm");
         pType.AddItemInHandsProfileIK("CookZPlants_SugarBag",           "dz/anims/workspaces/player/player_main/player_main_1h.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/rice.anm");
+        pType.AddItemInHandsProfileIK("CookZPlants_RockSalt",           "dz/anims/workspaces/player/player_main/player_main_1h.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/Seeds_Tomato.anm");
+        pType.AddItemInHandsProfileIK("CookZPlants_TableSalt",          "dz/anims/workspaces/player/player_main/player_main_1h.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/Rags.anm");
 
         pType.AddItemInHandsProfileIK("CookZPlants_Chili",              "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/Mushroom_boletus.anm");
         pType.AddItemInHandsProfileIK("CookZPlants_Corn",               "dz/anims/workspaces/player/player_main/props/player_main_1h_fruit.asi",    pBehavior,  "dz/anims/anm/player/ik/gear/soda_can.anm");

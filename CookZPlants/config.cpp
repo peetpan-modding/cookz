@@ -1962,6 +1962,42 @@ class CfgVehicles
             class FoodStageTransitions: FruitStageTransitions {};
         };
     };
+
+    // salt
+
+    class CookZPlants_RockSalt: Inventory_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_RockSalt_DN";
+        descriptionShort="$STR_CookZPlants_RockSalt_DS";
+        model="CookZPlants\data\ingredients\cookz_rock_salt.p3d";
+        hiddenSelections[]={"rock_salt"};
+        hiddenSelectionsTextures[]={"CookZPlants\data\ingredients\cookz_rock_salt_co.paa"};
+        weight=10;
+		itemSize[]={1,1};
+        canBeSplit=1;
+        varQuantityInit=10;
+        varQuantityMin=0;
+        varQuantityMax=10;
+        soundImpactType="glass";
+    };
+
+    class CookZPlants_TableSalt: Edible_Base
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_TableSalt_DN";
+        descriptionShort="$STR_CookZPlants_TableSalt_DS";
+        model="CookZPlants\data\ingredients\cookz_table_salt.p3d";
+        hiddenSelections[]={"package"};
+        hiddenSelectionsTextures[]={"CookZPlants\data\ingredients\cookz_table_salt_co.paa"};
+        weight=100;
+		itemSize[]={1,1};
+        varQuantityInit=100;
+        varQuantityMin=0;
+        varQuantityMax=100;
+        varQuantityDestroyOnMin=1;
+        soundImpactType="wood";
+    };
 };
 
 class CfgHorticulture

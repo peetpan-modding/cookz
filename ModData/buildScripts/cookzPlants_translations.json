@@ -1843,5 +1843,64 @@
         "ja": "菌糸が定着した原木にキノコが生え始めている。良い収穫のために湿った状態を保とう。",
         "pt": "Uma tora colonizada começando a produzir cogumelos. Mantenha-a úmida para garantir uma colheita saudável.",
         "zh-cn": "这段被菌丝占据的木头开始长出蘑菇。保持湿润以确保健康收获。"
+    },
+
+
+
+    "CookZPlants_RockSalt_DN": {
+        "en": "Rock Salt",
+        "de": "Steinsalz",
+        "cs": "Kamenná sůl",
+        "ru": "Каменная соль",
+        "pl": "Sól kamienna",
+        "it": "Sale grezzo",
+        "es": "Sal de roca",
+        "fr": "Sel gemme",
+        "zh": "岩盐",
+        "ja": "岩塩",
+        "pt": "Sal-gema",
+        "zh-cn": "岩盐"
+    },
+    "CookZPlants_RockSalt_DS": {
+        "en": "A small pile of rough salt crystals. Grind them down first unless you enjoy breaking teeth. Once crushed, they can be used for cooking or preserving food.",
+        "de": "Ein kleiner Haufen grober Salzkristalle. Erst mahlen, außer man steht darauf, sich die Zähne auszuschlagen. Danach kann es zum Kochen oder Konservieren von Lebensmitteln verwendet werden.",
+        "cs": "Malá hromádka hrubých krystalů soli. Nejprve je potřeba je rozemlít, pokud si nechcete vylámat zuby. Po rozdrcení je lze použít na vaření nebo konzervaci potravin.",
+        "ru": "Небольшая кучка грубых кристаллов соли. Сначала их лучше измельчить, если не хочется лишиться зубов. После этого соль можно использовать для готовки или консервирования еды.",
+        "pl": "Mała garść grubych kryształów soli. Najpierw trzeba je zmielić, chyba że ktoś lubi wybijać sobie zęby. Po rozdrobnieniu nadają się do gotowania lub konserwowania żywności.",
+        "it": "Un piccolo mucchio di cristalli di sale grezzo. Meglio macinarli prima, a meno che tu non voglia romperti i denti. Una volta frantumati, possono essere usati per cucinare o conservare il cibo.",
+        "es": "Un pequeño montón de cristales de sal gruesa. Primero hay que molerlos, a menos que te guste romperte los dientes. Una vez triturados, pueden usarse para cocinar o conservar alimentos.",
+        "fr": "Un petit tas de gros cristaux de sel. Mieux vaut les moudre d’abord, sauf si vous aimez vous casser les dents. Une fois écrasés, ils peuvent servir à cuisiner ou à conserver des aliments.",
+        "zh": "一小堆粗糙的盐晶体。最好先磨碎，除非你喜欢把牙咯坏。磨碎后可用于烹饪或保存食物。",
+        "ja": "粗い岩塩の結晶の小さな山。そのまま噛めば歯が欠けかねないので、まずは砕いた方がいい。砕けば料理や食品保存に使える。",
+        "pt": "Um pequeno monte de cristais brutos de sal. Melhor triturá-los primeiro, a menos que goste de quebrar os dentes. Depois de moídos, podem ser usados para cozinhar ou conservar alimentos.",
+        "zh-cn": "一小堆粗糙的盐晶体。最好先磨碎，除非你喜欢把牙咯坏。磨碎后可用于烹饪或保存食物。"
+    },
+    "CookZPlants_TableSalt_DN": {
+        "en": "Table Salt",
+        "de": "Speisesalz",
+        "cs": "Kuchyňská sůl",
+        "ru": "Поваренная соль",
+        "pl": "Sól kuchenna",
+        "it": "Sale da tavola",
+        "es": "Sal de mesa",
+        "fr": "Sel de table",
+        "zh": "食盐",
+        "ja": "食塩",
+        "pt": "Sal de mesa",
+        "zh-cn": "食盐"
+    },
+    "CookZPlants_TableSalt_DS": {
+        "en": "Finely ground salt for cooking and preserving food. One of the simplest ingredients, yet hard to replace once it is gone.",
+        "de": "Fein gemahlenes Salz zum Kochen und Konservieren von Lebensmitteln. Eine der simpelsten Zutaten überhaupt, bis sie plötzlich fehlt.",
+        "cs": "Jemně mletá sůl na vaření a konzervaci potravin. Jedna z nejjednodušších surovin, dokud najednou nechybí.",
+        "ru": "Мелко перемолотая соль для готовки и консервирования еды. Один из самых простых ингредиентов, пока он внезапно не закончится.",
+        "pl": "Drobno mielona sól do gotowania i konserwowania żywności. Jeden z najprostszych składników, dopóki nagle go nie zabraknie.",
+        "it": "Sale finemente macinato per cucinare e conservare il cibo. Uno degli ingredienti più semplici, finché improvvisamente non viene a mancare.",
+        "es": "Sal finamente molida para cocinar y conservar alimentos. Uno de los ingredientes más simples, hasta que de repente desaparece.",
+        "fr": "Sel finement moulu pour cuisiner et conserver les aliments. L’un des ინგrédients les plus simples, jusqu’à ce qu’il vienne soudainement à manquer.",
+        "zh": "用于烹饪和保存食物的细盐。最普通的材料之一，直到它突然消失时才会意识到有多重要。",
+        "ja": "料理や食品保存に使える細かく挽かれた塩。ありふれた材料のひとつだが、なくなるとその重要さがよく分かる。",
+        "pt": "Sal finamente moído para cozinhar e conservar alimentos. Um dos ingredientes mais simples que existem, até o momento em que deixa de haver.",
+        "zh-cn": "用于烹饪和保存食物的细盐。最普通的材料之一，直到它突然消失时才会意识到有多重要。"
     }
 }
