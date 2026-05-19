@@ -40,6 +40,49 @@ class CfgVehicles
             };
         };
 
+        class CookZPlants_PopcornSaltyBox
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsEmptyBox = true;
+            canBeOpened = true;
+            numDishes = 1;
+            ingredients[] = {
+                "CookZPlants_Corn,3",
+                "CookZPlants_TableSalt,1",
+                "CookZPlants_SunflowerOil,1"
+            };
+        };
+
+        class CookZPlants_PopcornSweetBox
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsEmptyBox = true;
+            canBeOpened = true;
+            numDishes = 1;
+            ingredients[] = {
+                "CookZPlants_Corn,3",
+                "CookZPlants_SugarBag,1",
+                "CookZPlants_SunflowerOil,1"
+            };
+        };
+
+        class CookZPlants_KohlrouladenBox
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsWater = true;
+            needsEmptyBox = true;
+            canBeOpened = true;
+            numDishes = 1;
+            ingredients[] = {
+                "CookZPlants_CabbageSlice,2",
+                "AnyMeat,2",
+                "Potato,1"
+            };
+        };
+
         // --- Canned Food ---
 
         class CookZPlants_FagioliAllaBudCan
@@ -67,6 +110,34 @@ class CfgVehicles
             numDishes = 1;
             ingredients[] = {
                 "CookZPlants_Corn,4"
+            };
+        };
+
+        class CookZPlants_PicklesCan
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsEmptyCan = true;
+            needsWater = true;
+            canBeOpened = true;
+            numDishes = 1;
+            ingredients[] = {
+                "CookZPlants_Cucumber,4",
+                "CookZPlants_TableSalt,2"
+            };
+        };
+
+        class CookZPlants_SauerkrautCan
+        {
+            allowPot = true;
+            allowCauldron = true;
+            needsEmptyCan = true;
+            needsWater = true;
+            canBeOpened = true;
+            numDishes = 1;
+            ingredients[] = {
+                "CookZPlants_CabbageSlice,3",
+                "CookZPlants_TableSalt,2"
             };
         };
 

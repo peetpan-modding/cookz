@@ -70,6 +70,11 @@ ingredient_translation_map = {
     "SodaCan_Spite": "#STR_CfgVehicles_SodaCan_Spite0",
     "AnyCuteCereal": "#STR_CookZ_Ingredient_AnyCuteCereal",
     "CookZPlants_SugarBeet": "#STR_CookZPlants_SugarBeet_DN",
+    "CookZPlants_TableSalt": "#STR_CookZPlants_TableSalt_DN",
+    "CookZPlants_SunflowerOil": "#STR_CookZPlants_SunflowerOil_DN",
+    "CookZPlants_SugarBag": "#STR_CookZPlants_SugarBag_DN",
+    "CookZPlants_CabbageSlice": "#STR_CookZPlants_CabbageSlice_DN",
+    "CookZPlants_Cucumber": "#STR_CookZPlants_Cucumber_DN",
 }
 
 translation_map = {

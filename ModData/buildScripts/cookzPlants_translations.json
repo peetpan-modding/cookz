@@ -1404,6 +1404,99 @@
     "CookZPlants_CornDogBox_Opened_DS": {
         "en": "@CookZPlants_CornDogBox_DS @&CookZPlants_EatUp"
     },
+    "CookZPlants_PopcornSaltyBox_DN": {
+        "en": "Salted Popcorn",
+        "de": "Salziges Popcorn",
+        "cs": "Slaný Popcorn",
+        "ru": "Солёный попкорн",
+        "pl": "Solony Popcorn",
+        "it": "Popcorn Salato",
+        "es": "Palomitas Saladas",
+        "fr": "Pop-corn Salé",
+        "zh": "咸味爆米花",
+        "ja": "塩味ポップコーン",
+        "pt": "Pipoca Salgada",
+        "zh-cn": "咸味爆米花"
+    },
+    "CookZPlants_PopcornSaltyBox_DS": {
+        "en": "Hot salted popcorn: crisp, fluffy, and somehow gone before the movie really starts.",
+        "de": "Heißes Salzpopcorn: knusprig, fluffig und irgendwie leer, bevor der Film richtig angefangen hat.",
+        "cs": "Horký slaný popcorn: křupavý, nadýchaný a nějak pryč ještě před začátkem filmu.",
+        "ru": "Горячий солёный попкорн: хрустящий, воздушный и каким-то образом исчезает ещё до начала фильма.",
+        "pl": "Gorący solony popcorn: chrupiący, lekki i jakoś znika jeszcze przed rozpoczęciem filmu.",
+        "it": "Popcorn salato caldo: croccante, soffice e in qualche modo già finito prima che il film inizi davvero.",
+        "es": "Palomitas saladas calientes: crujientes, ligeras y de alguna manera desaparecen antes de que la película realmente empiece.",
+        "fr": "Du pop-corn salé bien chaud : croustillant, léger et déjà disparu avant même que le film ne commence vraiment.",
+        "zh": "热腾腾的咸味爆米花：酥脆松软，不知不觉电影还没开始就吃光了。",
+        "ja": "熱々の塩味ポップコーン。サクサクで軽く、映画が始まる前になぜかなくなっている。",
+        "pt": "Pipoca salgada quentinha: crocante, leve e de alguma forma já acabou antes mesmo do filme começar.",
+        "zh-cn": "热腾腾的咸味爆米花：酥脆松软，不知不觉电影还没开始就吃光了。"
+    },
+    "CookZPlants_PopcornSaltyBox_Opened_DS": {
+        "en": "@CookZPlants_PopcornSaltyBox_DS @&CookZPlants_EatUp"
+    },
+    "CookZPlants_PopcornSweetBox_DN": {
+        "en": "Sugared Popcorn",
+        "de": "Gezuckertes Popcorn",
+        "cs": "Sladký Popcorn",
+        "ru": "Сладкий попкорн",
+        "pl": "Słodki Popcorn",
+        "it": "Popcorn Zuccherato",
+        "es": "Palomitas Azucaradas",
+        "fr": "Pop-corn Sucré",
+        "zh": "甜味爆米花",
+        "ja": "シュガーポップコーン",
+        "pt": "Pipoca Açucarada",
+        "zh-cn": "甜味爆米花"
+    },
+    "CookZPlants_PopcornSweetBox_DS": {
+        "en": "Light, crunchy, and coated in sugar. A rare reminder that life used to be less miserable.",
+        "de": "Leicht, knusprig und mit Zucker überzogen. Eine seltene Erinnerung daran, dass das Leben mal weniger miserabel war.",
+        "cs": "Lehký, křupavý a obalený v cukru. Vzácná připomínka toho, že život býval méně mizerný.",
+        "ru": "Лёгкий, хрустящий и покрытый сахаром. Редкое напоминание о том, что жизнь когда-то была не такой miserable.",
+        "pl": "Lekki, chrupiący i pokryty cukrem. Rzadkie przypomnienie, że życie kiedyś było mniej ponure.",
+        "it": "Leggero, croccante e ricoperto di zucchero. Un raro ricordo di tempi in cui la vita era meno miserabile.",
+        "es": "Ligero, crujiente y cubierto de azúcar. Un raro recordatorio de que la vida solía ser menos miserable.",
+        "fr": "Léger, croustillant et recouvert de sucre. Un rare rappel qu’autrefois, la vie était moins misérable.",
+        "zh": "轻盈酥脆，裹满糖粒。少有的东西还能让人想起过去没那么糟糕的日子。",
+        "ja": "軽くてサクサク、砂糖たっぷり。人生が今ほど悲惨じゃなかった頃を思い出させる数少ない味。",
+        "pt": "Leve, crocante e coberta de açúcar. Uma rara lembrança de que a vida já foi menos miserável.",
+        "zh-cn": "轻盈酥脆，裹满糖粒。少有的东西还能让人想起过去没那么糟糕的日子。"
+    },
+    "CookZPlants_PopcornSweetBox_Opened_DS": {
+        "en": "@CookZPlants_PopcornSweetBox_DS @&CookZPlants_EatUp"
+    },
+    "CookZPlants_KohlrouladenBox_DN": {
+        "en": "Stuffed Cabbage Rolls",
+        "de": "Kohlrouladen",
+        "cs": "Plněné Zelné Rolky",
+        "ru": "Голубцы",
+        "pl": "Gołąbki",
+        "it": "Involtini di Cavolo Ripieni",
+        "es": "Rollos de Col Rellenos",
+        "fr": "Choux Farcis",
+        "zh": "卷心菜肉卷",
+        "ja": "ロールキャベツ",
+        "pt": "Charutos de Repolho Recheados",
+        "zh-cn": "卷心菜肉卷"
+    },
+    "CookZPlants_KohlrouladenBox_DS": {
+        "en": "Soft cabbage wrapped around seasoned meat, drowned in gravy and served with potatoes. Not pretty, but deeply satisfying.",
+        "de": "Weicher Kohl um würziges Fleisch, überzogen mit dunkler Soße und serviert mit Kartoffeln. Nicht hübsch, aber extrem zufriedenstellend.",
+        "cs": "Měkké zelí obalené kolem ochuceného masa, zalité omáčkou a podávané s bramborami. Nevypadá krásně, ale zasytí dokonale.",
+        "ru": "Мягкая капуста, завёрнутая вокруг приправленного мяса, в подливке с картошкой. Не самое красивое блюдо, но чертовски сытное.",
+        "pl": "Miękka kapusta owinięta wokół doprawionego mięsa, polana sosem i podawana z ziemniakami. Nie wygląda pięknie, ale daje pełną satysfakcję.",
+        "it": "Cavolo morbido avvolto attorno a carne speziata, ricoperto di salsa e servito con patate. Non è bello da vedere, ma sazia profondamente.",
+        "es": "Col suave envuelta alrededor de carne sazonada, cubierta de salsa y servida con patatas. No es bonito, pero llena como pocos platos.",
+        "fr": "Du chou tendre autour de viande assaisonnée, noyé dans une sauce et servi avec des pommes de terre. Pas très joli, mais profondément réconfortant.",
+        "zh": "柔软的卷心菜包裹着调味肉馅，浇满浓郁肉汁并配上土豆。卖相一般，但吃起来非常满足。",
+        "ja": "柔らかいキャベツで味付け肉を包み、たっぷりのグレービーとジャガイモを添えた一品。見た目は地味でも満足感は抜群。",
+        "pt": "Repolho macio envolvendo carne temperada, coberto com molho e servido com batatas. Não é bonito, mas satisfaz profundamente.",
+        "zh-cn": "柔软的卷心菜包裹着调味肉馅，浇满浓郁肉汁并配上土豆。卖相一般，但吃起来非常满足。"
+    },
+    "CookZPlants_KohlrouladenBox_Opened_DS": {
+        "en": "@CookZPlants_KohlrouladenBox_DS @&CookZPlants_EatUp"
+    },
 
 
 
@@ -1469,6 +1562,68 @@
     },
     "CookZPlants_SweetCornCan_Opened_DS": {
         "en": "@CookZPlants_SweetCornCan_DS @&CookZPlants_EatUp"
+    },
+    "CookZPlants_PicklesCan_DN": {
+        "en": "Pickles",
+        "de": "Gewürzgurken",
+        "cs": "Nakládané Okurky",
+        "ru": "Маринованные Огурцы",
+        "pl": "Ogórki Konserwowe",
+        "it": "Cetrioli Sottaceto",
+        "es": "Pepinillos",
+        "fr": "Cornichons",
+        "zh": "腌黄瓜",
+        "ja": "ピクルス",
+        "pt": "Picles",
+        "zh-cn": "腌黄瓜"
+    },
+    "CookZPlants_PicklesCan_DS": {
+        "en": "Pickled cucumbers floating in salty brine. Not exactly luxurious, but they survive longer than most people.",
+        "de": "Gurken in salziger Lake. Nicht gerade luxuriös, aber sie halten länger durch als die meisten Menschen.",
+        "cs": "Nakládané okurky plovoucí ve slaném nálevu. Není to luxus, ale vydrží déle než většina lidí.",
+        "ru": "Маринованные огурцы в солёном рассоле. Не роскошь, но живут дольше большинства людей.",
+        "pl": "Ogórki konserwowe pływające w słonej zalewie. Może nie luksus, ale wytrzymują dłużej niż większość ludzi.",
+        "it": "Cetrioli sottaceto immersi nella salamoia. Non proprio un lusso, ma durano più a lungo della maggior parte delle persone.",
+        "es": "Pepinillos flotando en salmuera salada. No es precisamente un lujo, pero duran más que la mayoría de la gente.",
+        "fr": "Des cornichons flottant dans une saumure salée. Pas vraiment du luxe, mais ils survivent plus longtemps que la plupart des gens.",
+        "zh": "腌黄瓜泡在咸盐水里。谈不上奢侈，但它们活得比大多数人都久。",
+        "ja": "塩気の強い漬け汁に浸かったピクルス。贅沢とは程遠いが、多くの人間より長持ちする。",
+        "pt": "Pepinos em conserva flutuando em salmoura salgada. Não é exatamente luxo, mas duram mais do que a maioria das pessoas.",
+        "zh-cn": "腌黄瓜泡在咸盐水里。谈不上奢侈，但它们活得比大多数人都久。"
+    },
+    "CookZPlants_PicklesCan_Opened_DS": {
+        "en": "@CookZPlants_PicklesCan_DS @&CookZPlants_EatUp"
+    },
+    "CookZPlants_SauerkrautCan_DN": {
+        "en": "Sauerkraut",
+        "de": "Sauerkraut",
+        "cs": "Kysané Zelí",
+        "ru": "Квашеная Капуста",
+        "pl": "Kapusta Kiszona",
+        "it": "Crauti",
+        "es": "Chucrut",
+        "fr": "Choucroute",
+        "zh": "酸菜",
+        "ja": "ザワークラウト",
+        "pt": "Chucrute",
+        "zh-cn": "酸菜"
+    },
+    "CookZPlants_SauerkrautCan_DS": {
+        "en": "Fermented cabbage with a sharp sour bite and enough salt to outlive civilization itself. Best served as a side dish unless desperation says otherwise.",
+        "de": "Fermentierter Kohl mit kräftiger Säure und genug Salz, um selbst die Zivilisation zu überleben. Am besten als Beilage serviert - außer die Lage ist wirklich schlimm.",
+        "cs": "Kysané zelí s výrazně kyselou chutí a dostatkem soli, aby přežilo samotnou civilizaci. Nejlépe chutná jako příloha, pokud zoufalství nerozhodne jinak.",
+        "ru": "Квашеная капуста с резкой кислинкой и таким количеством соли, что она переживёт саму цивилизацию. Лучше подавать как гарнир, если только отчаяние не решит иначе.",
+        "pl": "Kiszona kapusta o mocno kwaśnym smaku i ilości soli zdolnej przetrwać samą cywilizację. Najlepiej smakuje jako dodatek, chyba że desperacja zdecyduje inaczej.",
+        "it": "Crauti fermentati dal gusto fortemente acidulo e con abbastanza sale da sopravvivere alla civiltà stessa. Meglio servirli come contorno, a meno che la disperazione non dica il contrario.",
+        "es": "Col fermentada con un fuerte sabor agrio y suficiente sal para sobrevivir a la propia civilización. Mejor como acompañamiento, salvo que la desesperación diga lo contrario.",
+        "fr": "Du chou fermenté au goût bien acide et avec assez de sel pour survivre à la civilisation elle-même. À servir de préférence en accompagnement, sauf si le désespoir en décide autrement.",
+        "zh": "发酵卷心菜带着强烈酸味和足以熬过文明终结的盐分。最好作为配菜食用，除非你已经别无选择。",
+        "ja": "強い酸味を持つ発酵キャベツ。文明崩壊後まで残りそうな塩分量。基本は付け合わせ向きだが、追い詰められているなら話は別。",
+        "pt": "Repolho fermentado com um sabor azedo intenso e sal suficiente para sobreviver à própria civilização. Melhor servido como acompanhamento, a menos que o desespero diga o contrário.",
+        "zh-cn": "发酵卷心菜带着强烈酸味和足以熬过文明终结的盐分。最好作为配菜食用，除非你已经别无选择。"
+    },
+    "CookZPlants_SauerkrautCan_Opened_DS": {
+        "en": "@CookZPlants_SauerkrautCan_DS @&CookZPlants_EatUp"
     },
 
 

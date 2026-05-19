@@ -79,4 +79,66 @@ class CfgVehicles
             toxicity=0;
         };
     };
+
+    class CookZPlants_PicklesCan: SpaghettiCan
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PicklesCan_DN";
+        descriptionShort="$STR_CookZPlants_PicklesCan_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\dishes\canned\canned_pickles_co.paa"
+        };
+    };
+    class CookZPlants_PicklesCan_Opened: SpaghettiCan_Opened
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_PicklesCan_DN";
+        descriptionShort="$STR_CookZPlants_PicklesCan_Opened_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\dishes\canned\canned_pickles_co.paa"
+        };
+        varQuantityInit=800;
+        varQuantityMax=800;
+        class Nutrition
+        {
+            energy=150;
+            water=89.75;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+    };
+
+    class CookZPlants_SauerkrautCan: SpaghettiCan
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SauerkrautCan_DN";
+        descriptionShort="$STR_CookZPlants_SauerkrautCan_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\dishes\canned\canned_sauerkraut_co.paa"
+        };
+    };
+    class CookZPlants_SauerkrautCan_Opened: SpaghettiCan_Opened
+    {
+        scope=2;
+        displayName="$STR_CookZPlants_SauerkrautCan_DN";
+        descriptionShort="$STR_CookZPlants_SauerkrautCan_Opened_DS";
+        hiddenSelectionsTextures[]=
+        {
+            "CookZPlants\data\dishes\canned\canned_sauerkraut_co.paa"
+        };
+        varQuantityInit=1700;
+        varQuantityMax=1700;
+        class Nutrition
+        {
+            energy=176.471;
+            water=85.2941;
+            fullnessIndex=3;
+            nutritionalIndex=1;
+            toxicity=0;
+        };
+    };
 };
