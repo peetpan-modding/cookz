@@ -275,9 +275,11 @@ def main():
         intro_body_content = (
             f"    <h2>#STR_CookZ_Intro</h2>\n"
             f"    <p>#STR_CookZ_Instructions</p>\n"
-            f"    <h2>#STR_CookZ_PackagingMaterials</h2>\n"
+            f"    <h2>#STR_CookZ_UsefilTips</h2>\n"
             f"    <p>#STR_CookZ_EmptyCanInstructions</p>\n"
-            f"    <p>#STR_CookZ_EmptyBoxInstructions</p>"
+            f"    <p>#STR_CookZ_EmptyBoxInstructions</p>\n"
+            f"    <p>#STR_CookZ_PeelerInstructions</p>\n"
+            f"    <p>#STR_CookZ_HydrateMushroomInstructions</p>"
         )
         intro_content = generate_html_by_body_content(intro_body_content)
         write_html_file("P:\\CookZ\\data\\cookbook\\01_introdcution.html", intro_content)

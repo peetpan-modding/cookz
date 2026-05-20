@@ -2204,19 +2204,19 @@
         "pt": "Instruções gerais de cozimento",
         "zh-cn": "一般烹饪说明"
     },
-    "CookZ_PackagingMaterials": {
-        "en": "Packaging Materials",
-        "de": "Verpackungen",
-        "cs": "Obalové materiály",
-        "ru": "Упаковочные материалы",
-        "pl": "Materiały opakowaniowe",
-        "it": "Materiali per imballaggio",
-        "es": "Materiales de embalaje",
-        "fr": "Matériaux d'emballage",
-        "zh": "包装材料",
-        "ja": "梱包材料",
-        "pt": "Materiais de embalagem",
-        "zh-cn": "包装材料"
+    "CookZ_UsefilTips": {
+        "en": "Useful Tips",
+        "de": "Nützliche Tipps",
+        "cs": "Užitečné tipy",
+        "ru": "Полезные советы",
+        "pl": "Przydatne wskazówki",
+        "it": "Consigli utili",
+        "es": "Consejos útiles",
+        "fr": "Conseils utiles",
+        "zh": "實用技巧",
+        "ja": "役立つヒント",
+        "pt": "Dicas úteis",
+        "zh-cn": "实用技巧"
     },
     "CookZ_CannedDishes": {
         "en": "Canned Dishes",
@@ -2321,7 +2321,34 @@
         "pt": "Uma <b>caixa vazia</b> pode ser criada a partir de dois pedaços de <b>papel</b> ou usando qualquer <b>machado</b> ou <b>faca</b> na <b>casca</b>.",
         "zh-cn": "可以用两块<b>纸</b>制作<b>空盒子</b>，或者使用任何<b>斧头</b>或<b>刀具</b>在<b>树皮</b>上制作。"
     },
-
+    "CookZ_PeelerInstructions": {
+        "en": "Craft a <b>peeler</b> from an <b>empty can</b> using <b>pliers</b> to speed up peeling potatoes. An even faster <b>drum peeler</b> can be crafted from an empty <b>pot</b> using a <b>hammer</b>, though it requires water to work.",
+        "de": "Stelle mit einer <b>Zange</b> aus einer <b>leeren Dose</b> einen <b>Sparschäler</b> her, um Kartoffeln schneller zu schälen. Ein noch schnellerer <b>Trommelschäler</b> kann mit einem <b>Hammer</b> aus einem leeren <b>Kochtopf</b> hergestellt werden, benötigt jedoch Wasser zum Betrieb.",
+        "cs": "Vyrob si <b>škrabku na brambory</b> z <b>prázdné plechovky</b> pomocí <b>kleští</b>, abys urychlil loupání brambor. Ještě rychlejší <b>Bubnová škrabka</b> lze vyrobit z prázdného <b>hrnce</b> pomocí <b>kladiva</b>, ale ke svému fungování potřebuje vodu.",
+        "ru": "Создайте <b>картофелечистку</b> из <b>пустой банки</b> с помощью <b>плоскогубцев</b>, чтобы быстрее чистить картофель. Ещё более быструю <b>Барабанная овощечистка</b> можно сделать из пустой <b>кастрюли</b> с помощью <b>молотка</b>, однако для работы ей нужна вода.",
+        "pl": "Stwórz <b>obieraczkę do ziemniaków</b> z <b>pustej puszki</b> przy użyciu <b>kombinerek</b>, aby szybciej obierać ziemniaki. Jeszcze szybszą <b>Obieraczka bębnowa</b> można wykonać z pustego <b>garnka</b> przy użyciu <b>młotka</b>, jednak do działania wymaga wody.",
+        "it": "Crea un <b>pelapatate</b> da una <b>lattina vuota</b> usando delle <b>pinze</b> per velocizzare la pelatura delle patate. Un <b>Pelapatate a tamburo</b> ancora più veloce può essere creato da una <b>pentola</b> vuota usando un <b>martello</b>, anche se richiede acqua per funzionare.",
+        "es": "Crea un <b>pelador de patatas</b> a partir de una <b>lata vacía</b> usando unos <b>alicates</b> para pelar patatas más rápido. Un <b>Pelador de tambor</b> aún más rápido puede fabricarse a partir de una <b>olla</b> vacía usando un <b>martillo</b>, aunque necesita agua para funcionar.",
+        "fr": "Fabriquez un <b>éplucheur à légumes</b> à partir d'une <b>boîte vide</b> à l'aide de <b>pinces</b> pour accélérer l'épluchage des pommes de terre. Un <b>Éplucheur à tambour</b> encore plus rapide peut être fabriqué à partir d'une <b>marmite</b> vide avec un <b>marteau</b>, mais il nécessite de l'eau pour fonctionner.",
+        "zh": "使用<b>鉗子</b>將<b>空罐頭</b>製作成<b>馬鈴薯削皮器</b>，以加快馬鈴薯去皮速度。更快的<b>滚筒削皮器</b>可以用<b>錘子</b>由空<b>鍋子</b>製作，但需要水才能運作。",
+        "ja": "<b>空き缶</b>から<b>ペンチ</b>を使って<b>ピーラー</b>を作れば、ジャガイモの皮むきが速くなります。さらに高速な<b>ドラムピーラー</b>は、空の<b>鍋</b>から<b>ハンマー</b>を使って作れますが、動作には水が必要です。",
+        "pt": "Crie um <b>descascador de batatas</b> a partir de uma <b>lata vazia</b> usando um <b>alicate</b> para acelerar o descasque de batatas. Um <b>Descascador de tambor</b> ainda mais rápido pode ser criado a partir de uma <b>panela</b> vazia usando um <b>martelo</b>, embora precise de água para funcionar.",
+        "zh-cn": "使用<b>钳子</b>将<b>空罐头</b>制作成<b>土豆削皮器</b>，以加快土豆去皮速度。更快的<b>滚筒削皮器</b>可以用<b>锤子</b>由空<b>锅</b>制作，但需要水才能运作。"
+    },
+    "CookZ_HydrateMushroomInstructions": {
+        "en": "Use <b>water</b> on a <b>dried mushroom</b> to rehydrate it.",
+        "de": "Verwende <b>Wasser</b> auf einem <b>getrockneten Pilz</b>, um ihn zu rehydrieren.",
+        "cs": "Použij <b>vodu</b> na <b>sušenou houbu</b>, aby se znovu hydratovala.",
+        "ru": "Используйте <b>воду</b> на <b>сушёном грибе</b>, чтобы восстановить его влагу.",
+        "pl": "Użyj <b>wody</b> na <b>suszonym grzybie</b>, aby go nawodnić.",
+        "it": "Usa dell'<b>acqua</b> su un <b>fungo essiccato</b> per reidratarlo.",
+        "es": "Usa <b>agua</b> en un <b>hongo seco</b> para rehidratarlo.",
+        "fr": "Utilisez de l'<b>eau</b> sur un <b>champignon séché</b> pour le réhydrater.",
+        "zh": "對<b>乾燥蘑菇</b>使用<b>水</b>來重新補水。",
+        "ja": "<b>乾燥キノコ</b>に<b>水</b>を使って再び水分を戻します。",
+        "pt": "Use <b>água</b> em um <b>cogumelo seco</b> para reidratá-lo.",
+        "zh-cn": "对<b>干蘑菇</b>使用<b>水</b>来重新补水。"
+    },
 
 
 
