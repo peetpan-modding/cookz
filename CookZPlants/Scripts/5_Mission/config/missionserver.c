@@ -2,9 +2,9 @@ modded class MissionServer
 {
     void MissionServer()
     {
-        CookZPlants_Config config;
-        CookZPlants_ConfigService.LoadConfig(COOKZPLANTS_CONFIG_FILE_NAME, config);
-        GetDayZGame().SetCookZPlants_Config(config);
+        CookZPlants_Config cookzplants_config;
+        CookZPlants_ConfigService.LoadConfig(COOKZPLANTS_CONFIG_FILE_NAME, cookzplants_config);
+        GetDayZGame().SetCookZPlants_Config(cookzplants_config);
     }
 
     override void InvokeOnConnect(PlayerBase player, PlayerIdentity identity)
