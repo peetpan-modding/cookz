@@ -6,7 +6,7 @@ class CookZPlants_Config
     int FullMaturityTimeOnion;
     int FullMaturityTimeSoybean;
     int FullMaturityTimeMushroom;
-    int FullMaturityTimeSugarBett;
+    int FullMaturityTimeSugarBeet;
     int FullMaturityTimeSunflower;
     int FullMaturityTimeCabbage;
     int FullMaturityTimeCucumber;
@@ -57,7 +57,7 @@ class CookZPlants_ConfigService
         config.FullMaturityTimeOnion = 1350;
         config.FullMaturityTimeSoybean = 1350;
         config.FullMaturityTimeMushroom = 1350;
-        config.FullMaturityTimeSugarBett = 1350;
+        config.FullMaturityTimeSugarBeet = 1350;
         config.FullMaturityTimeSunflower = 1350;
         config.FullMaturityTimeCabbage = 1350;
         config.FullMaturityTimeCucumber = 1350;

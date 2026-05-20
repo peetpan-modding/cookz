@@ -231,7 +231,7 @@ class CookZPlants_PlantSugarBeet : CookZPlants_PlantBase
     {
         if (GetDayZGame().GetCookZPlants_Config())
         {
-            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeSugarBett);
+            m_FullMaturityTime = Math.Max(100, GetDayZGame().GetCookZPlants_Config().FullMaturityTimeSugarBeet);
         }
         else
         {
