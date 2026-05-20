@@ -5,6 +5,7 @@ class CookZ_Config
     bool CanCraftEmptyBoxes;
     bool CanCraftPeeler;
     bool CanCraftDrumPeeler;
+    bool CanHydrateMushrooms;
     int MinIngredientQuantityPercent;
     float TemperaturOfCreatedDish;
     float ChanceToRemoveBrainAgent;
@@ -61,6 +62,7 @@ class CookZ_ConfigService
         config.CanCraftEmptyBoxes = true;
         config.CanCraftPeeler = true;
         config.CanCraftDrumPeeler = true;
+        config.CanHydrateMushrooms = true;
         config.MinIngredientQuantityPercent = 50;
         config.TemperaturOfCreatedDish = 80.0;
         config.ChanceToRemoveBrainAgent = 1.0;

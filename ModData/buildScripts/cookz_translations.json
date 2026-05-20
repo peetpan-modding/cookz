@@ -2695,5 +2695,22 @@
         "ja": "リンゴ風味のコーンフレークの小箱。Green Mountain直送 - チェルナルスでNo.1のシリアル、馴染み深く信頼できて代えがたい。",
         "pt": "Uma pequena caixa de flocos de milho com sabor a maçã. Diretamente de Green Mountain - o cereal nº1 de Chernarus, familiar, confiável e difícil de substituir.",
         "zh-cn": "一小盒苹果味玉米片。来自Green Mountain - 切尔纳鲁斯排名第一的麦片，熟悉、可靠且难以替代。"
+    },
+
+
+
+    "CookZ_Hydrate_Mushroom": {
+        "en": "Hydrate Mushroom",
+        "de": "Pilz rehydrieren",
+        "cs": "Rehydratovat houbu",
+        "ru": "Регидратировать гриб",
+        "pl": "Nawodnić suszonego grzyba",
+        "it": "Reidratare il fungo",
+        "es": "Rehidratar hongo",
+        "fr": "Réhydrater le champignon",
+        "zh": "泡发蘑菇",
+        "ja": "干しキノコを戻す",
+        "pt": "Reidratar cogumelo",
+        "zh-cn": "泡发蘑菇"
     }
 }
