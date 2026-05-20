@@ -20,6 +20,15 @@ Boolean values are set by 1 for true and by 0 for false.
     // can the user craft empty boxes - for servers that want to add empty boxes to the spawn pool or trader, set to 0
     "CanCraftEmptyBoxes": 1,
 
+    // can the user craft the potato peeler - for servers that want to add the peeler to the spawn pool or trader, set to 0
+    "CanCraftPeeler": 1,
+    
+    // can the user craft the drum peeler - for servers that want to add the drum peeler to the spawn pool or trader, set to 0
+    "CanCraftDrumPeeler": 1,
+
+    // can the user make dried mushrooms raw using water - for servers that don't want this feature, set to 0
+    "CanHydrateMushrooms": 1,
+
     // some ingredients have a quantity - this sets the minimum quantity to be used as an ingredient to 50%
     // must be 0 < MinIngredientQuantityPercent <= 100
     "MinIngredientQuantityPercent": 50,
@@ -51,5 +60,13 @@ Boolean values are set by 1 for true and by 0 for false.
     "EnableBoxAndCanDecay": 1,
 
     // are dishes cooked instantly - this is mostly for debugging and should not be changed
-    "InstantCook": 0
+    "InstantCook": 0,
+
+    // keep leftover water in the pot when cooking dishes that need water, set to 1 if you want that
+    "KeepLeftoverWater": 0,
+
+    // disable dish recipes (not crafting recipes), removes recipe also from cookbook (don't overdo it, empty chapters are not removed)
+    // example: "DisableRecipes": ["CookZ_GaghBox", "CookZ_PumpkinSoupCan", "CookZ_Pig_Sausage"]
+    // (you can also disable recipes from extensions)
+    "DisableRecipes": []
 }
