@@ -28,6 +28,21 @@ Boolean values are set by 1 for true and by 0 for false.
     // see FullMaturityTimeWheat for soybean
     "FullMaturityTimeSoybean": 1350,
 
+    // see FullMaturityTimeWheat for mushroom
+    "FullMaturityTimeMushroom": 1350,
+    
+    // see FullMaturityTimeWheat for sugar beet
+    "FullMaturityTimeSugarBeet": 1350,
+    
+    // see FullMaturityTimeWheat for sunflower
+    "FullMaturityTimeSunflower": 1350,
+    
+    // see FullMaturityTimeWheat for cabbage
+    "FullMaturityTimeCabbage": 1350,
+    
+    // see FullMaturityTimeWheat for cucumber
+    "FullMaturityTimeCucumber": 1350,
+
     // is plant infection disabled
     // Note: Affects only plants from this mod.
     "DisablePlantInfection": 1
